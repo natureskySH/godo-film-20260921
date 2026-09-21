@@ -20,14 +20,27 @@ html,body{margin:0;background:#151515;overflow:hidden;height:100%}
 @media(prefers-reduced-motion:reduce){.admissions-track{animation:none}}
 
 @media(max-width:768px){
- .site-header .header-tools,.site-header .header-social,.site-header .header-contact{display:none!important}
- .site-header{height:72px!important;min-height:72px;padding:0 18px;display:grid;grid-template:"brand menu" 72px/minmax(0,1fr) 36px;gap:0;align-items:center}
- .site-header>.brand{grid-area:brand}
+ .site-header .header-social{display:none!important}
+ .site-header{height:72px!important;min-height:72px;padding:0 16px;display:grid;grid-template:"brand actions" 72px/minmax(0,1fr) auto;gap:10px;align-items:center}
+ .site-header>.brand{grid-area:brand;min-width:0;gap:7px}
+ .site-header .official-logo{width:52px;height:auto;flex:none}
+ .site-header .brand-caption{font-size:14px;letter-spacing:-.045em}
  .site-header .desktop-nav{display:none!important}
- .site-header .header-actions{display:contents}
- .site-header .mobile-menu{display:grid;grid-area:menu;justify-self:end;place-items:center;width:36px;height:42px;padding:0}
+ .site-header .header-actions{grid-area:actions;display:flex;align-items:center;gap:8px}
+ .site-header .header-tools{display:flex!important;gap:0}
+ .site-header .header-contact{display:inline-flex!important;position:relative;align-items:center;justify-content:center;min-width:68px;height:34px;padding:0 10px;border:0;border-radius:8px;background:#2e3192!important;color:#fff!important;font-size:12px;font-weight:650;line-height:1;text-shadow:none;box-shadow:none;white-space:nowrap}
+ .site-header .header-contact::before{content:"";position:absolute;inset:-5px 0}
+ .site-header .header-contact:hover{background:#252775!important}
+ .site-header .header-contact:focus-visible{outline:2px solid #fff242;outline-offset:3px}
+ .site-header .mobile-menu{display:grid;grid-area:auto;place-items:center;width:28px;height:44px;padding:0}
  .mobile-links{top:80px}
  .hero .hero-copy{position:absolute;inset:0;width:100%;padding:0 18px!important;display:grid;place-content:center;text-align:center}
  .hero h1{font-size:clamp(24px,6.3vw,43px);line-height:1.5;margin:0;text-align:center}
  .local-shade .hero-copy::before{top:50%;left:50%;transform:translate(-50%,-50%)}
+}
+@media(max-width:350px){
+ .site-header{padding-inline:12px;gap:6px}
+ .site-header .official-logo{width:40px}
+ .site-header .brand-caption{font-size:12px}
+ .site-header .header-contact{min-width:64px;padding-inline:8px}
 }
