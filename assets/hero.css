@@ -18,3 +18,16 @@ html,body{margin:0;background:#151515;overflow:hidden;height:100%}
 .mobile-links[data-open=true]{display:grid}
 @media(max-width:640px){.site-header .official-logo{width:64px}.local-shade .hero-copy::before{height:330px;width:115vw}.hero-video{object-position:48% center}}
 @media(prefers-reduced-motion:reduce){.admissions-track{animation:none}}
+
+@media(max-width:768px){
+ .site-header .header-tools,.site-header .header-social,.site-header .header-contact{display:none!important}
+ .site-header{height:72px!important;min-height:72px;padding:0 18px;display:grid;grid-template:"brand menu" 72px/minmax(0,1fr) 36px;gap:0;align-items:center}
+ .site-header>.brand{grid-area:brand}
+ .site-header .desktop-nav{display:none!important}
+ .site-header .header-actions{display:contents}
+ .site-header .mobile-menu{display:grid;grid-area:menu;justify-self:end;place-items:center;width:36px;height:42px;padding:0}
+ .mobile-links{top:80px}
+ .hero .hero-copy{position:absolute;inset:0;width:100%;padding:0 18px!important;display:grid;place-content:center;text-align:center}
+ .hero h1{font-size:clamp(24px,6.3vw,43px);line-height:1.5;margin:0;text-align:center}
+ .local-shade .hero-copy::before{top:50%;left:50%;transform:translate(-50%,-50%)}
+}
