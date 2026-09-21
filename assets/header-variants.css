@@ -1,0 +1,14 @@
+
+.header-clear .site-header,.header-white .site-header{border:0!important;box-shadow:none!important;outline:0!important}
+.header-clear .site-header{background:transparent!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+.header-clear .site-header::before,.header-clear .site-header::after,.header-white .site-header::before,.header-white .site-header::after{display:none!important}
+body.header-white{display:flex;flex-direction:column;height:100svh;height:100dvh;overflow:hidden;background:#fff}
+.header-white .site-header{position:relative;inset:auto;flex:none;background:#fff!important;color:#191919!important;text-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+.header-white>main{flex:1;min-height:0;min-width:0;display:flex;flex-direction:column}
+.header-white .opening-screen{flex:1;height:100%;min-height:0;width:100%;grid-template-rows:minmax(0,1fr)}
+.header-white .hero-copy{padding-top:0;padding-bottom:0}
+.header-white .site-header .social-icon-button{border-color:#19191926}
+.header-white .site-header .social-icon-button img{filter:none}
+.header-white .site-header .header-contact{color:#fff;background:#191919}
+.header-white .site-header .header-contact:hover{background:#e9321b;color:#fff}
+.header-white .site-header .social-icon-button:hover{background:#1919190a}
