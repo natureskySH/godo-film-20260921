@@ -1,5 +1,6 @@
 
-html,body{margin:0;background:#151515;overflow-x:hidden}
+html,body{margin:0;background:#151515;overflow:hidden;height:100%}
+.opening-screen{height:100svh;height:100dvh;display:grid;grid-template-rows:minmax(0,1fr)}
 .hero,.hero-art{background:#151515}
 .hero-art{z-index:-2;container-type:normal}
 .hero-video{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
