@@ -14,7 +14,7 @@
  .site-header>.brand{display:flex;align-items:center;gap:10px;min-width:0}
  .site-header .official-logo{width:80px;height:auto;flex:none}
  .site-header .brand-caption{font-size:20px;letter-spacing:-.035em;white-space:nowrap}
- .site-header .header-contact{font-size:13px;letter-spacing:normal;height:30px;min-width:0;width:auto;padding:0 10px;border-radius:6px}
+ .site-header .header-contact{font-size:15px;letter-spacing:normal;height:34px;min-width:0;width:auto;padding:0 12px;border-radius:7px}
  .site-header .mobile-menu{width:36px;height:44px}
  .site-header .mobile-menu svg{width:28px;height:28px}
  .site-header .header-actions{margin-left:0}
