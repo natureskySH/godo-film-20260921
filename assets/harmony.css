@@ -10,15 +10,15 @@
 .local-shade .hero h1{ text-shadow:0 1px 2px #000,0 0 4px #000c,0 2px 7px #0009}
 .hero h1{font-size:clamp(34px,3.25vw,54px);line-height:1.45;letter-spacing:-.04em}
 @media(min-width:769px){
- .site-header{height:88px!important;min-height:88px;padding:0 max(28px,calc((100vw - 1120px)/2));display:flex;align-items:center;justify-content:space-between;gap:36px}
+ .site-header{height:88px!important;min-height:88px;padding:0 max(28px,calc((100vw - 1000px)/2));display:flex;align-items:center;justify-content:space-between;gap:36px}
  .site-header>.brand{display:flex;align-items:center;gap:10px;min-width:0}
  .site-header .official-logo{width:80px;height:auto;flex:none}
  .site-header .brand-caption{font-size:20px;letter-spacing:-.035em;white-space:nowrap}
- .site-header .header-contact{font-size:13px;letter-spacing:normal;height:36px;min-width:78px;padding:0 14px;border-radius:8px}
+ .site-header .header-contact{font-size:13px;letter-spacing:normal;height:30px;min-width:0;width:auto;padding:0 10px;border-radius:6px}
  .site-header .mobile-menu{width:36px;height:44px}
  .site-header .mobile-menu svg{width:28px;height:28px}
  .site-header .header-actions{margin-left:0}
- .mobile-links{top:96px;left:auto;right:max(28px,calc((100vw - 1120px)/2));width:240px}
+ .mobile-links{top:96px;left:auto;right:max(28px,calc((100vw - 1000px)/2));width:240px}
 }
 /* Center against the complete visible screen, including every header variant. */
 .hero .hero-copy{
