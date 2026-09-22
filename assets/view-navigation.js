@@ -8,12 +8,18 @@
   const current = location.pathname.split('/').pop();
   const pair = pairs.find(pages => pages.includes(current));
   if (!pair) return;
-  const counterpart = pair.find(page => page !== current);
-  let navigating = false;
+  const video = document.querySelector('video');
+  if (!video) return;
+  const sources = ['video-v1.mp4?v=original-v1', 'video.mp4?v=floral-v5-20260922'];
+  let active = current === pair[0] ? 0 : 1;
+  const baseTitle = document.title.replace(/ · V[12]$/, '');
   const move = () => {
-    if (navigating) return;
-    navigating = true;
-    location.assign(counterpart);
+    const wasPlaying = !video.paused;
+    active = 1 - active;
+    video.src = sources[active];
+    video.load();
+    document.title = `${baseTitle} · V${active + 1}`;
+    if (wasPlaying) video.play().catch(() => {});
   };
   const editing = target => target instanceof Element && Boolean(target.closest('input,textarea,select,[contenteditable="true"],[role="slider"],[role="dialog"],.mobile-links[data-open="true"]'));
   const menuOpen = () => document.querySelector('.mobile-menu[aria-expanded="true"]');
