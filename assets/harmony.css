@@ -1,0 +1,25 @@
+/* Shared header proportions and glyph-only shading across every film version. */
+.site-header .desktop-nav,.site-header .header-social{display:none!important}
+.site-header .header-actions,.site-header .header-tools{display:flex!important;align-items:center;gap:12px}
+.site-header .mobile-menu{display:grid!important;place-items:center;position:static;grid-area:auto;width:32px;height:40px;padding:0;flex:none}
+.site-header .header-contact{display:inline-flex!important;align-items:center;justify-content:center;min-width:78px;height:36px;padding:0 14px;border:0;border-radius:8px;background:#2e3192!important;color:#fff!important;font-size:13px;font-weight:650;line-height:1;text-shadow:none;box-shadow:none;white-space:nowrap}
+.site-header .header-contact:hover{background:#252775!important}
+.site-header .header-contact:focus-visible{outline:2px solid #fff242;outline-offset:3px}
+.local-shade .hero-copy::before{content:none!important;display:none!important}
+.local-shade .hero-copy,.local-shade .hero h1,.local-shade .hero h1 span,.local-shade .hero h1 em{background:transparent!important;box-shadow:none!important;filter:none!important}
+.local-shade .hero h1{ text-shadow:0 1px 2px #000,0 0 4px #000c,0 2px 7px #0009}
+.hero h1{font-size:clamp(34px,3.25vw,54px);line-height:1.45;letter-spacing:-.04em}
+@media(min-width:769px){
+ .site-header{height:80px!important;min-height:80px;padding:0 max(28px,calc((100vw - 1120px)/2));display:flex;align-items:center;justify-content:space-between;gap:36px}
+ .site-header>.brand{display:flex;align-items:center;gap:10px;min-width:0}
+ .site-header .official-logo{width:64px;height:auto;flex:none}
+ .site-header .brand-caption{font-size:18px;letter-spacing:-.045em;white-space:nowrap}
+ .site-header .header-actions{margin-left:0}
+ .mobile-links{top:88px;left:auto;right:max(28px,calc((100vw - 1120px)/2));width:240px}
+}
+@media(max-width:768px){
+ .site-header .header-actions{gap:8px}
+ .site-header .header-contact{min-width:68px;height:34px;padding:0 10px;font-size:12px}
+ .site-header .mobile-menu{width:28px;height:44px}
+ .hero h1{font-size:clamp(23px,5.6vw,36px);line-height:1.5}
+}
