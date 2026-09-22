@@ -4,14 +4,16 @@
     'hero-white-local.html', 'hero-white-dim.html', 'hero-white-clean.html',
     'hero-local.html', 'hero-dim.html', 'hero-clean.html'
   ];
-  const pages = ['video-v1.html', ...variants.map(name => `v1-${name}`), 'video.html', ...variants];
-  const current = pages.indexOf(location.pathname.split('/').pop());
-  if (current < 0) return;
+  const pairs = [['video-v1.html', 'video.html'], ...variants.map(name => [`v1-${name}`, name])];
+  const current = location.pathname.split('/').pop();
+  const pair = pairs.find(pages => pages.includes(current));
+  if (!pair) return;
+  const counterpart = pair.find(page => page !== current);
   let navigating = false;
-  const move = direction => {
+  const move = () => {
     if (navigating) return;
     navigating = true;
-    location.assign(pages[(current + direction + pages.length) % pages.length]);
+    location.assign(counterpart);
   };
   const editing = target => target instanceof Element && Boolean(target.closest('input,textarea,select,[contenteditable="true"],[role="slider"],[role="dialog"],.mobile-links[data-open="true"]'));
   const menuOpen = () => document.querySelector('.mobile-menu[aria-expanded="true"]');
@@ -19,7 +21,7 @@
     if (event.repeat || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey || editing(event.target) || menuOpen()) return;
     if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
     event.preventDefault();
-    move(event.key === 'ArrowRight' ? 1 : -1);
+    move();
   });
   // Let vertical scrolling and pinch zoom keep their native behavior.
   document.documentElement.style.touchAction = 'pan-y pinch-zoom';
@@ -37,6 +39,6 @@
     const dx = event.clientX - start.x;
     const dy = event.clientY - start.y;
     if (Math.abs(dx) < 64 || Math.abs(dx) < Math.abs(dy) * 1.5 || event.timeStamp - start.time > 1500) return;
-    move(dx < 0 ? 1 : -1);
+    move();
   }, { passive: true });
 })();
