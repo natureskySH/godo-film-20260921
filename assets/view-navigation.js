@@ -4,16 +4,16 @@
     'hero-white-local.html', 'hero-white-dim.html', 'hero-white-clean.html',
     'hero-local.html', 'hero-dim.html', 'hero-clean.html'
   ];
-  const pairs = [['video-v1.html', 'video-v2.html', 'video.html', 'video-v3.html'], ...variants.map(name => [`v1-${name}`, `v2-${name}`, name])];
+  const pairs = [['video-v1.html', 'video-v2.html', 'video-v3.html', 'video.html', 'video-v4.html'], ...variants.map(name => [`v1-${name}`, `v2-${name}`, `v3-${name}`, name])];
   const current = location.pathname.split('/').pop();
   const pair = pairs.find(pages => pages.includes(current));
   if (!pair) return;
   const video = document.querySelector('video');
   if (!video) return;
-  const sources = ['video-v1.mp4?v=original-v1', 'video.mp4?v=floral-v5-20260922', 'video-v3.mp4?v=v3-20260923'];
-  const posters = ['assets/v1-preview.png', 'assets/preview.png', 'assets/v3-preview.jpg'];
-  let active = current === pair[0] ? 0 : current === pair[1] ? 1 : 2;
-  const baseTitle = document.title.replace(/ · V[123]$/, '');
+  const sources = ['video-v1.mp4?v=original-v1', 'video.mp4?v=floral-v5-20260922', 'video-v3.mp4?v=v3-20260923', 'video-v4.mp4?v=v4-quality-20260923'];
+  const posters = ['assets/v1-preview.png', 'assets/preview.png', 'assets/v3-preview.jpg', 'assets/v4-preview.jpg'];
+  let active = current === pair[0] ? 0 : current === pair[1] ? 1 : current === pair[2] ? 2 : 3;
+  const baseTitle = document.title.replace(/ · V[1234]$/, '');
   document.title = `${baseTitle} · V${active + 1}`;
   video.dataset.version = `V${active + 1}`;
   const move = direction => {
