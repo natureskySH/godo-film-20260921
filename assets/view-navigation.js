@@ -4,19 +4,24 @@
     'hero-white-local.html', 'hero-white-dim.html', 'hero-white-clean.html',
     'hero-local.html', 'hero-dim.html', 'hero-clean.html'
   ];
-  const pairs = [['video-v1.html', 'video.html'], ...variants.map(name => [`v1-${name}`, name])];
+  const pairs = [['video-v1.html', 'video-v2.html', 'video.html', 'video-v3.html'], ...variants.map(name => [`v1-${name}`, `v2-${name}`, name])];
   const current = location.pathname.split('/').pop();
   const pair = pairs.find(pages => pages.includes(current));
   if (!pair) return;
   const video = document.querySelector('video');
   if (!video) return;
-  const sources = ['video-v1.mp4?v=original-v1', 'video.mp4?v=floral-v5-20260922'];
-  let active = current === pair[0] ? 0 : 1;
-  const baseTitle = document.title.replace(/ · V[12]$/, '');
-  const move = () => {
+  const sources = ['video-v1.mp4?v=original-v1', 'video.mp4?v=floral-v5-20260922', 'video-v3.mp4?v=v3-20260923'];
+  const posters = ['assets/v1-preview.png', 'assets/preview.png', 'assets/v3-preview.jpg'];
+  let active = current === pair[0] ? 0 : current === pair[1] ? 1 : 2;
+  const baseTitle = document.title.replace(/ · V[123]$/, '');
+  document.title = `${baseTitle} · V${active + 1}`;
+  video.dataset.version = `V${active + 1}`;
+  const move = direction => {
     const wasPlaying = !video.paused;
-    active = 1 - active;
+    active = (active + direction + sources.length) % sources.length;
     video.src = sources[active];
+    video.poster = posters[active];
+    video.dataset.version = `V${active + 1}`;
     video.load();
     document.title = `${baseTitle} · V${active + 1}`;
     if (wasPlaying) video.play().catch(() => {});
@@ -27,7 +32,7 @@
     if (event.repeat || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey || editing(event.target) || menuOpen()) return;
     if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
     event.preventDefault();
-    move();
+    move(event.key === 'ArrowRight' ? 1 : -1);
   });
   // Let vertical scrolling and pinch zoom keep their native behavior.
   document.documentElement.style.touchAction = 'pan-y pinch-zoom';
@@ -45,6 +50,6 @@
     const dx = event.clientX - start.x;
     const dy = event.clientY - start.y;
     if (Math.abs(dx) < 64 || Math.abs(dx) < Math.abs(dy) * 1.5 || event.timeStamp - start.time > 1500) return;
-    move();
+    move(dx < 0 ? 1 : -1);
   }, { passive: true });
 })();
