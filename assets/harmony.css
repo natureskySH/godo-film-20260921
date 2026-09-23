@@ -27,7 +27,8 @@
  display:grid;place-content:center;text-align:center;
  padding:0 18px!important;margin:0;transform:none!important;
 }
-.hero .hero-copy h1{margin:0;text-align:center}
+.hero .hero-copy h1{margin:0;text-align:center;transform:translateY(clamp(28px,5vh,56px))}
+.hero .hero-copy .hero-result{color:#e26058!important}
 .clean .hero .hero-copy{display:none!important}
 @media(max-width:768px){
  .site-header .header-actions{gap:8px}
