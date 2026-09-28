@@ -1,0 +1,82 @@
+{
+  "version": "V6",
+  "status": "Budget motion review, not final texture/contact approval",
+  "generation_model": "Omni 1.1 Flash",
+  "generation_resolution": "640x360",
+  "generation_duration_each": 4,
+  "generated_clips": 4,
+  "credits_used": 16,
+  "credits_remaining_observed": 334,
+  "output_canvas": "1920x1080 (generated shots upscaled; not native 1080p)",
+  "fps": 24,
+  "duration_seconds": 19.41666666666667,
+  "transition_seconds": 0.6666666666666666,
+  "transition": "cross dissolve",
+  "shots": [
+    {
+      "id": "01",
+      "file": "images/01-opening.png",
+      "duration": 3.5,
+      "type": "still",
+      "zoom": 1.012,
+      "target": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "02",
+      "file": "videos/F02-360p.mp4",
+      "start": 0.25,
+      "end": 1.75,
+      "duration": 3.25,
+      "type": "generated",
+      "playback_speed": 0.46153846153846156
+    },
+    {
+      "id": "03",
+      "file": "videos/F03-360p.mp4",
+      "start": 0,
+      "end": 1.75,
+      "duration": 3.5,
+      "type": "generated",
+      "playback_speed": 0.5
+    },
+    {
+      "id": "04",
+      "file": "videos/F04-360p.mp4",
+      "start": 1.75,
+      "end": 3.75,
+      "duration": 3.5,
+      "type": "generated",
+      "playback_speed": 0.5714285714285714
+    },
+    {
+      "id": "05",
+      "file": "videos/F05-360p.mp4",
+      "start": 0,
+      "end": 2,
+      "duration": 3.5,
+      "type": "generated",
+      "playback_speed": 0.5714285714285714
+    },
+    {
+      "id": "06",
+      "file": "images/06-ending-start.png",
+      "duration": 5.5,
+      "type": "still",
+      "zoom": 1.16,
+      "target": [
+        0.6,
+        0.56
+      ]
+    }
+  ],
+  "limitations": [
+    "Drawing tip and deposited pigment cannot be certified pixel-accurate.",
+    "360p source loses texture detail; upscale cannot recreate source detail.",
+    "Opening uses approved still with subtle zoom, no generated facial performance.",
+    "Ending uses approved still, fixed-angle straight zoom, no generated orbit.",
+    "Artwork is existing AI recreation, not pixel-identical original."
+  ]
+}

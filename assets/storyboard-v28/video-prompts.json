@@ -1,0 +1,106 @@
+[
+  {
+    "style": "Photorealistic live-action art academy film. Calm, restrained, physically plausible movement. No acting exaggeration.",
+    "camera": "Completely locked tripod, preserve source lens angle, framing and fixed focus. No camera movement.",
+    "lighting": "Preserve the reference's soft natural window light and neutral color. Constant exposure.",
+    "duration_seconds": 4,
+    "format": "16:9, 360p low-cost motion proof, silent, one continuous take.",
+    "text": "Preserve existing GODO logo and artwork. No added captions, watermark text or titles.",
+    "ending": "Settle quietly into a still hold. No additional action.",
+    "keywords": [
+      "minimal movement",
+      "fixed camera",
+      "stable anatomy",
+      "constant texture",
+      "reference preservation"
+    ],
+    "id": "F02",
+    "image": "02-apron.png",
+    "description": "The cropped torso in the reference is finishing putting on her black GODO apron over the same light blue short-sleeve shirt.",
+    "environment": "Same pale wall and upper-right natural light.",
+    "elements": [
+      "same logo and GODO lettering",
+      "two waist straps, one held by each hand",
+      "natural five-finger hands"
+    ],
+    "motion": "ONE small natural action only: with both elbows close to her sides, she gently draws the two existing waist ties 1 centimeter toward her hips, snugging the apron, then rests. No swing forward. No full tying knot. Fingers maintain the same simple grip. There is exactly one strap in each hand, no strap duplication, no fabric breathing or undulating. Chest and shoulders stay still."
+  },
+  {
+    "style": "Photorealistic live-action art academy film. Calm, restrained, physically plausible movement. No acting exaggeration.",
+    "camera": "Completely locked tripod, preserve source lens angle, framing and fixed focus. No camera movement.",
+    "lighting": "Preserve the reference's soft natural window light and neutral color. Constant exposure.",
+    "duration_seconds": 4,
+    "format": "16:9, 360p low-cost motion proof, silent, one continuous take.",
+    "text": "Preserve existing GODO logo and artwork. No added captions, watermark text or titles.",
+    "ending": "Settle quietly into a still hold. No additional action.",
+    "keywords": [
+      "minimal movement",
+      "fixed camera",
+      "stable anatomy",
+      "constant texture",
+      "reference preservation"
+    ],
+    "id": "F03",
+    "image": "03-pencil.png",
+    "description": "Extreme close-up of the graphite pencil tip already touching the faint feather contour in the supplied photograph.",
+    "environment": "Same flat paper on plain ivory desktop, paper oriented upright to the artist.",
+    "elements": [
+      "same graphite pencil",
+      "same right hand and grip",
+      "same faint feather guides"
+    ],
+    "motion": "Tiny controlled tracing gesture: the point stays pressed on the EXISTING faint near-horizontal feather contour and slides ONLY 2 millimeters toward screen-left over 3 seconds. The point leaves a thin slightly darker graphite trace ONLY immediately underneath and behind the moving point. The paper and every other line stay fixed. Do not invent a new shape. No circle, loop, hook, scribble, lifting, sweeping, hand rotation or grip change. The thumb, fingers and pencil move together as a stable unit; at second 3 they stop."
+  },
+  {
+    "style": "Photorealistic live-action art academy film. Calm, restrained, physically plausible movement. No acting exaggeration.",
+    "camera": "Completely locked tripod, preserve source lens angle, framing and fixed focus. No camera movement.",
+    "lighting": "Preserve the reference's soft natural window light and neutral color. Constant exposure.",
+    "duration_seconds": 4,
+    "format": "16:9, 360p low-cost motion proof, silent, one continuous take.",
+    "text": "Preserve existing GODO logo and artwork. No added captions, watermark text or titles.",
+    "ending": "Settle quietly into a still hold. No additional action.",
+    "keywords": [
+      "minimal movement",
+      "fixed camera",
+      "stable anatomy",
+      "constant texture",
+      "reference preservation"
+    ],
+    "id": "F04",
+    "image": "04-first-blue.png",
+    "description": "Macro close-up of blue pencil already contacting the middle of the small blue wave patch.",
+    "environment": "Same upright flat drawing on a clean desk.",
+    "elements": [
+      "blue lacquer pencil with blue core",
+      "same crane graphite outlines",
+      "existing tiny blue wave patch"
+    ],
+    "motion": "The pencil performs just TWO tiny parallel shading strokes, each 1 millimeter long, inside the CENTER of the existing blue patch. Each stroke takes one full second. Subtle fingertip flex only; wrist and pencil orientation remain stable. Blue pigment appears solely at the moving blue core's paper-contact point, slightly deepening the existing blue patch. Tip never leaves the blue interior, never crosses black outlines or white wave curls. No new color elsewhere, no expanding magic fill, no sweeping toward feather or neck, no large travel. Final second holds still."
+  },
+  {
+    "style": "Photorealistic live-action art academy film. Calm, restrained, physically plausible movement. No acting exaggeration.",
+    "camera": "Completely locked tripod, preserve source lens angle, framing and fixed focus. No camera movement.",
+    "lighting": "Preserve the reference's soft natural window light and neutral color. Constant exposure.",
+    "duration_seconds": 4,
+    "format": "16:9, 360p low-cost motion proof, silent, one continuous take.",
+    "text": "Preserve existing GODO logo and artwork. No added captions, watermark text or titles.",
+    "ending": "Settle quietly into a still hold. No additional action.",
+    "keywords": [
+      "minimal movement",
+      "fixed camera",
+      "stable anatomy",
+      "constant texture",
+      "reference preservation"
+    ],
+    "id": "F05",
+    "image": "05-partial.png",
+    "description": "An over-shoulder view of the same partially colored crane drawing. The source's blue pencil is already touching a blue wave region.",
+    "environment": "Same plain ivory desktop, upright portrait paper, solid blue chair out of frame.",
+    "elements": [
+      "bare forearm and short-sleeve blue shirt",
+      "same right hand holding blue pencil",
+      "stationary left hand, red and black pencils, white eraser"
+    ],
+    "motion": "Just one 1-millimeter blue shading stroke at the EXACT existing blue contact patch over 2 seconds, then hold. The blue lead remains touching the blue interior and deposits color only under its point. Arm, left hand, all props and paper remain still. No travel to another part of the drawing. Do not lift or put down the pencil. Do not finish the entire picture. No body swaying, head motion, moving paper or camera."
+  }
+]
