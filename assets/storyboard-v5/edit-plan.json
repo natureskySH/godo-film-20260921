@@ -1,0 +1,81 @@
+{
+  "status": "storyboard_only_not_rendered",
+  "duration_target_seconds": 12,
+  "removed_source": "F01",
+  "transition_seconds": [
+    0.12,
+    0.16,
+    0.12,
+    0.16,
+    0.2
+  ],
+  "transition_timing": "within 12-second timeline using boundary handles; not additional hold time",
+  "shots": [
+    {
+      "order": 1,
+      "source_shot": "F07",
+      "title": "인물 클로즈업",
+      "timeline_seconds": [
+        0,
+        2
+      ],
+      "target_duration_seconds": 2,
+      "description": "우측 상단을 바라보는 얼굴. 눈과 피부에 초점을 두고, 시선과 표정 변화는 작게 유지합니다. 기존 좌우 반전 상태를 그대로 사용합니다."
+    },
+    {
+      "order": 2,
+      "source_shot": "F02",
+      "title": "연필로 첫 선",
+      "timeline_seconds": [
+        2,
+        4
+      ],
+      "target_duration_seconds": 2,
+      "description": "연필 끝과 종이가 만나는 부분을 클로즈업합니다. 짧은 선을 긋는 동작만 사용하고, 손을 들거나 다시 잡는 구간은 제외합니다."
+    },
+    {
+      "order": 3,
+      "source_shot": "F03",
+      "title": "첫 파란색 채색",
+      "timeline_seconds": [
+        4,
+        6
+      ],
+      "target_duration_seconds": 2,
+      "description": "밑그림의 파도 부분에 파란 색연필로 색을 넣습니다. 색연필 심과 채색 부분의 색을 맞추고, 종이의 결을 살립니다."
+    },
+    {
+      "order": 4,
+      "source_shot": "F04",
+      "title": "집중하는 얼굴",
+      "timeline_seconds": [
+        6,
+        8
+      ],
+      "target_duration_seconds": 2,
+      "description": "아래의 작품을 바라보는 얼굴을 가까이 보여줍니다. 캐릭터시트의 눈·코·입 형태를 유지하고, 고개 움직임이 적은 구간을 사용합니다."
+    },
+    {
+      "order": 5,
+      "source_shot": "F05",
+      "title": "중간 채색",
+      "timeline_seconds": [
+        8,
+        10
+      ],
+      "target_duration_seconds": 2,
+      "description": "일부 색이 채워진 작품을 위쪽 사선 구도로 보여줍니다. 파란 색연필이 파도 부분에 닿는 안정된 구간을 사용합니다."
+    },
+    {
+      "order": 6,
+      "source_shot": "F06",
+      "title": "완성작의 마지막 터치",
+      "timeline_seconds": [
+        10,
+        12
+      ],
+      "target_duration_seconds": 2,
+      "description": "완성된 학 그림과 KOREA 배치를 보여주며 작은 마무리 터치로 끝냅니다. 인물 클로즈업을 다시 반복하지 않습니다."
+    }
+  ]
+}

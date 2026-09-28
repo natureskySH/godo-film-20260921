@@ -36,3 +36,10 @@
  .site-header .mobile-menu{width:28px;height:44px}
  .hero h1{font-size:clamp(23px,5.6vw,36px);line-height:1.5}
 }
+
+/* Brighter glyphs with shadows only behind letters: clear header + full dim. */
+.header-clear.full-dim .hero-copy::before{content:none!important;display:none!important}
+.header-clear.full-dim .hero-copy,.header-clear.full-dim .hero h1,.header-clear.full-dim .hero h1 span,.header-clear.full-dim .hero h1 em{background:transparent!important;box-shadow:none!important;filter:none!important}
+.header-clear.full-dim .hero h1{color:#fff!important;text-shadow:0 1px 2px #000,0 2px 5px #000e,0 0 9px #000b}
+.header-clear.full-dim .hero .hero-accent{color:#fff1bd!important}
+.header-clear.full-dim .hero .hero-result{color:#ff8d83!important}
