@@ -1,0 +1,197 @@
+{
+  "status": "storyboard_only_not_video_generated",
+  "revision": "v24-apron",
+  "duration_target_seconds": 12,
+  "selected_apron_idea": 4,
+  "selection_reason": "착용 행동이 읽히고 로고가 가려지지 않으며, 얼굴 초근접 다음에 사선 미디엄 구도로 화면 크기가 변한다.",
+  "removed": [
+    "집중하는 얼굴",
+    "완성작 마지막 터치",
+    "기존 팔짱 첫 장면"
+  ],
+  "shots": [
+    {
+      "order": 1,
+      "title": "인물 클로즈업",
+      "image": "01-opening.jpg",
+      "description": "우측 상단을 바라보는 원본 인물 클로즈업. 눈과 피부에 초점을 두고 시선·표정 변화는 작게 유지합니다.",
+      "camera": "인물 측면 초근접 · 고정에 가까운 카메라",
+      "motion": "호흡과 미세한 눈 움직임만",
+      "ending": "우측 상단 빛과 회백색 벽을 다음 장면으로 이어감",
+      "duration_seconds": 2,
+      "timeline_seconds": [
+        0,
+        2
+      ],
+      "style": "사실적인 사진 질감 · 절제된 동작 · 자연광",
+      "lighting": "첫 두 장면: 화면 우측 상단 자연광, 회백색 벽과 따뜻한 하이라이트. 작업 장면: 동일 자연광 환경에서 촬영축에 따른 방향 변화.",
+      "environment": "모던한 소규모 블루 스튜디오 · 무광 아이보리 책상 · 구멍 없는 블루 의자",
+      "elements": [
+        "승인된 캐릭터와 의상",
+        "기존 로고와 GODO",
+        "책상에 평평하게 놓은 종이",
+        "연필과 색연필"
+      ],
+      "text": "대사·자막 없음. 앞치마 GODO와 작품 속 KOREA만 유지.",
+      "keywords": [
+        "photorealistic",
+        "natural movement",
+        "continuity",
+        "GODO"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "앞치마를 입으며 준비",
+      "image": "02-apron.png",
+      "description": "선택한 4번 안. 몸을 약간 틀어 허리끈을 뒤로 가져갑니다. 앞치마 정면의 로고와 GODO를 가리지 않습니다.",
+      "camera": "정면에서 약 30도 사선 · 상체부터 허벅지까지",
+      "motion": "끈을 뒤로 가져가는 짧고 차분한 동작 하나",
+      "ending": "손동작이 마무리되는 지점에서 연필 매크로로 전환",
+      "duration_seconds": 2,
+      "timeline_seconds": [
+        2,
+        4
+      ],
+      "style": "사실적인 사진 질감 · 절제된 동작 · 자연광",
+      "lighting": "첫 두 장면: 화면 우측 상단 자연광, 회백색 벽과 따뜻한 하이라이트. 작업 장면: 동일 자연광 환경에서 촬영축에 따른 방향 변화.",
+      "environment": "모던한 소규모 블루 스튜디오 · 무광 아이보리 책상 · 구멍 없는 블루 의자",
+      "elements": [
+        "승인된 캐릭터와 의상",
+        "기존 로고와 GODO",
+        "책상에 평평하게 놓은 종이",
+        "연필과 색연필"
+      ],
+      "text": "대사·자막 없음. 앞치마 GODO와 작품 속 KOREA만 유지.",
+      "keywords": [
+        "photorealistic",
+        "natural movement",
+        "continuity",
+        "GODO"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "연필로 첫 선",
+      "image": "03-pencil.png",
+      "description": "흑연 연필 끝과 종이의 접촉을 근접 촬영합니다. 학의 깃털 윤곽에 짧은 선을 더하며 그림을 시작합니다.",
+      "camera": "종이와 연필 끝 매크로 · 접점에 고정 초점",
+      "motion": "짧고 느린 한 번의 선긋기 · 재빨리 움켜잡거나 손을 바꾸지 않음",
+      "ending": "선의 흐름을 따라 첫 파란색 채색으로 연결",
+      "duration_seconds": 2,
+      "timeline_seconds": [
+        4,
+        6
+      ],
+      "style": "사실적인 사진 질감 · 절제된 동작 · 자연광",
+      "lighting": "첫 두 장면: 화면 우측 상단 자연광, 회백색 벽과 따뜻한 하이라이트. 작업 장면: 동일 자연광 환경에서 촬영축에 따른 방향 변화.",
+      "environment": "모던한 소규모 블루 스튜디오 · 무광 아이보리 책상 · 구멍 없는 블루 의자",
+      "elements": [
+        "승인된 캐릭터와 의상",
+        "기존 로고와 GODO",
+        "책상에 평평하게 놓은 종이",
+        "연필과 색연필"
+      ],
+      "text": "대사·자막 없음. 앞치마 GODO와 작품 속 KOREA만 유지.",
+      "keywords": [
+        "photorealistic",
+        "natural movement",
+        "continuity",
+        "GODO"
+      ]
+    },
+    {
+      "order": 4,
+      "title": "첫 파란색 채색",
+      "image": "04-first-blue.png",
+      "description": "대부분 색이 없는 밑그림의 파도에 파란 색연필로 첫 색을 넣습니다. 심과 채색 영역의 색상을 맞춥니다.",
+      "camera": "파도 곡선과 연필 끝 초근접",
+      "motion": "동일한 파도 영역 안에서 작은 채색 동작",
+      "ending": "파란 면적이 늘어난 다음 장면으로 형태를 맞춰 전환",
+      "duration_seconds": 2,
+      "timeline_seconds": [
+        6,
+        8
+      ],
+      "style": "사실적인 사진 질감 · 절제된 동작 · 자연광",
+      "lighting": "첫 두 장면: 화면 우측 상단 자연광, 회백색 벽과 따뜻한 하이라이트. 작업 장면: 동일 자연광 환경에서 촬영축에 따른 방향 변화.",
+      "environment": "모던한 소규모 블루 스튜디오 · 무광 아이보리 책상 · 구멍 없는 블루 의자",
+      "elements": [
+        "승인된 캐릭터와 의상",
+        "기존 로고와 GODO",
+        "책상에 평평하게 놓은 종이",
+        "연필과 색연필"
+      ],
+      "text": "대사·자막 없음. 앞치마 GODO와 작품 속 KOREA만 유지.",
+      "keywords": [
+        "photorealistic",
+        "natural movement",
+        "continuity",
+        "GODO"
+      ]
+    },
+    {
+      "order": 5,
+      "title": "색이 차오르는 과정",
+      "image": "05-partial.png",
+      "description": "조금 더 넓은 사선 구도로 부분 채색 상태를 보여줍니다. 작품의 방향과 KOREA 배치를 유지하며 완성으로 이어갑니다.",
+      "camera": "높은 사선 구도 · 손과 작품에 초점",
+      "motion": "파란 파도 부분에 짧고 안정적인 색연필 터치",
+      "ending": "작업 손을 빼고 완성작 감상 장면으로 부드럽게 연결",
+      "duration_seconds": 2,
+      "timeline_seconds": [
+        8,
+        10
+      ],
+      "style": "사실적인 사진 질감 · 절제된 동작 · 자연광",
+      "lighting": "첫 두 장면: 화면 우측 상단 자연광, 회백색 벽과 따뜻한 하이라이트. 작업 장면: 동일 자연광 환경에서 촬영축에 따른 방향 변화.",
+      "environment": "모던한 소규모 블루 스튜디오 · 무광 아이보리 책상 · 구멍 없는 블루 의자",
+      "elements": [
+        "승인된 캐릭터와 의상",
+        "기존 로고와 GODO",
+        "책상에 평평하게 놓은 종이",
+        "연필과 색연필"
+      ],
+      "text": "대사·자막 없음. 앞치마 GODO와 작품 속 KOREA만 유지.",
+      "keywords": [
+        "photorealistic",
+        "natural movement",
+        "continuity",
+        "GODO"
+      ]
+    },
+    {
+      "order": 6,
+      "title": "완성작으로 다가가는 엔딩",
+      "image": "06-ending-start.png",
+      "end_image": "06-ending-end.png",
+      "description": "어깨 너머로 완성작을 바라보는 장면에서 시작합니다. 카메라가 앞으로 다가가며 위로 올라가, 작품을 수직으로 내려다보는 구도로 끝납니다. 추가로 그리는 동작은 없습니다.",
+      "camera": "어깨 너머 사선 → 전진·상승하며 수직 탑뷰",
+      "motion": "인물과 작품은 안정적으로 유지 · 카메라만 부드럽게 이동",
+      "ending": "학·파도·KOREA·작은 학이 있는 완성작 전체를 잠시 유지",
+      "duration_seconds": 2,
+      "timeline_seconds": [
+        10,
+        12
+      ],
+      "style": "사실적인 사진 질감 · 절제된 동작 · 자연광",
+      "lighting": "첫 두 장면: 화면 우측 상단 자연광, 회백색 벽과 따뜻한 하이라이트. 작업 장면: 동일 자연광 환경에서 촬영축에 따른 방향 변화.",
+      "environment": "모던한 소규모 블루 스튜디오 · 무광 아이보리 책상 · 구멍 없는 블루 의자",
+      "elements": [
+        "승인된 캐릭터와 의상",
+        "기존 로고와 GODO",
+        "책상에 평평하게 놓은 종이",
+        "연필과 색연필"
+      ],
+      "text": "대사·자막 없음. 앞치마 GODO와 작품 속 KOREA만 유지.",
+      "keywords": [
+        "photorealistic",
+        "natural movement",
+        "continuity",
+        "GODO"
+      ]
+    }
+  ],
+  "transition_plan": "짧은 0.12~0.18초 전환을 각 2초 구간 안에 포함. 손과 작품이 겹쳐 보이지 않도록 형태·움직임에 맞춰 편집. 엔딩은 두 개의 키프레임을 잇는 단일 카메라 이동.",
+  "quality_note": "스토리보드 이미지 선택본. 동작과 전환의 최종 품질은 실제 영상 생성 후 별도 확인."
+}

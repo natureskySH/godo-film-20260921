@@ -1,0 +1,202 @@
+[
+  {
+    "id": "01-neck-loop",
+    "title": "낮은 시점 · 목끈을 거는 순간",
+    "prompt": {
+      "use_case": "photorealistic-natural",
+      "asset_type": "Single premium live-action cinematic storyboard still, NOT a collage",
+      "reference_roles": {
+        "image1": "Wardrobe and brand placement only. Replace sitting pose with standing dressing action, replace room with nearly featureless defocused warm gray background. Do not copy any scratchy or mottled generated texture.",
+        "image2": "Exact original multicolor geometric GODO logo proportions and shapes.",
+        "image3": "Opening portrait: match its warm natural window light FROM SCREEN UPPER RIGHT, realistic skin and fine cotton texture, clean pale background and subtle cool shadows. Do not include portrait face; keep below-chin crop."
+      },
+      "subject": "The same young adult woman, light blue short-sleeve button-down shirt and plain black bib apron, black trousers. Frame from BELOW THE CHIN to upper thighs: face entirely out of shot. One person, anatomically correct hands and body. Standing naturally while putting the apron on.",
+      "environment": "Use exactly the opening portrait reference3 background color character: a very light cool off-white / pale gray wall, with subtle blue-gray on screen-left and gentle creamy daylight ONLY in the illuminated upper-right. Not beige, tan, brown, taupe or dark gray studio backdrop. Fine smooth matte wallpaper, no visible seams, texture patterns or objects. Softly defocused. This must feel like the exact same wall and light as opening portrait.",
+      "style": "Premium natural live-action photography, understated clean cinematic, authentic dress preparation moment, not catalog pose.",
+      "lighting": "CRITICAL CONTINUITY: broad natural window light enters diagonally FROM THE UPPER RIGHT OF THE IMAGE (viewer right, NOT left). Warm-neutral soft sunlit highlights on screen-right shoulder, hands and right apron edge; gently shaded screen-left side, subtle cool ambient fill. Match opening portrait reference's warm skin, restrained soft window glow and clean daylight. Directional believable soft shadows fall down-left. No visible sunbeam, no lens flare, no glow effect, no harsh spotlight. Background brightest in upper-right, softly darker on left.",
+      "materials": "Match reference3 photographic texture quality. Smooth clean uniform solid black matte cotton, micro-weave is nearly invisible at this distance. Only broad soft garment folds. No irregular scratch patterns, cloudy gray blotches, marbling, random embossed surface or noisy crosshatch. Blue shirt has natural fine weave and simple folds, no abstract patterns. Skin has fine natural pores and small creases, no waxy smoothing.",
+      "palette": "Pale blue shirt, rich even matte black apron, warm neutral skin, soft warm gray background; original yellow red blue green logo accent.",
+      "text": "Precisely reproduce original colorful geometric logo centered on chest and 'GODO' in white medium bold sans-serif immediately beneath. Four letters G O D O. Hands never cover logo or word. No other words, watermarks or UI.",
+      "accuracy": "Apron is a single ordinary flat-front bib with one continuous neck loop attached to two upper bib corners, two separate waist ties attached at side waist. No impossible additional straps. Logo printed on fabric follows gentle folds without reshaping its geometry. Natural five-finger hands. Use normal human scale and garment tension.",
+      "duration_seconds": 2,
+      "resolution_and_ratio": "16:9 horizontal, highest available photorealistic quality; sharp hands and readable brand, soft background",
+      "keywords": [
+        "putting on apron",
+        "preparing to draw",
+        "GODO",
+        "natural dressing action",
+        "realistic black cotton",
+        "front apron view"
+      ],
+      "id": "01-neck-loop",
+      "title": "낮은 시점 · 목끈을 거는 순간",
+      "description": "She is in the final moment of slipping neck loop on: both hands lightly guide straps down toward collarbones, elbows lifted. Black apron bib just settles onto light blue shirt; full logo and GODO visible under hands. Slight natural torso lean, candid dressing movement.",
+      "camera": "DISTINCT COMPOSITION 1: low camera at lower chest height looking upward 12 degrees, 35mm full-frame f/3.5. Cinematic asymmetric crop below chin through waist, torso positioned left of center, luminous pale wall at right. Both hands raised near shoulders and neck strap. Do not use symmetrical eye-level reference pose.",
+      "motion": "Hands guide the loop into position, then lower gently along apron edges.",
+      "ending": "Bib settles flat and logo becomes steady.",
+      "color_grading": "Neutral whites, warm skin highlights and restrained cool shadows consistent with reference3, modest saturation, clean deep black apron.",
+      "wallpaper_continuity": "Opening portrait is authoritative for wall hue, luminosity and warm-right/cool-left gradient. Do not copy warm taupe wall from clothing reference. No furniture or room identifiers needed.",
+      "composition_priority": "Camera framing and action specified in this prompt override clothing reference image's frontal crop. This is one of five deliberately different storyboard concepts: DO NOT copy reference composition. Keep photorealism, identity clothing, exact logo, upper-right light and pale gray wall."
+    }
+  },
+  {
+    "id": "02-align-bib",
+    "title": "높은 대각선 · 앞치마 윗단 정돈",
+    "prompt": {
+      "use_case": "photorealistic-natural",
+      "asset_type": "Single premium live-action cinematic storyboard still, NOT a collage",
+      "reference_roles": {
+        "image1": "Wardrobe and brand placement only. Replace sitting pose with standing dressing action, replace room with nearly featureless defocused warm gray background. Do not copy any scratchy or mottled generated texture.",
+        "image2": "Exact original multicolor geometric GODO logo proportions and shapes.",
+        "image3": "Opening portrait: match its warm natural window light FROM SCREEN UPPER RIGHT, realistic skin and fine cotton texture, clean pale background and subtle cool shadows. Do not include portrait face; keep below-chin crop."
+      },
+      "subject": "The same young adult woman, light blue short-sleeve button-down shirt and plain black bib apron, black trousers. Frame from BELOW THE CHIN to upper thighs: face entirely out of shot. One person, anatomically correct hands and body. Standing naturally while putting the apron on.",
+      "environment": "Use exactly the opening portrait reference3 background color character: a very light cool off-white / pale gray wall, with subtle blue-gray on screen-left and gentle creamy daylight ONLY in the illuminated upper-right. Not beige, tan, brown, taupe or dark gray studio backdrop. Fine smooth matte wallpaper, no visible seams, texture patterns or objects. Softly defocused. This must feel like the exact same wall and light as opening portrait.",
+      "style": "Premium natural live-action photography, understated clean cinematic, authentic dress preparation moment, not catalog pose.",
+      "lighting": "CRITICAL CONTINUITY: broad natural window light enters diagonally FROM THE UPPER RIGHT OF THE IMAGE (viewer right, NOT left). Warm-neutral soft sunlit highlights on screen-right shoulder, hands and right apron edge; gently shaded screen-left side, subtle cool ambient fill. Match opening portrait reference's warm skin, restrained soft window glow and clean daylight. Directional believable soft shadows fall down-left. No visible sunbeam, no lens flare, no glow effect, no harsh spotlight. Background brightest in upper-right, softly darker on left.",
+      "materials": "Match reference3 photographic texture quality. Smooth clean uniform solid black matte cotton, micro-weave is nearly invisible at this distance. Only broad soft garment folds. No irregular scratch patterns, cloudy gray blotches, marbling, random embossed surface or noisy crosshatch. Blue shirt has natural fine weave and simple folds, no abstract patterns. Skin has fine natural pores and small creases, no waxy smoothing.",
+      "palette": "Pale blue shirt, rich even matte black apron, warm neutral skin, soft warm gray background; original yellow red blue green logo accent.",
+      "text": "Precisely reproduce original colorful geometric logo centered on chest and 'GODO' in white medium bold sans-serif immediately beneath. Four letters G O D O. Hands never cover logo or word. No other words, watermarks or UI.",
+      "accuracy": "Apron is a single ordinary flat-front bib with one continuous neck loop attached to two upper bib corners, two separate waist ties attached at side waist. No impossible additional straps. Logo printed on fabric follows gentle folds without reshaping its geometry. Natural five-finger hands. Use normal human scale and garment tension.",
+      "duration_seconds": 2,
+      "resolution_and_ratio": "16:9 horizontal, highest available photorealistic quality; sharp hands and readable brand, soft background",
+      "keywords": [
+        "putting on apron",
+        "preparing to draw",
+        "GODO",
+        "natural dressing action",
+        "realistic black cotton",
+        "front apron view"
+      ],
+      "id": "02-align-bib",
+      "title": "높은 대각선 · 앞치마 윗단 정돈",
+      "description": "One hand pinches the outer top corner of the apron bib and gently levels it against the blue shirt; other hand lower at opposite waist edge provides light counter-tension. Neck loop already worn. Logo and GODO remain fully visible, fabric naturally angled with torso. Small functional adjustment.",
+      "camera": "DISTINCT COMPOSITION 2: camera high above chest, 40 degree downward angle from front-right, 65mm f/4. Tight diagonal composition: neck and shoulder in upper-left, apron logo center-right, one hand at far bib corner. Crop face completely. Only chest to mid waist, not hips. Perspective distinctly high-angle.",
+      "motion": "One small leveling adjustment of upper edge, no tugging repeatedly.",
+      "ending": "Hands release fabric and lower outside logo.",
+      "color_grading": "Neutral whites, warm skin highlights and restrained cool shadows consistent with reference3, modest saturation, clean deep black apron.",
+      "wallpaper_continuity": "Opening portrait is authoritative for wall hue, luminosity and warm-right/cool-left gradient. Do not copy warm taupe wall from clothing reference. No furniture or room identifiers needed.",
+      "composition_priority": "Camera framing and action specified in this prompt override clothing reference image's frontal crop. This is one of five deliberately different storyboard concepts: DO NOT copy reference composition. Keep photorealism, identity clothing, exact logo, upper-right light and pale gray wall."
+    }
+  },
+  {
+    "id": "03-waist-ties",
+    "title": "허리 높이 · 끈을 잡는 손 클로즈업",
+    "prompt": {
+      "use_case": "photorealistic-natural",
+      "asset_type": "Single premium live-action cinematic storyboard still, NOT a collage",
+      "reference_roles": {
+        "image1": "Wardrobe and brand placement only. Replace sitting pose with standing dressing action, replace room with nearly featureless defocused warm gray background. Do not copy any scratchy or mottled generated texture.",
+        "image2": "Exact original multicolor geometric GODO logo proportions and shapes.",
+        "image3": "Opening portrait: match its warm natural window light FROM SCREEN UPPER RIGHT, realistic skin and fine cotton texture, clean pale background and subtle cool shadows. Do not include portrait face; keep below-chin crop."
+      },
+      "subject": "The same young adult woman, light blue short-sleeve button-down shirt and plain black bib apron, black trousers. Frame from BELOW THE CHIN to upper thighs: face entirely out of shot. One person, anatomically correct hands and body. Standing naturally while putting the apron on.",
+      "environment": "Use exactly the opening portrait reference3 background color character: a very light cool off-white / pale gray wall, with subtle blue-gray on screen-left and gentle creamy daylight ONLY in the illuminated upper-right. Not beige, tan, brown, taupe or dark gray studio backdrop. Fine smooth matte wallpaper, no visible seams, texture patterns or objects. Softly defocused. This must feel like the exact same wall and light as opening portrait.",
+      "style": "Premium natural live-action photography, understated clean cinematic, authentic dress preparation moment, not catalog pose.",
+      "lighting": "CRITICAL CONTINUITY: broad natural window light enters diagonally FROM THE UPPER RIGHT OF THE IMAGE (viewer right, NOT left). Warm-neutral soft sunlit highlights on screen-right shoulder, hands and right apron edge; gently shaded screen-left side, subtle cool ambient fill. Match opening portrait reference's warm skin, restrained soft window glow and clean daylight. Directional believable soft shadows fall down-left. No visible sunbeam, no lens flare, no glow effect, no harsh spotlight. Background brightest in upper-right, softly darker on left.",
+      "materials": "Match reference3 photographic texture quality. Smooth clean uniform solid black matte cotton, micro-weave is nearly invisible at this distance. Only broad soft garment folds. No irregular scratch patterns, cloudy gray blotches, marbling, random embossed surface or noisy crosshatch. Blue shirt has natural fine weave and simple folds, no abstract patterns. Skin has fine natural pores and small creases, no waxy smoothing.",
+      "palette": "Pale blue shirt, rich even matte black apron, warm neutral skin, soft warm gray background; original yellow red blue green logo accent.",
+      "text": "Precisely reproduce original colorful geometric logo centered on chest and 'GODO' in white medium bold sans-serif immediately beneath. Four letters G O D O. Hands never cover logo or word. No other words, watermarks or UI.",
+      "accuracy": "Apron is a single ordinary flat-front bib with one continuous neck loop attached to two upper bib corners, two separate waist ties attached at side waist. No impossible additional straps. Logo printed on fabric follows gentle folds without reshaping its geometry. Natural five-finger hands. Use normal human scale and garment tension.",
+      "duration_seconds": 2,
+      "resolution_and_ratio": "16:9 horizontal, highest available photorealistic quality; sharp hands and readable brand, soft background",
+      "keywords": [
+        "putting on apron",
+        "preparing to draw",
+        "GODO",
+        "natural dressing action",
+        "realistic black cotton",
+        "front apron view"
+      ],
+      "id": "03-waist-ties",
+      "title": "허리 높이 · 끈을 잡는 손 클로즈업",
+      "description": "Macro-like close view of woman's hand taking up the black waist tie beside her hip and gently pulling it backward. Fingers naturally grip one ribbon with slack end hanging; tie attached to apron side seam. The near hand, clean flat ribbon and soft cotton fold tell the act of dressing. Other hand barely visible at far side, not required to be symmetric.",
+      "camera": "DISTINCT COMPOSITION 3: 85mm close lens f/4, waist-height camera from front-left side at 35 degrees, very tight frame from upper chest to hip. Right lower foreground hand and flat waist tie are large and sharp; apron front and entire GODO logo recede diagonally in upper-right, still legible. Face and neck outside image. No centered full torso.",
+      "motion": "Hands find the side ties and guide them toward hips in one small controlled movement.",
+      "ending": "Ready to bring ties behind waist.",
+      "color_grading": "Neutral whites, warm skin highlights and restrained cool shadows consistent with reference3, modest saturation, clean deep black apron.",
+      "wallpaper_continuity": "Opening portrait is authoritative for wall hue, luminosity and warm-right/cool-left gradient. Do not copy warm taupe wall from clothing reference. No furniture or room identifiers needed.",
+      "composition_priority": "Camera framing and action specified in this prompt override clothing reference image's frontal crop. This is one of five deliberately different storyboard concepts: DO NOT copy reference composition. Keep photorealism, identity clothing, exact logo, upper-right light and pale gray wall."
+    }
+  },
+  {
+    "id": "04-wrap-ties",
+    "title": "사선 미디엄 · 허리끈을 뒤로 감기",
+    "prompt": {
+      "use_case": "photorealistic-natural",
+      "asset_type": "Single premium live-action cinematic storyboard still, NOT a collage",
+      "reference_roles": {
+        "image1": "Wardrobe and brand placement only. Replace sitting pose with standing dressing action, replace room with nearly featureless defocused warm gray background. Do not copy any scratchy or mottled generated texture.",
+        "image2": "Exact original multicolor geometric GODO logo proportions and shapes.",
+        "image3": "Opening portrait: match its warm natural window light FROM SCREEN UPPER RIGHT, realistic skin and fine cotton texture, clean pale background and subtle cool shadows. Do not include portrait face; keep below-chin crop."
+      },
+      "subject": "The same young adult woman, light blue short-sleeve button-down shirt and plain black bib apron, black trousers. Frame from BELOW THE CHIN to upper thighs: face entirely out of shot. One person, anatomically correct hands and body. Standing naturally while putting the apron on.",
+      "environment": "Use exactly the opening portrait reference3 background color character: a very light cool off-white / pale gray wall, with subtle blue-gray on screen-left and gentle creamy daylight ONLY in the illuminated upper-right. Not beige, tan, brown, taupe or dark gray studio backdrop. Fine smooth matte wallpaper, no visible seams, texture patterns or objects. Softly defocused. This must feel like the exact same wall and light as opening portrait.",
+      "style": "Premium natural live-action photography, understated clean cinematic, authentic dress preparation moment, not catalog pose.",
+      "lighting": "CRITICAL CONTINUITY: broad natural window light enters diagonally FROM THE UPPER RIGHT OF THE IMAGE (viewer right, NOT left). Warm-neutral soft sunlit highlights on screen-right shoulder, hands and right apron edge; gently shaded screen-left side, subtle cool ambient fill. Match opening portrait reference's warm skin, restrained soft window glow and clean daylight. Directional believable soft shadows fall down-left. No visible sunbeam, no lens flare, no glow effect, no harsh spotlight. Background brightest in upper-right, softly darker on left.",
+      "materials": "Match reference3 photographic texture quality. Smooth clean uniform solid black matte cotton, micro-weave is nearly invisible at this distance. Only broad soft garment folds. No irregular scratch patterns, cloudy gray blotches, marbling, random embossed surface or noisy crosshatch. Blue shirt has natural fine weave and simple folds, no abstract patterns. Skin has fine natural pores and small creases, no waxy smoothing.",
+      "palette": "Pale blue shirt, rich even matte black apron, warm neutral skin, soft warm gray background; original yellow red blue green logo accent.",
+      "text": "Precisely reproduce original colorful geometric logo centered on chest and 'GODO' in white medium bold sans-serif immediately beneath. Four letters G O D O. Hands never cover logo or word. No other words, watermarks or UI.",
+      "accuracy": "Apron is a single ordinary flat-front bib with one continuous neck loop attached to two upper bib corners, two separate waist ties attached at side waist. No impossible additional straps. Logo printed on fabric follows gentle folds without reshaping its geometry. Natural five-finger hands. Use normal human scale and garment tension.",
+      "duration_seconds": 2,
+      "resolution_and_ratio": "16:9 horizontal, highest available photorealistic quality; sharp hands and readable brand, soft background",
+      "keywords": [
+        "putting on apron",
+        "preparing to draw",
+        "GODO",
+        "natural dressing action",
+        "realistic black cotton",
+        "front apron view"
+      ],
+      "id": "04-wrap-ties",
+      "title": "사선 미디엄 · 허리끈을 뒤로 감기",
+      "description": "Woman has naturally turned torso slightly and is guiding both waist ties behind her back. Elbows angled gently backward, hands beside back of hips rather than in front. Black apron falls smoothly over black trousers, straps wrap around sides. Front logo and GODO still visible, not profile/back-only. Capture practical dressing action.",
+      "camera": "DISTINCT COMPOSITION 4: 50mm f/4.5, front three-quarter camera at 30 degrees, WIDER framing from just below chin through mid thighs, subject on right third with empty bright pale wall to left. Body front visible in angled perspective, hands partially visible beside back hips, readable chest logo. Strongly different from all tight crops.",
+      "motion": "A small continuous wrap of waist ties behind body with barely any torso turn.",
+      "ending": "Hands finish moving behind hips, logo stays visible.",
+      "color_grading": "Neutral whites, warm skin highlights and restrained cool shadows consistent with reference3, modest saturation, clean deep black apron.",
+      "wallpaper_continuity": "Opening portrait is authoritative for wall hue, luminosity and warm-right/cool-left gradient. Do not copy warm taupe wall from clothing reference. No furniture or room identifiers needed.",
+      "composition_priority": "Camera framing and action specified in this prompt override clothing reference image's frontal crop. This is one of five deliberately different storyboard concepts: DO NOT copy reference composition. Keep photorealism, identity clothing, exact logo, upper-right light and pale gray wall."
+    }
+  },
+  {
+    "id": "05-smooth-front",
+    "title": "초근접 · 로고 아래 옷매무새 정리",
+    "prompt": {
+      "use_case": "photorealistic-natural",
+      "asset_type": "Single premium live-action cinematic storyboard still, NOT a collage",
+      "reference_roles": {
+        "image1": "Wardrobe and brand placement only. Replace sitting pose with standing dressing action, replace room with nearly featureless defocused warm gray background. Do not copy any scratchy or mottled generated texture.",
+        "image2": "Exact original multicolor geometric GODO logo proportions and shapes.",
+        "image3": "Opening portrait: match its warm natural window light FROM SCREEN UPPER RIGHT, realistic skin and fine cotton texture, clean pale background and subtle cool shadows. Do not include portrait face; keep below-chin crop."
+      },
+      "subject": "The same young adult woman, light blue short-sleeve button-down shirt and plain black bib apron, black trousers. Frame from BELOW THE CHIN to upper thighs: face entirely out of shot. One person, anatomically correct hands and body. Standing naturally while putting the apron on.",
+      "environment": "Use exactly the opening portrait reference3 background color character: a very light cool off-white / pale gray wall, with subtle blue-gray on screen-left and gentle creamy daylight ONLY in the illuminated upper-right. Not beige, tan, brown, taupe or dark gray studio backdrop. Fine smooth matte wallpaper, no visible seams, texture patterns or objects. Softly defocused. This must feel like the exact same wall and light as opening portrait.",
+      "style": "Premium natural live-action photography, understated clean cinematic, authentic dress preparation moment, not catalog pose.",
+      "lighting": "CRITICAL CONTINUITY: broad natural window light enters diagonally FROM THE UPPER RIGHT OF THE IMAGE (viewer right, NOT left). Warm-neutral soft sunlit highlights on screen-right shoulder, hands and right apron edge; gently shaded screen-left side, subtle cool ambient fill. Match opening portrait reference's warm skin, restrained soft window glow and clean daylight. Directional believable soft shadows fall down-left. No visible sunbeam, no lens flare, no glow effect, no harsh spotlight. Background brightest in upper-right, softly darker on left.",
+      "materials": "Match reference3 photographic texture quality. Smooth clean uniform solid black matte cotton, micro-weave is nearly invisible at this distance. Only broad soft garment folds. No irregular scratch patterns, cloudy gray blotches, marbling, random embossed surface or noisy crosshatch. Blue shirt has natural fine weave and simple folds, no abstract patterns. Skin has fine natural pores and small creases, no waxy smoothing.",
+      "palette": "Pale blue shirt, rich even matte black apron, warm neutral skin, soft warm gray background; original yellow red blue green logo accent.",
+      "text": "Precisely reproduce original colorful geometric logo centered on chest and 'GODO' in white medium bold sans-serif immediately beneath. Four letters G O D O. Hands never cover logo or word. No other words, watermarks or UI.",
+      "accuracy": "Apron is a single ordinary flat-front bib with one continuous neck loop attached to two upper bib corners, two separate waist ties attached at side waist. No impossible additional straps. Logo printed on fabric follows gentle folds without reshaping its geometry. Natural five-finger hands. Use normal human scale and garment tension.",
+      "duration_seconds": 2,
+      "resolution_and_ratio": "16:9 horizontal, highest available photorealistic quality; sharp hands and readable brand, soft background",
+      "keywords": [
+        "putting on apron",
+        "preparing to draw",
+        "GODO",
+        "natural dressing action",
+        "realistic black cotton",
+        "front apron view"
+      ],
+      "id": "05-smooth-front",
+      "title": "초근접 · 로고 아래 옷매무새 정리",
+      "description": "After putting apron on, a single palm gently smooths the fabric DOWNWARD immediately below the GODO word, without covering text or multicolor mark. Fingers rest together naturally, subtle cloth tension from hand. This is intimate tactile final preparation, not a static logo product shot. Entire logo and all four letters kept inside frame.",
+      "camera": "DISTINCT COMPOSITION 5: 100mm close-up lens f/4, extreme tight oblique front crop from upper bib edge to just below GODO. Logo and GODO large across upper-middle image; one relaxed hand enters lower-right smoothing fabric below letters, opposite arm not visible. Only a little blue shirt at upper corners and pale wall sliver. No face, no complete torso.",
+      "motion": "Single subtle downward smoothing gesture then hands relax at sides.",
+      "ending": "Calm ready-to-work posture, cut next to pencil touching blank paper.",
+      "color_grading": "Neutral whites, warm skin highlights and restrained cool shadows consistent with reference3, modest saturation, clean deep black apron.",
+      "wallpaper_continuity": "Opening portrait is authoritative for wall hue, luminosity and warm-right/cool-left gradient. Do not copy warm taupe wall from clothing reference. No furniture or room identifiers needed.",
+      "composition_priority": "Camera framing and action specified in this prompt override clothing reference image's frontal crop. This is one of five deliberately different storyboard concepts: DO NOT copy reference composition. Keep photorealism, identity clothing, exact logo, upper-right light and pale gray wall."
+    }
+  }
+]
