@@ -1,0 +1,135 @@
+{
+  "revision": "V30 storyboard only",
+  "selected_bridge_idea": 1,
+  "selection_reason": "작업 종료의 의미가 가장 명확합니다. 검정·파랑·빨강 순서와 지우개 위치가 엔딩과 이어집니다. 작품 전체가 보이지 않아 시간 경과를 위한 여백도 생깁니다.",
+  "video_status": "Existing V6 unchanged. This storyboard has not yet been animated.",
+  "image_tool": "Built-in image_gen: five individual bridge ideas plus rear apron frame.",
+  "additional_flow_credits": 0,
+  "movement_speed": 1.0,
+  "timing_note": "Planned durations before overlapping transitions; not a rendered video duration.",
+  "shots": [
+    {
+      "id": "01",
+      "image": "01-opening.png",
+      "title": "인물 클로즈업",
+      "description": "승인된 인물 원본의 우측 상단 시선과 표정을 유지합니다.",
+      "camera": "측면 클로즈업 · 고정에 가까운 구도",
+      "motion": "표정·시선 변화 없음. 기존 인물 이미지 유지.",
+      "duration_target": 2,
+      "changed": false
+    },
+    {
+      "id": "02",
+      "image": "02-apron-back.png",
+      "title": "뒤에서 허리끈 매듭 마무리",
+      "description": "후면 허리 클로즈업. 이미 만들어진 리본 매듭을 양손으로 가볍게 조이며 앞치마 착용을 마칩니다.",
+      "camera": "뒤쪽 허리 높이 · 손과 매듭에 초점",
+      "motion": "고리를 한 손에 하나씩 잡고 1~2cm만 조인 뒤 멈춤. 끈 꼬기·큰 팔 이동 없이 원본 1배속.",
+      "duration_target": 2,
+      "changed": true
+    },
+    {
+      "id": "03",
+      "image": "03-pencil.png",
+      "title": "연필로 첫 선",
+      "description": "종이에 닿은 흑연 연필로 깃털 윤곽의 짧은 선을 그립니다.",
+      "camera": "연필 끝과 종이 접점 매크로",
+      "motion": "짧은 선 한 번. 연필 끝 이동과 흑연 선이 생기는 위치를 일치시킬 것. 감속 없음.",
+      "duration_target": 2,
+      "changed": false
+    },
+    {
+      "id": "04",
+      "image": "04-first-blue.png",
+      "title": "첫 파란색",
+      "description": "무채색 밑그림의 파도 안쪽에 파란 색연필로 첫 색을 넣습니다.",
+      "camera": "파란 심과 채색 영역 초근접",
+      "motion": "파란 영역 안에서 짧은 채색. 흰색 소용돌이 선을 침범하지 않음. 감속 없음.",
+      "duration_target": 2,
+      "changed": false
+    },
+    {
+      "id": "05",
+      "image": "05-partial.png",
+      "title": "부분 채색",
+      "description": "부분 채색된 작품을 보여주며 첫 색과 완성작 사이의 과정을 연결합니다.",
+      "camera": "높은 사선 구도 · 손과 작품에 초점",
+      "motion": "파란 부분에 작은 채색 동작. 종이·그림·주변 소품 위치 고정. 감속 없음.",
+      "duration_target": 2,
+      "changed": false
+    },
+    {
+      "id": "06",
+      "image": "06-pencil-down.png",
+      "title": "파란 색연필 내려놓기",
+      "description": "그리던 파란 색연필을 검정 연필과 빨간 색연필 사이에 놓습니다. 손이 빠진 뒤 완성작으로 넘어갑니다.",
+      "camera": "낮은 사선 클로즈업 · 손과 연필 접점 초점 · 작품 전체는 화면 밖",
+      "motion": "연필이 책상에 닿은 상태에서 엄지와 검지를 가볍게 놓고 오른쪽으로 손이 빠짐. 연필은 구르지 않음. 1배속.",
+      "duration_target": 1.5,
+      "changed": true
+    },
+    {
+      "id": "07",
+      "image": "06-artwork-closeup.png",
+      "title": "완성작 클로즈업으로 마무리",
+      "description": "인물 뒤에서 작품을 보던 첫 프레임을 삭제했습니다. 완성작을 수직으로 내려다보는 이 한 장면에서 바로 끝냅니다.",
+      "camera": "수직 탑뷰 · 작품 전체와 KOREA·하단 학이 보이는 고정 구도",
+      "motion": "카메라 고정. 전진·상승·회전·줌 없음. 손·머리·어깨 등장 없음. 추가 채색이나 마지막 터치 없이 완성작 유지.",
+      "duration_target": 3,
+      "changed": true
+    }
+  ],
+  "ideas": [
+    {
+      "id": 1,
+      "title": "파란 색연필 내려놓기",
+      "selected": true,
+      "concept": "사용하던 연필을 놓으며 작업 종료를 전달합니다.",
+      "camera": "낮은 사선의 손·연필 클로즈업",
+      "assessment": "작업 종료의 의미가 가장 명확합니다. 검정·파랑·빨강 순서와 지우개 위치가 엔딩과 이어집니다. 작품 전체가 보이지 않아 시간 경과를 위한 여백도 생깁니다.",
+      "caution": "영상 제작 시 손은 작은 놓기 동작만. 연필 굴림·튀어오름·손가락 변형을 확인해야 합니다."
+    },
+    {
+      "id": 2,
+      "title": "잠깐 손을 쉬는 순간",
+      "selected": false,
+      "concept": "두 손을 편하게 쉬며 작업 뒤의 여유를 보여줍니다.",
+      "camera": "책상 높이의 옆면 손 클로즈업",
+      "assessment": "휴식 분위기는 좋지만 작업이 끝났는지 잠시 멈췄는지 의미가 모호합니다.",
+      "caution": "배경 작품·도구 방향이 기존 컷과 달라 최종 연속 장면으로는 미선택."
+    },
+    {
+      "id": 3,
+      "title": "도구의 정물 컷",
+      "selected": false,
+      "concept": "연필과 지우개를 가까이 보여주며 짧은 쉼을 만듭니다.",
+      "camera": "연필 끝에 초점을 둔 사선 근접",
+      "assessment": "손동작 생성 위험은 적지만, 결과 이미지에서 완성작이 너무 많이 보여 마지막 공개의 효과가 약합니다.",
+      "caution": "의도했던 빈 종이 가장자리보다 작품 노출이 많음. 아이디어 비교용."
+    },
+    {
+      "id": 4,
+      "title": "완성된 파도 디테일",
+      "selected": false,
+      "concept": "완성된 색연필 질감을 먼저 보여준 뒤 작품 전체를 공개합니다.",
+      "camera": "파도·깃털 극근접",
+      "assessment": "완성작을 단계적으로 보여주기에는 좋지만, 채색 과정과 완성 사이의 시간 경과를 메우는 기능은 1번보다 약합니다.",
+      "caution": "확대 재현으로 선과 종이결의 차이가 드러남. 최종 작품과 완전히 같은 원본 크롭은 아님."
+    },
+    {
+      "id": 5,
+      "title": "종이에서 손을 떼는 순간",
+      "selected": false,
+      "concept": "종이를 누르던 손을 떼며 작품에 시선을 넘깁니다.",
+      "camera": "종이 하단과 손의 수직 근접",
+      "assessment": "동작이 단순하지만 작업 종료 의미가 1번보다 약하고, 현재 결과의 도구 위치도 엔딩과 다릅니다.",
+      "caution": "도구가 종이 하단에 추가되어 최종 연결에서는 미선택."
+    }
+  ],
+  "transition": "Partial colouring -> pencil put down cutaway -> fixed overhead finished artwork. Soft transitions, no camera climb/orbit.",
+  "quality_notes": [
+    "Selected hand and pencil placement checked in still image; video motion remains to be verified.",
+    "Rear apron has one compact bow, two loops and two tails; front logo is naturally not visible from back.",
+    "Other storyboard assets retained; drawing-tip accuracy in future video is not yet resolved."
+  ]
+}

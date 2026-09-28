@@ -1,0 +1,78 @@
+{
+  "status": "planning only - not submitted to Flow",
+  "playback_speed": 1,
+  "shots": [
+    {
+      "id": "02",
+      "description": "Rear waist closeup of same female student finishing black apron bow.",
+      "style": "Photoreal quiet academy film",
+      "camera": "Locked 70mm rear waist closeup, f/4.5, knot and both hands sharp",
+      "lighting": "Soft upper-right natural light, neutral grey-white wall",
+      "environment": "Same approved shirt and apron, clean empty backdrop",
+      "elements": [
+        "two hands",
+        "single bow knot",
+        "two loops",
+        "two short tails"
+      ],
+      "motion": "One small 1-2cm outward tightening of existing loops, then settle. Do not retie, untie or weave fingers. Normal human speed.",
+      "ending": "Stable completed bow; hands settle.",
+      "text": "No visible text from behind; do not invent rear logo.",
+      "keywords": [
+        "anatomical hands",
+        "fixed camera",
+        "stable fabric",
+        "real-time"
+      ],
+      "duration_target": 2
+    },
+    {
+      "id": "06",
+      "description": "The blue coloured pencil has just been lowered to the ivory desk between the black and red pencils.",
+      "style": "Photoreal restrained hand detail",
+      "camera": "Locked low oblique 85mm closeup, f/3.2; focus on fingertip contact, paper outside main framing",
+      "lighting": "Soft upper-right daylight, neutral whites and warm skin",
+      "environment": "Same plain ivory desk, white eraser above tips, paper edge left",
+      "elements": [
+        "right hand",
+        "blue pencil",
+        "black pencil left",
+        "red pencil right",
+        "white eraser"
+      ],
+      "motion": "Blue pencil begins already fully touching desk. Thumb and index release with only a few millimetres of motion; hand withdraws to right. No roll, bounce, new pencil, or drawing. Original real-time speed.",
+      "ending": "Three pencils remain fixed; finish with brief stillness before dissolving to overhead completed artwork.",
+      "text": "No overlay",
+      "keywords": [
+        "cutaway",
+        "task completion",
+        "stable props",
+        "minimal action",
+        "natural hand"
+      ],
+      "duration_target": 1.5
+    },
+    {
+      "id": "07",
+      "description": "Finished artwork alone with the approved three-pencil arrangement.",
+      "style": "Exact existing still image",
+      "camera": "Locked overhead; no zoom, lift, orbit or tilt",
+      "lighting": "Preserve approved image",
+      "environment": "Matte ivory desk",
+      "elements": [
+        "original finished artwork frame",
+        "three pencils",
+        "eraser"
+      ],
+      "motion": "No motion, no hand or head enters.",
+      "ending": "Hold completed artwork.",
+      "text": "Preserve existing KOREA lettering",
+      "keywords": [
+        "simple ending",
+        "no final touch"
+      ],
+      "duration_target": 3,
+      "method": "reuse still in edit, no Flow generation necessary"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "use_case": "identity-preserve",
+  "description": "One realistic 16:9 storyboard film still. Same adult female art student as character reference, seen FROM BEHIND, tight crop shoulder blades to upper hips, slight rear three-quarter angle. She is putting on her same black bib apron over the powder-blue SHORT-SLEEVE shirt. On her BACK the shirt is visible; apron fabric wraps only around sides and waist, NOT a full black back panel. A single black cotton waist strap wraps horizontally from each side to the small of her back. At center back an ordinary simple bow is already nearly finished: one compact knot, exactly TWO short loops and TWO short tails. Her hands behind waist lightly hold ONE loop each, thumb/index grip, finishing the knot with a small symmetrical pull. Two natural hands with correct five-finger anatomy and plausible elbow positions, no tangled fingers, no branching strap. Tail ends hang about 8cm downward, not floor length. This is a believable frozen instant of tying an apron behind the back, not a front apron turned backwards.",
+  "references": "Image 1 is approved character sheet and back-view outfit guide. Image 2 shows current apron material and shirt. Identity, build and clothing remain the same. Face and logo are on front and therefore not visible from behind: DO NOT invent a rear logo.",
+  "camera": {
+    "framing": "Rear three-quarter waist detail, hands and central bow prominent, shoulders cropped above, face excluded",
+    "lens": "70mm",
+    "aperture": "f/4.5",
+    "focus": "Both hands and actual knot structure in focus",
+    "aspect_ratio": "16:9",
+    "perspective": "Normal body proportions, no wide-angle distortion"
+  },
+  "lighting": "Same soft natural light from upper-right. Plain cool off-white wall matching opening portrait. Warm natural skin, clean neutral tones.",
+  "materials": "Clean uniformly matte smooth black cotton straps, true fabric folds but no marbling, no stains, no wormlike noise. Fine clean powder-blue cotton shirt, no mottled surface. Natural hands with short nails.",
+  "motion": "Later shot is only a small final tightening of the already formed bow, original real-time speed. No full knot formation or complicated finger weaving.",
+  "environment": "Minimal plain grey-white backdrop, no plants, no furniture, no tools, no face.",
+  "text": "None visible from back. Do not relocate original front logo or GODO to the back.",
+  "ending": "Hands finish the bow and settle; then cut to pencil first line."
+}

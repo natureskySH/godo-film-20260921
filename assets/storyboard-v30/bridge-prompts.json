@@ -1,0 +1,147 @@
+[
+  {
+    "use_case": "photorealistic-natural",
+    "output": "ONE standalone cinematic photograph, landscape 16:9, no panel collage, no caption, 1920x1080 or higher detailed output",
+    "references": {
+      "image_1": "Same matte ivory desk, exact crane artwork composition and consistent black, blue, red pencils and white eraser; finished arrangement reference.",
+      "image_2": "Same adult woman's hands, pale blue short-sleeve shirt, partial artwork reference."
+    },
+    "style": "Photorealistic quiet editorial art academy film still, consistent with preceding and following storyboard, clean modern small studio, minimal clutter",
+    "lighting": "Large soft natural window light from upper right, warm-neutral skin, cool ivory-neutral whites, believable soft directional shadows, no harsh bloom",
+    "materials": "Clean seamless matte ivory tabletop without spots or speckles. Natural skin subtle pores and nail beds; no plastic skin. Clean fine cotton shirt if visible. Actual fine paper fibre, restrained coloured-pencil wax and graphite grain only on drawn portions, no all-over noise/mottling.",
+    "palette": "Ivory, white, powder blue, matte black, red and cobalt pencil shafts, artwork's blue yellow red accents. Neutral filmic correction, no teal-orange look.",
+    "constraints": [
+      "Only graphite and coloured pencils, no paint/brush/palette/easel",
+      "Paper is flat on desk and upright to artist, never rotated sideways",
+      "No plants, terrazzo, perforated chairs, teachers, face closeup, invented decorations",
+      "No additional drawing or final touch: this is the pause AFTER working",
+      "Preserve the referenced crane design, KOREA position and lower crane if visible; do not invent text",
+      "Natural five-finger anatomy, no merged hands, no moving objects implied without contact",
+      "Clean realistic smooth textures, no wormlike AI grain"
+    ],
+    "text": "No overlaid text. Artwork lettering only if actually in view; preserve KOREA under large crane, small crane below.",
+    "ending": "This cutaway leads to the existing locked overhead completed-artwork shot.",
+    "motion_context": "Normal human real-time action, no slow-motion, no exaggerated movement, no camera rise or orbit.",
+    "id": "01",
+    "name": "연필 내려놓기",
+    "description": "Extreme close shot of right hand gently releasing a cobalt blue wooden coloured pencil onto the matte ivory desk, parallel BETWEEN an existing black pencil on its left and a red pencil on its right. All three tips point to the far/top of the table, same orientation as reference ending. Blue pencil already touches desk along its full length; index finger and thumb barely release mid-shaft, other fingers naturally relaxed. Paper only a blurred narrow vertical white edge on LEFT: no artwork completion state visible. Eraser sits farther up beyond tips, softly defocused. No rolling pencil, no floating pencil. Exact cinematic cutaway signalling work finished.",
+    "camera": "85mm macro, low oblique 30 degree view along desk, focus at thumb/index and blue barrel contact, f/3.2, natural perspective, paper and eraser blurred background",
+    "composition": "Hand enters from lower-right, pencil group center-right, white paper edge far left. Crisp pencil contact and natural fingertips draw attention."
+  },
+  {
+    "use_case": "photorealistic-natural",
+    "output": "ONE standalone cinematic photograph, landscape 16:9, no panel collage, no caption, 1920x1080 or higher detailed output",
+    "references": {
+      "image_1": "Same matte ivory desk, exact crane artwork composition and consistent black, blue, red pencils and white eraser; finished arrangement reference.",
+      "image_2": "Same adult woman's hands, pale blue short-sleeve shirt, partial artwork reference."
+    },
+    "style": "Photorealistic quiet editorial art academy film still, consistent with preceding and following storyboard, clean modern small studio, minimal clutter",
+    "lighting": "Large soft natural window light from upper right, warm-neutral skin, cool ivory-neutral whites, believable soft directional shadows, no harsh bloom",
+    "materials": "Clean seamless matte ivory tabletop without spots or speckles. Natural skin subtle pores and nail beds; no plastic skin. Clean fine cotton shirt if visible. Actual fine paper fibre, restrained coloured-pencil wax and graphite grain only on drawn portions, no all-over noise/mottling.",
+    "palette": "Ivory, white, powder blue, matte black, red and cobalt pencil shafts, artwork's blue yellow red accents. Neutral filmic correction, no teal-orange look.",
+    "constraints": [
+      "Only graphite and coloured pencils, no paint/brush/palette/easel",
+      "Paper is flat on desk and upright to artist, never rotated sideways",
+      "No plants, terrazzo, perforated chairs, teachers, face closeup, invented decorations",
+      "No additional drawing or final touch: this is the pause AFTER working",
+      "Preserve the referenced crane design, KOREA position and lower crane if visible; do not invent text",
+      "Natural five-finger anatomy, no merged hands, no moving objects implied without contact",
+      "Clean realistic smooth textures, no wormlike AI grain"
+    ],
+    "text": "No overlaid text. Artwork lettering only if actually in view; preserve KOREA under large crane, small crane below.",
+    "ending": "This cutaway leads to the existing locked overhead completed-artwork shot.",
+    "motion_context": "Normal human real-time action, no slow-motion, no exaggerated movement, no camera rise or orbit.",
+    "id": "02",
+    "name": "잠깐 손을 쉬는 순간",
+    "description": "Candid close shot at desk edge of the woman's two relaxed hands taking a quiet rest. Both forearms rest naturally on the near edge of the matte ivory table, fingertips gently touching one another, not tightly clasped, no awkward finger interlace. Pale blue shirt cropped at upper edge, black apron partly softly visible behind. Only a narrow out-of-focus paper corner far upper-left and distant small blue pencil shape; artwork intentionally not readable. Calm pause suggests time passed and labour finished, no sigh or face visible.",
+    "camera": "65mm lens, side-on desk-height closeup, f/3.5, focus on relaxed fingers and natural nails, softly blurred torso/background",
+    "composition": "Two hands lower-center with generous plain desk space upper-right, anatomically grounded wrists."
+  },
+  {
+    "use_case": "photorealistic-natural",
+    "output": "ONE standalone cinematic photograph, landscape 16:9, no panel collage, no caption, 1920x1080 or higher detailed output",
+    "references": {
+      "image_1": "Same matte ivory desk, exact crane artwork composition and consistent black, blue, red pencils and white eraser; finished arrangement reference.",
+      "image_2": "Same adult woman's hands, pale blue short-sleeve shirt, partial artwork reference."
+    },
+    "style": "Photorealistic quiet editorial art academy film still, consistent with preceding and following storyboard, clean modern small studio, minimal clutter",
+    "lighting": "Large soft natural window light from upper right, warm-neutral skin, cool ivory-neutral whites, believable soft directional shadows, no harsh bloom",
+    "materials": "Clean seamless matte ivory tabletop without spots or speckles. Natural skin subtle pores and nail beds; no plastic skin. Clean fine cotton shirt if visible. Actual fine paper fibre, restrained coloured-pencil wax and graphite grain only on drawn portions, no all-over noise/mottling.",
+    "palette": "Ivory, white, powder blue, matte black, red and cobalt pencil shafts, artwork's blue yellow red accents. Neutral filmic correction, no teal-orange look.",
+    "constraints": [
+      "Only graphite and coloured pencils, no paint/brush/palette/easel",
+      "Paper is flat on desk and upright to artist, never rotated sideways",
+      "No plants, terrazzo, perforated chairs, teachers, face closeup, invented decorations",
+      "No additional drawing or final touch: this is the pause AFTER working",
+      "Preserve the referenced crane design, KOREA position and lower crane if visible; do not invent text",
+      "Natural five-finger anatomy, no merged hands, no moving objects implied without contact",
+      "Clean realistic smooth textures, no wormlike AI grain"
+    ],
+    "text": "No overlaid text. Artwork lettering only if actually in view; preserve KOREA under large crane, small crane below.",
+    "ending": "This cutaway leads to the existing locked overhead completed-artwork shot.",
+    "motion_context": "Normal human real-time action, no slow-motion, no exaggerated movement, no camera rise or orbit.",
+    "id": "03",
+    "name": "도구의 정물 컷",
+    "description": "No person or hand. Close-up still life of exactly three pencils, black blue red from left to right, resting parallel on the smooth ivory table, their sharpened ends pointing toward the top. Clean white rectangular eraser lies above the tips. Narrow blank edge of artwork paper visible along left, image area outside crop. Soft natural window light and pencil shadows quietly mark a pause in work. Keep props arrangement consistent with the final reference.",
+    "camera": "100mm macro, shallow 20 degree grazing angle from the pencil tips toward barrels, f/4, pencil tips in sharp focus, eraser and distant ends fall softly out of focus",
+    "composition": "Three sharpened wood/pigment tips prominent foreground, repeating calm diagonals; minimal background."
+  },
+  {
+    "use_case": "photorealistic-natural",
+    "output": "ONE standalone cinematic photograph, landscape 16:9, no panel collage, no caption, 1920x1080 or higher detailed output",
+    "references": {
+      "image_1": "Same matte ivory desk, exact crane artwork composition and consistent black, blue, red pencils and white eraser; finished arrangement reference.",
+      "image_2": "Same adult woman's hands, pale blue short-sleeve shirt, partial artwork reference."
+    },
+    "style": "Photorealistic quiet editorial art academy film still, consistent with preceding and following storyboard, clean modern small studio, minimal clutter",
+    "lighting": "Large soft natural window light from upper right, warm-neutral skin, cool ivory-neutral whites, believable soft directional shadows, no harsh bloom",
+    "materials": "Clean seamless matte ivory tabletop without spots or speckles. Natural skin subtle pores and nail beds; no plastic skin. Clean fine cotton shirt if visible. Actual fine paper fibre, restrained coloured-pencil wax and graphite grain only on drawn portions, no all-over noise/mottling.",
+    "palette": "Ivory, white, powder blue, matte black, red and cobalt pencil shafts, artwork's blue yellow red accents. Neutral filmic correction, no teal-orange look.",
+    "constraints": [
+      "Only graphite and coloured pencils, no paint/brush/palette/easel",
+      "Paper is flat on desk and upright to artist, never rotated sideways",
+      "No plants, terrazzo, perforated chairs, teachers, face closeup, invented decorations",
+      "No additional drawing or final touch: this is the pause AFTER working",
+      "Preserve the referenced crane design, KOREA position and lower crane if visible; do not invent text",
+      "Natural five-finger anatomy, no merged hands, no moving objects implied without contact",
+      "Clean realistic smooth textures, no wormlike AI grain"
+    ],
+    "text": "No overlaid text. Artwork lettering only if actually in view; preserve KOREA under large crane, small crane below.",
+    "ending": "This cutaway leads to the existing locked overhead completed-artwork shot.",
+    "motion_context": "Normal human real-time action, no slow-motion, no exaggerated movement, no camera rise or orbit.",
+    "id": "04",
+    "name": "완성된 파도 디테일",
+    "description": "No hands or tools touching paper. Photograph a tightly framed section of the completed reference artwork: blue curl of wave, white swirling negative spaces and adjacent black-white crane feather. Preserve exact drawing shapes and pencil colours from reference, do not redesign. Paper lies flat. Only this small area visible, not whole sheet nor KOREA nor second crane. Completed dense blue pigment and graphite appear realistic, little paper texture in whites. This is a detail reveal between partial drawing and full finished work.",
+    "camera": "100mm macro, near-vertical 75 degree angle, f/5.6, fixed camera; sharp blue pencil grain and crisp white curl, very gentle peripheral blur",
+    "composition": "Blue wave curl dominates right-center, feather edge left-lower, enough white paper breathing room, no invented new pattern."
+  },
+  {
+    "use_case": "photorealistic-natural",
+    "output": "ONE standalone cinematic photograph, landscape 16:9, no panel collage, no caption, 1920x1080 or higher detailed output",
+    "references": {
+      "image_1": "Same matte ivory desk, exact crane artwork composition and consistent black, blue, red pencils and white eraser; finished arrangement reference.",
+      "image_2": "Same adult woman's hands, pale blue short-sleeve shirt, partial artwork reference."
+    },
+    "style": "Photorealistic quiet editorial art academy film still, consistent with preceding and following storyboard, clean modern small studio, minimal clutter",
+    "lighting": "Large soft natural window light from upper right, warm-neutral skin, cool ivory-neutral whites, believable soft directional shadows, no harsh bloom",
+    "materials": "Clean seamless matte ivory tabletop without spots or speckles. Natural skin subtle pores and nail beds; no plastic skin. Clean fine cotton shirt if visible. Actual fine paper fibre, restrained coloured-pencil wax and graphite grain only on drawn portions, no all-over noise/mottling.",
+    "palette": "Ivory, white, powder blue, matte black, red and cobalt pencil shafts, artwork's blue yellow red accents. Neutral filmic correction, no teal-orange look.",
+    "constraints": [
+      "Only graphite and coloured pencils, no paint/brush/palette/easel",
+      "Paper is flat on desk and upright to artist, never rotated sideways",
+      "No plants, terrazzo, perforated chairs, teachers, face closeup, invented decorations",
+      "No additional drawing or final touch: this is the pause AFTER working",
+      "Preserve the referenced crane design, KOREA position and lower crane if visible; do not invent text",
+      "Natural five-finger anatomy, no merged hands, no moving objects implied without contact",
+      "Clean realistic smooth textures, no wormlike AI grain"
+    ],
+    "text": "No overlaid text. Artwork lettering only if actually in view; preserve KOREA under large crane, small crane below.",
+    "ending": "This cutaway leads to the existing locked overhead completed-artwork shot.",
+    "motion_context": "Normal human real-time action, no slow-motion, no exaggerated movement, no camera rise or orbit.",
+    "id": "05",
+    "name": "종이에서 손을 떼는 순간",
+    "description": "Overhead close detail of lower-left corner of the same artwork sheet on ivory table. Woman's left hand has just released the paper edge: four relaxed fingertips are 1cm away from the paper on the desk, thumb anatomically visible near lower side. A soft fingertip shadow reveals small separation, no hand gripping or pulling. Paper stays perfectly flat and stationary. Only bottom white margin and a small partial glimpse of the lower crane wing at upper-right; the main drawing and KOREA are outside crop. This clean gesture signals no more work, handing the stage to the artwork.",
+    "camera": "70mm, exact overhead closeup, f/4.5, paper edge and nails sharply resolved, no distorted fingers",
+    "composition": "Paper edge diagonal only through optical view? NO: paper edge vertical and lower edge horizontal in frame; fingertips left, generous ivory desk; cropped lower crane at upper-right."
+  }
+]
