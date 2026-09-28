@@ -1,0 +1,76 @@
+{
+  "version": "V8",
+  "resolution": "1280x720",
+  "fps": 24,
+  "duration_seconds": 18.5,
+  "transition_seconds": 0.5833333333333334,
+  "additional_flow_credits": 14,
+  "balance_before": 277,
+  "balance_after": 263,
+  "model": "Omni 1.1 Flash",
+  "image_edit_tool": "built-in image_gen",
+  "shots": [
+    {
+      "id": "S01",
+      "source": "outputs/godo-video-v31/images/01-opening.png",
+      "source_start": 0,
+      "source_end": 2.5,
+      "playback_speed": 1,
+      "edited_duration": 2.5
+    },
+    {
+      "id": "S02",
+      "source": "outputs/godo-video-v31/videos/S02.mp4",
+      "source_start": 0,
+      "source_end": 2.5,
+      "playback_speed": 1,
+      "edited_duration": 2.5
+    },
+    {
+      "id": "S03",
+      "source": "outputs/godo-video-v31/videos/S03-retry.mp4",
+      "source_start": 0,
+      "source_end": 1.5,
+      "playback_speed": 0.5,
+      "edited_duration": 3.0
+    },
+    {
+      "id": "S04",
+      "source": "outputs/godo-video-v31/videos/S04.mp4",
+      "source_start": 0,
+      "source_end": 1.5,
+      "playback_speed": 0.5,
+      "edited_duration": 3.0
+    },
+    {
+      "id": "S05",
+      "source": "outputs/godo-video-v32/videos/S05.mp4",
+      "source_start": 0,
+      "source_end": 2.1,
+      "playback_speed": 0.6,
+      "edited_duration": 3.5000000000000004
+    },
+    {
+      "id": "S06",
+      "source": "outputs/godo-video-v32/videos/S06.mp4",
+      "source_start": 0,
+      "source_end": 2.4,
+      "playback_speed": 0.6,
+      "edited_duration": 4.0
+    },
+    {
+      "id": "S07",
+      "source": "outputs/godo-video-v32/images/07-artwork-only.png",
+      "source_start": 0,
+      "source_end": 3.5,
+      "playback_speed": 1,
+      "edited_duration": 3.5
+    }
+  ],
+  "notes": [
+    "Hand shots use 50-60 percent playback with motion-compensated interpolation, explicitly slowed per latest request.",
+    "S05 and S06 regenerated at native 720p; original S03/S04 reused with short controlled ranges.",
+    "Ending is a single centered sheet without tools, slightly wider view.",
+    "No guarantee of pixel-perfect pencil/pigment synchronization."
+  ]
+}

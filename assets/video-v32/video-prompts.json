@@ -1,0 +1,37 @@
+[
+  {
+    "description": "A careful student slowly shades only the small blue patch already touching her blue pencil. Existing sketch and props remain unchanged.",
+    "style": "Natural photographic real-world movement, patient precise drawing.",
+    "camera": "Tripod locked completely. Same high oblique framing, no drifting or zoom.",
+    "lighting": "Same steady soft natural daylight and realistic clean textures.",
+    "environment": "Plain ivory desk with loosely placed black and red pencils, no eraser.",
+    "elements": "Right hand retains same relaxed tripod grip; left hand, paper and spare pencils are still.",
+    "motion": "Throughout the entire four seconds, make ONE slow controlled 3 millimetre shading stroke following the existing blue boundary immediately beneath the tip. Spread the movement evenly across all four seconds. Rest wrist on the desk. Only thumb and index make a tiny steady flex. The pencil remains in contact with paper in the same small blue patch. No fast back-and-forth scribbling and no sudden wrist shift. Blue pigment remains subtle and only at contact; all surrounding artwork stays fixed.",
+    "ending": "The tip rests calmly on the same patch.",
+    "text": "Preserve original KOREA lettering unchanged.",
+    "duration_seconds": 4,
+    "keywords": [
+      "patient deliberate stroke",
+      "stable contact",
+      "small fixed movement area"
+    ]
+  },
+  {
+    "description": "Close view of a hand gently releasing one blue pencil already resting on an ivory desk.",
+    "style": "Calm realistic everyday action, deliberate and unhurried.",
+    "camera": "Completely static tripod, same perspective and focus.",
+    "lighting": "Unchanged natural daylight with real contact shadows.",
+    "environment": "Ivory desk, cropped drawing edge left. Only one blue pencil visible.",
+    "elements": "Same right hand, blue pencil resting fully flat, blue shirt.",
+    "motion": "Take the FULL four seconds for this very small gesture. For first two seconds the thumb and index slowly relax their light contact with the pencil, opening only a few millimetres. During final two seconds lift relaxed fingertips just one centimetre and move hand two centimetres to the right, remaining visible. No sweeping hand out of frame. Pencil stays in exactly the same place without sliding, rolling or bouncing. Smooth controlled speed with gentle start and stop.",
+    "ending": "Hand rests near the pencil, visible at right; pencil flat and still.",
+    "text": "No added text.",
+    "duration_seconds": 4,
+    "keywords": [
+      "slow careful release",
+      "no jump",
+      "stable object",
+      "minimal movement"
+    ]
+  }
+]

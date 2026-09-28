@@ -1,0 +1,36 @@
+{
+  "ending": {
+    "use_case": "precise-object-edit",
+    "description": "Edit the provided ending image. Show ONLY the single sheet of finished artwork centered horizontally and vertically on the same plain ivory tabletop, viewed from slightly further away.",
+    "camera": "Perfectly perpendicular overhead 50mm equivalent, zero tilt; entire sheet occupies 78 percent of frame height, equal top and bottom margins, ample quiet left and right negative space. Landscape 16:9.",
+    "lighting": "Same soft upper right daylight, subtle realistic paper contact shadow, no dramatic spotlight.",
+    "elements": "Exactly one white portrait-oriented sheet. Remove all three pencils and eraser completely. No hands, no other objects.",
+    "invariants": "Preserve the entire exact drawing on the paper without reinterpretation: crane feather shapes, blue waves, yellow sun and mountain, black orange clouds, geometric KOREA lettering at identical relative position, small crane below. Do not alter or simplify any line or color.",
+    "materials": "Clean smooth matte ivory tabletop, realistic fine paper grain and colored pencil pigment only on artwork. No stains, mottled synthetic texture, speckles or dirty patches.",
+    "focus": "All artwork sharp edge to edge, natural optical detail, no aggressive sharpening.",
+    "text": "Only original KOREA within artwork; preserve spelling and exact position.",
+    "output": "High quality photorealistic 16:9 image."
+  },
+  "partial": {
+    "use_case": "precise-object-edit",
+    "description": "Modify ONLY the unused drawing tools on tabletop in the supplied photo. Preserve the woman hands, blue pencil in hand, entire partial artwork and paper, camera, lighting and table EXACTLY.",
+    "objects": "Remove the white eraser and the black and red pencils from their rigid parallel upright row. Instead put the black pencil loosely almost horizontal near the upper-right edge, and a shorter red pencil lower down at a different diagonal, with visibly unequal spacing. Eraser is absent. These two resting pencils stay well clear of the drawing hand. Casual credible used work desk, not a product flatlay or aligned set. No extra clutter.",
+    "camera": "Same high oblique 16:9 photo framing and optical perspective.",
+    "lighting": "Preserve soft daylight and shadow direction.",
+    "materials": "Preserve clean photographic hand skin pores and fine paper texture; plain ivory tabletop, no blotches, no synthetic mottled texture.",
+    "focus": "Pencil contact and artwork sharp, same gentle foreground blur.",
+    "text": "Preserve KOREA exactly and original drawing linework without revision.",
+    "constraints": "Do not change any part of drawing, face, hands, grip or blue pencil tip. No paint, brush, palettes or easel."
+  },
+  "bridge": {
+    "use_case": "precise-object-edit",
+    "description": "Edit this closeup photograph of a right hand putting down a blue colored pencil on an ivory workdesk. Remove the staged perfectly parallel three-pencil row and white eraser.",
+    "elements": "Keep only the blue pencil and the existing right hand, with cropped artwork paper edge on left. Blue pencil already rests flat on desk at a relaxed diagonal 25 degrees clockwise relative to image vertical. Existing thumb and index lightly touch its lower third, just before letting go. Remove black pencil, red pencil and white eraser entirely from this closeup. This is a casually used workspace, not symmetrical product styling.",
+    "invariants": "Same hand anatomy, five anatomically normal fingers, soft blue shirt at right, same partial drawing along left edge; no changes to printed/drawn motif. Empty uncluttered ivory desk around hand.",
+    "camera": "Same oblique macro 85mm natural perspective, landscape16:9; focus at thumb and blue pencil contact, soft natural depth blur on far paper edge.",
+    "lighting": "Same natural daylight from upper right, true contact shadows, no dramatic change.",
+    "materials": "Real skin creases and pores, smooth painted hexagonal wood pencil, subtle paper fibers. Clean matte ivory table. No mottling, stains, waxy plastic skin or embossed skin.",
+    "text": "No added lettering.",
+    "motion_intent": "Hand can release grip and move only a couple centimetres, not a big retreat."
+  }
+}
