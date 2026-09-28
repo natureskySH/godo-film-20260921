@@ -1,0 +1,88 @@
+{
+  "S03-prompt": {
+    "reference_roles": {
+      "image1": "edit target, exact hand, page, outline and light",
+      "image2": "immutable finished artwork layout and portrait orientation only"
+    },
+    "camera": {
+      "view": "Locked perpendicular overhead, ZERO ROLL. Move camera closer by about1.5x toward the main crane illustration, WITHOUT rotating page or camera. Close-up of the same portrait-oriented sheet, not a wider landscape-shaped paper.",
+      "framing": "Main crane and hand now larger, centered main crane. Upper sun/mountain visible if within crop, KOREA may sit at lower edge, lower small crane outside close-up. Camera crop must not redesign or rearrange anything. Paper long edges remain vertical where visible.",
+      "lens": "85mm photographic equivalent, f8 visual feel, natural depth with pencil-contact point sharp"
+    },
+    "lighting": "Exact soft neutral daylight from source with natural soft hand shadow and no additional grading",
+    "materials": "Subtle fine skin pores, smooth realistic skin shading, clean matte fine-grained paper, precise dry pencil marks, pale blue cotton sleeve. No rough embossed skin, grain overlay, stains or smears.",
+    "output": "16:9 landscape1672x941, true editorial photographic image. No labels or added text.",
+    "id": "V41_S03",
+    "task": "Same upright close-up photograph at EARLY GRAPHITE FIRST LINE stage",
+    "description": "Use image1 hand and natural tripod grip, but make the pencil a black wooden GRAPHITE pencil. Remove the small blue patch so absolutely no color remains on paper. The overall artwork is only very faint preliminary graphite construction lines in the exact same source layout. The same hand moves as one unit slightly down to touch one existing upper-right wing feather contour; retain exact hand anatomy, grip, nail shape, supported wrist. At its tip a single short clean thin graphite feather-outline segment is darker, the rest of drawing is faint guides on white paper. No filled shading, no finished black feathers, no loose new line disconnected from the design. Camera closer as specified without rotating the portrait sheet. Keep the main crane axis vertically aligned with KOREA below exactly as image2. Only one right hand. Drawing upright to artist sitting below the frame."
+  },
+  "S04-base-prompt": {
+    "id": "V41_S04",
+    "task": "Progress-stage edit of image1; image2 exact design master",
+    "description": "Keep image1 absolutely identical in camera, hand, skin, pencil, page position and all contour geometry. Change ONLY the progress of the artwork to the FIRST BLUE COLOR stage. ALL artwork is an uncolored precise thin graphite outline, including the sun, mountain, feathers, both cranes, horizontal ornaments and KOREA. Remove orange, yellow, green, red, black filled shading and all blue except one SMALL lightly shaded blue patch directly underneath the exact blue pencil tip in the existing blue-water region. The small blue patch covers less than five percent of the artwork. The rest stays white paper inside fine gray contours. The larger crescent left of the main crane neck stays white as in image2.",
+    "continuity": "Exact same right hand anatomy, nail shape, relaxed tripod grip, pencil angle, supported wrist and pale blue sleeve from image1. Preserve same contact location and keep ink/pigment inside actual original contour. Paper portrait upright, flat horizontal desk, top toward frame top, KOREA horizontal below large crane, small crane below text.",
+    "camera": "Same zero-roll perpendicular top-down photograph, entire portrait sheet centered in 16:9 frame. No sideways paper, no oblique perspective.",
+    "lighting": "Constant soft neutral daylight same direction and exposure.",
+    "materials": "Realistic skin with subtle pores/creases and no new noise, matte ivory desk, fine white paper, faint dry graphite outlines, genuine dry blue pencil pigment. No liquids or brushes.",
+    "text": "Exact KOREA outline position/size from reference; no new lettering.",
+    "output": "1672x941 landscape, photorealistic, not collage"
+  },
+  "S04-close-prompt": {
+    "reference_roles": {
+      "image1": "edit target, exact hand, page, outline and light",
+      "image2": "immutable finished artwork layout and portrait orientation only"
+    },
+    "camera": {
+      "view": "Locked perpendicular overhead, ZERO ROLL. Move camera closer by about1.5x toward the main crane illustration, WITHOUT rotating page or camera. Close-up of the same portrait-oriented sheet, not a wider landscape-shaped paper.",
+      "framing": "Main crane and hand now larger, centered main crane. Upper sun/mountain visible if within crop, KOREA may sit at lower edge, lower small crane outside close-up. Camera crop must not redesign or rearrange anything. Paper long edges remain vertical where visible.",
+      "lens": "85mm photographic equivalent, f8 visual feel, natural depth with pencil-contact point sharp"
+    },
+    "lighting": "Exact soft neutral daylight from source with natural soft hand shadow and no additional grading",
+    "materials": "Subtle fine skin pores, smooth realistic skin shading, clean matte fine-grained paper, precise dry pencil marks, pale blue cotton sleeve. No rough embossed skin, grain overlay, stains or smears.",
+    "output": "16:9 landscape1672x941, true editorial photographic image. No labels or added text.",
+    "id": "V41_S04_CLOSE",
+    "task": "Camera closer ONLY, preserving the existing FIRST BLUE COLOR progress",
+    "description": "Take image1 and bring camera closer as specified. Preserve exact existing hand pose, nail shape, finger bends, blue pencil axis, small blue patch at contact, precise uncolored graphite outlines everywhere else. No new colored area. The underlying drawing stays upright like image2, never sideways. Preserve source relative scale of crane, mountain and text."
+  },
+  "S05-prompt": {
+    "id": "V41_S05",
+    "task": "Edit reference1, preserving its entire portrait artwork and paper orientation precisely, add a drawing hand and make colors partially finished.",
+    "reference_roles": {
+      "image1": "AUTHORITATIVE EDIT TARGET: S06 final artwork photograph. Exact portrait paper, orientation, design proportions, both cranes, KOREA position and all contour geometry. Do not rotate, tilt or stretch it.",
+      "image2": "REFERENCE ONLY: the same woman's right hand anatomy, natural nails, tripod pencil grip and pale blue short sleeve. Do NOT copy its sideways paper perspective or artwork layout."
+    },
+    "description": "Photorealistic 16:9 overhead working photograph. Keep the exact upright portrait sheet from image1 centered on the same smooth ivory table, top edge at top of frame, KOREA word horizontal and readable below the large crane, small crane below that. The artist sits below the bottom edge of the frame, so the drawing is upright from her own viewpoint. One right hand enters from lower right, with supported wrist outside the sheet and a natural drawing grip, blue colored pencil angled diagonally up-left contacting the existing blue wave inside its boundary. The hand covers only a small lower-right/central-right portion and never dominates the drawing. Make the artwork about 70 percent colored: preserve completed black feather shading and orange sun/green mountain, leave a small pale unfinished section inside the blue water exactly beneath pencil tip. All other elements match image1 precisely.",
+    "camera": {
+      "position": "90 degree top-down, optical axis perpendicular to flat paper, zero roll",
+      "framing": "Full portrait sheet and both cranes visible, sheet central x50%, entire illustration central, generous ivory margins left and right. Match S06 paper placement and aspect as closely as possible.",
+      "lens": "70mm equivalent low-distortion photographic optics",
+      "focus": "paper artwork and pencil contact sharp, realistic f8 depth, hand natural detail"
+    },
+    "lighting": "Same soft diffuse natural daylight and neutral ivory background as image1. Gentle realistic hand cast shadow, no directional reversal or dramatic grading.",
+    "style": "Actual editorial photograph, quiet modern art workspace",
+    "texture_materials": "Fine matte white paper, dry colored pencil thin pigment layers, real graphite, natural smooth skin with subtle pores and shallow creases, no embossed scratch pattern, no generalized mottled overlay, no oily paint, clean pale blue cotton.",
+    "text": "Preserve exact KOREA lettering under the large crane at the source position and scale. Do not add any text.",
+    "continuity": [
+      "Landscape video frame but PORTRAIT paper standing upright within that frame",
+      "Paper lies FLAT on a desk, never an easel",
+      "Same paper as S06: no 90degree rotation, no diagonal artwork, no reversed text",
+      "Same natural right hand and ordinary wooden blue colored pencil, no brush or palette",
+      "No arranged spare pencils, no eraser, no plants, no new props",
+      "No watermark, no collage, no labels"
+    ],
+    "output": {
+      "aspect": "16:9",
+      "resolution": "1672x941 or higher"
+    }
+  },
+  "S05-repair-prompt": {
+    "id": "V41_S05_repair",
+    "task": "Precise local color correction only. Image1 edit target, image2 authoritative completed artwork reference.",
+    "description": "In image1 restore the large crescent-shaped blank area LEFT of the crane's black neck to WHITE paper as it is in image2. The region between the upper-left blue circle arc and the crane neck must remain white, not light-blue filled. Preserve the blue wedge at its lower left exactly as in image2. Retain the other existing blue water area and the small pale partially unfinished patch under the contacting blue-pencil tip. Do not repaint or redesign any other element.",
+    "preserve": "Exact entire image1 paper position, upright portrait orientation, artwork geometry, both cranes, KOREA placement, hand anatomy, nails, grip, pencil contact, natural skin and cloth. Only the specified left crescent color changes.",
+    "camera": "Same locked 90-degree overhead 16:9 composition, sheet centered, no rotation or scale change.",
+    "lighting": "Same diffuse neutral daylight, restrained real skin highlights and gentle shadows.",
+    "texture": "Same fine matte paper and dry pencil strokes; clean natural skin, no blotchy overlay or embossed noise.",
+    "output": "1672x941 landscape photograph, no labels or watermark"
+  }
+}
