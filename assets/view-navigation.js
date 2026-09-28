@@ -10,7 +10,7 @@
   if (!pair) return;
   const video = document.querySelector('video');
   if (!video) return;
-  const sources = ['video-v1.mp4?v=original-v1', 'video.mp4?v=floral-v5-20260922', 'video-v3.mp4?v=v3-20260923', 'video-v4.mp4?v=v4-quality-20260923', 'video-v5.mp4?v=v5-draft-20260928'];
+  const sources = ['video-v1.mp4?v=original-v1', 'video.mp4?v=floral-v5-20260922', 'video-v3.mp4?v=v3-20260923', 'video-v4.mp4?v=v4-quality-20260923', 'video-v5-slow.mp4?v=v5-slow60-soft-20260928'];
   const posters = ['assets/v1-preview.png', 'assets/preview.png', 'assets/v3-preview.jpg', 'assets/v4-preview.jpg', 'assets/v5-preview.jpg'];
   const initialSource = video.getAttribute('src').split('?')[0];
   let active = sources.findIndex(source => source.split('?')[0] === initialSource);
