@@ -1,9 +1,9 @@
 {
   "status": "storyboard_only_not_video_generated",
-  "revision": "v24-apron",
+  "revision": "v25-user-approved-apron",
   "duration_target_seconds": 12,
-  "selected_apron_idea": 4,
-  "selection_reason": "착용 행동이 읽히고 로고가 가려지지 않으며, 얼굴 초근접 다음에 사선 미디엄 구도로 화면 크기가 변한다.",
+  "selected_apron_idea": 3,
+  "selection_reason": "사용자가 첨부 이미지로 직접 확정한 허리끈 손 클로즈업.",
   "removed": [
     "집중하는 얼굴",
     "완성작 마지막 터치",
@@ -43,10 +43,10 @@
     {
       "order": 2,
       "title": "앞치마를 입으며 준비",
-      "image": "02-apron.png",
-      "description": "선택한 4번 안. 몸을 약간 틀어 허리끈을 뒤로 가져갑니다. 앞치마 정면의 로고와 GODO를 가리지 않습니다.",
-      "camera": "정면에서 약 30도 사선 · 상체부터 허벅지까지",
-      "motion": "끈을 뒤로 가져가는 짧고 차분한 동작 하나",
+      "image": "02-apron-approved.png",
+      "description": "사용자가 확정한 손 클로즈업. 양옆 허리끈을 잡고 천천히 뒤로 가져가며 앞치마를 입습니다. 손과 끈에 초점을 두고 로고와 GODO를 함께 보여줍니다.",
+      "camera": "허리 높이의 사선 클로즈업 · 가까운 손과 허리끈에 초점",
+      "motion": "양옆 허리끈을 잡은 손이 뒤로 천천히 이동하는 짧은 동작. 다시 잡기·끈 튕김·급격한 당김 없이 손 모양 유지.",
       "ending": "손동작이 마무리되는 지점에서 연필 매크로로 전환",
       "duration_seconds": 2,
       "timeline_seconds": [
@@ -55,12 +55,12 @@
       ],
       "style": "사실적인 사진 질감 · 절제된 동작 · 자연광",
       "lighting": "첫 두 장면: 화면 우측 상단 자연광, 회백색 벽과 따뜻한 하이라이트. 작업 장면: 동일 자연광 환경에서 촬영축에 따른 방향 변화.",
-      "environment": "모던한 소규모 블루 스튜디오 · 무광 아이보리 책상 · 구멍 없는 블루 의자",
+      "environment": "첫 장면과 동일한 회백색 벽 · 화면 우측 상단의 자연광 · 장소를 설명하는 소품 없음",
       "elements": [
-        "승인된 캐릭터와 의상",
-        "기존 로고와 GODO",
-        "책상에 평평하게 놓은 종이",
-        "연필과 색연필"
+        "라이트블루 셔츠",
+        "검정 앞치마",
+        "기존 다색 로고와 GODO",
+        "양옆 허리끈을 잡은 손"
       ],
       "text": "대사·자막 없음. 앞치마 GODO와 작품 속 KOREA만 유지.",
       "keywords": [
@@ -193,5 +193,6 @@
     }
   ],
   "transition_plan": "짧은 0.12~0.18초 전환을 각 2초 구간 안에 포함. 손과 작품이 겹쳐 보이지 않도록 형태·움직임에 맞춰 편집. 엔딩은 두 개의 키프레임을 잇는 단일 카메라 이동.",
-  "quality_note": "스토리보드 이미지 선택본. 동작과 전환의 최종 품질은 실제 영상 생성 후 별도 확인."
+  "quality_note": "스토리보드 이미지 선택본. 동작과 전환의 최종 품질은 실제 영상 생성 후 별도 확인.",
+  "approved_source": "codex-clipboard-291da1a0-90e5-4f8c-bbb3-1e3910436abf.png"
 }
