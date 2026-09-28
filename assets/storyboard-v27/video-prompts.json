@@ -1,0 +1,171 @@
+[
+  {
+    "style": "Photorealistic premium art-academy brand film. Quiet confidence, real-time restrained movement. Preserve reference identity and photographic texture.",
+    "duration_seconds": 8,
+    "format": "16:9. Highest available quality. One continuous take. No speech, captions, music or added text.",
+    "lighting": "Preserve reference natural window lighting and neutral color grade. No flicker, changing exposure, artificial surface noise or skin smoothing.",
+    "constraints": "Keep character, garment, GODO mark, paper, artwork geometry, KOREA lettering and props consistent with supplied frame. Physical inertia, stable fingers, no morphing or object sliding. Paper remains flat on desk facing artist. Only graphite and colored pencils; never paint, brushes, palette or easel.",
+    "keywords": [
+      "photorealism",
+      "stable anatomy",
+      "natural movement",
+      "preserved artwork",
+      "consistent texture"
+    ],
+    "title": "GODO-V27-F01-portrait",
+    "image": "01-opening.png",
+    "description": "Same fictional adult woman as input frame, calm close-up looking upper right. Maintain exact face and natural closed lips.",
+    "camera": "Locked 85mm portrait camera, f2.8. Nearest eye in fixed sharp focus; background optical bokeh. No orbit, zoom or reframing.",
+    "environment": "Pale gray-white wall, warm sunlight upper right.",
+    "elements": [
+      "brown ponytail",
+      "light blue short-sleeve shirt",
+      "black apron neck loop"
+    ],
+    "motion": "Only subtle relaxed breathing and one very gentle natural blink. Head stays still, eyes keep same upward-right gaze, mouth and expression remain unchanged. No smile growth, smirk, head turn or talking.",
+    "ending": "Hold original composition and gaze.",
+    "text": "None."
+  },
+  {
+    "style": "Photorealistic premium art-academy brand film. Quiet confidence, real-time restrained movement. Preserve reference identity and photographic texture.",
+    "duration_seconds": 8,
+    "format": "16:9. Highest available quality. One continuous take. No speech, captions, music or added text.",
+    "lighting": "Preserve reference natural window lighting and neutral color grade. No flicker, changing exposure, artificial surface noise or skin smoothing.",
+    "constraints": "Keep character, garment, GODO mark, paper, artwork geometry, KOREA lettering and props consistent with supplied frame. Physical inertia, stable fingers, no morphing or object sliding. Paper remains flat on desk facing artist. Only graphite and colored pencils; never paint, brushes, palette or easel.",
+    "keywords": [
+      "photorealism",
+      "stable anatomy",
+      "natural movement",
+      "preserved artwork",
+      "consistent texture"
+    ],
+    "title": "GODO-V27-F02-apron",
+    "image": "02-apron.png",
+    "description": "Woman finishes wearing her apron. Neck loop is already worn. Same torso crop, geometric logo and GODO visible.",
+    "camera": "Locked 65mm three-quarter torso closeup, f4, focus on chest logo and near hand. Face outside frame.",
+    "environment": "Same pale gray-white wall and upper-right window light as portrait.",
+    "elements": [
+      "clean solid black apron",
+      "plain light blue short-sleeved shirt",
+      "two single waist ties, one per hand"
+    ],
+    "motion": "Hands gently draw their own waist tie backwards toward respective hips by only 3cm during first 3 seconds, then rest. Do not tie a knot on camera, change grip or release ties. Each hand holds exactly one strap throughout. Torso remains nearly still. Tiny natural cloth tension only.",
+    "ending": "Hands settle; colored logo and white GODO remain readable and unchanged.",
+    "text": "Only reference logo and GODO."
+  },
+  {
+    "style": "Photorealistic premium art-academy brand film. Quiet confidence, real-time restrained movement. Preserve reference identity and photographic texture.",
+    "duration_seconds": 8,
+    "format": "16:9. Highest available quality. One continuous take. No speech, captions, music or added text.",
+    "lighting": "Preserve reference natural window lighting and neutral color grade. No flicker, changing exposure, artificial surface noise or skin smoothing.",
+    "constraints": "Keep character, garment, GODO mark, paper, artwork geometry, KOREA lettering and props consistent with supplied frame. Physical inertia, stable fingers, no morphing or object sliding. Paper remains flat on desk facing artist. Only graphite and colored pencils; never paint, brushes, palette or easel.",
+    "keywords": [
+      "photorealism",
+      "stable anatomy",
+      "natural movement",
+      "preserved artwork",
+      "consistent texture"
+    ],
+    "title": "GODO-V27-F03-graphite",
+    "image": "03-pencil.png",
+    "description": "First graphite contour stroke of crane feather on flat white drawing paper.",
+    "camera": "Locked100mm macro, fixed focus on pencil-paper contactpoint. No focus pumping or zoom.",
+    "environment": "Plain matte ivory desk, softly lit paper.",
+    "elements": [
+      "right hand natural tripod grip",
+      "black graphite pencil",
+      "very early uncolored crane feather outline"
+    ],
+    "motion": "Slowly draw ONE short 5mm curved graphite stroke extending the existing feather contour over 3 seconds. Maintain steady grip and relaxed wrist, tip touching paper. Then pause. No rapid scribbling, no instant completed picture, no invented outlines.",
+    "ending": "Still pencil tip at end of short stroke, monochrome artwork.",
+    "text": "No added text."
+  },
+  {
+    "style": "Photorealistic premium art-academy brand film. Quiet confidence, real-time restrained movement. Preserve reference identity and photographic texture.",
+    "duration_seconds": 8,
+    "format": "16:9. Highest available quality. One continuous take. No speech, captions, music or added text.",
+    "lighting": "Preserve reference natural window lighting and neutral color grade. No flicker, changing exposure, artificial surface noise or skin smoothing.",
+    "constraints": "Keep character, garment, GODO mark, paper, artwork geometry, KOREA lettering and props consistent with supplied frame. Physical inertia, stable fingers, no morphing or object sliding. Paper remains flat on desk facing artist. Only graphite and colored pencils; never paint, brushes, palette or easel.",
+    "keywords": [
+      "photorealism",
+      "stable anatomy",
+      "natural movement",
+      "preserved artwork",
+      "consistent texture"
+    ],
+    "title": "GODO-V27-F04-firstblue",
+    "image": "04-first-blue.png",
+    "description": "The same artwork at first coloring stage. Blue pencil fills small blue wave area, remaining artwork mostly graphite outlines.",
+    "camera": "Locked100mm macro, focus fixed on contactpoint and thumb. Near/far plane naturallysoft.",
+    "environment": "Smooth white paper flat on ivory desk.",
+    "elements": [
+      "blue lacquer pencil with BLUE core",
+      "right hand steadytripodgrip",
+      "same crane wave contour"
+    ],
+    "motion": "Two very slow short 3mm blue shading strokes within existing blue patch over first3seconds. Blue pigment grows only immediately under tip. Grip and paper stay fixed. No rapid wrist shaking or fingers morphing.",
+    "ending": "Blue patch only slightly fuller; outlines and all other content unchanged.",
+    "text": "No added text."
+  },
+  {
+    "style": "Photorealistic premium art-academy brand film. Quiet confidence, real-time restrained movement. Preserve reference identity and photographic texture.",
+    "duration_seconds": 8,
+    "format": "16:9. Highest available quality. One continuous take. No speech, captions, music or added text.",
+    "lighting": "Preserve reference natural window lighting and neutral color grade. No flicker, changing exposure, artificial surface noise or skin smoothing.",
+    "constraints": "Keep character, garment, GODO mark, paper, artwork geometry, KOREA lettering and props consistent with supplied frame. Physical inertia, stable fingers, no morphing or object sliding. Paper remains flat on desk facing artist. Only graphite and colored pencils; never paint, brushes, palette or easel.",
+    "keywords": [
+      "photorealism",
+      "stable anatomy",
+      "natural movement",
+      "preserved artwork",
+      "consistent texture"
+    ],
+    "title": "GODO-V27-F05-progress",
+    "image": "05-partial.png",
+    "description": "Wider high-oblique view of same partially colored crane artwork. Continue blue wave gently; this is work in progress, not final touch.",
+    "camera": "Very gentle 1cm lateral slider move, highoblique60mm f5.6. Keep drawingupright and geometryrigid, no autofocus shift.",
+    "environment": "Plain ivory table, original studio daylight.",
+    "elements": [
+      "same partiallycolored crane art",
+      "KOREA lettering",
+      "smallercrane",
+      "right bluepencil",
+      "left hand resting on papermargin",
+      "bareforearms from short-sleeve shirt"
+    ],
+    "motion": "One slow4mm light shadingstroke within bluewave, then hold. All props and drawing remain stationary. No time lapse or color suddenly filling whole artwork.",
+    "ending": "Cut on calm hold to completedwork in nextshot. Do not complete remaining colors inside thisclip.",
+    "text": "Preserve exact existing KOREA letters."
+  },
+  {
+    "style": "Photorealistic premium art-academy brand film. Quiet confidence, real-time restrained movement. Preserve reference identity and photographic texture.",
+    "duration_seconds": 8,
+    "format": "16:9. Highest available quality. One continuous take. No speech, captions, music or added text.",
+    "lighting": "Preserve reference natural window lighting and neutral color grade. No flicker, changing exposure, artificial surface noise or skin smoothing.",
+    "constraints": "Keep character, garment, GODO mark, paper, artwork geometry, KOREA lettering and props consistent with supplied frame. Physical inertia, stable fingers, no morphing or object sliding. Paper remains flat on desk facing artist. Only graphite and colored pencils; never paint, brushes, palette or easel.",
+    "keywords": [
+      "photorealism",
+      "stable anatomy",
+      "natural movement",
+      "preserved artwork",
+      "consistent texture"
+    ],
+    "title": "GODO-V27-F06-finished",
+    "image": "06-ending-start.png",
+    "end_image": "06-ending-end.png",
+    "description": "Completed artwork reveal. Smooth camera move from supplied over-shoulder start frame to supplied overhead end frame, same rigid physical table and artwork throughout.",
+    "camera": "One continuous controlled miniature crane move: advance over the paper and lift from highoblique to perpendicular overhead, smoothly completing in first3seconds, then settle and hold finalfullart. Smooth ease in/out. No scene cut, digital morph, roll or whip.",
+    "environment": "Compact blue studio, plain ivorydesk, solid bluechair, no patterns or plants.",
+    "elements": [
+      "stationary completed original craneart",
+      "KOREA",
+      "smallerflyingcrane",
+      "black blue red pencils parallel right ofpaper",
+      "whiteeraser above pencils",
+      "woman's blurred shoulder only atstart"
+    ],
+    "motion": "Camera moves; person stays quiet and leaves view only due to camera position. No drawing. Paper, pigment, lettering, pencils and eraser remain physically fixed. Maintain exact artwork contours as camera changes perspective. No handenters.",
+    "ending": "Hold end-frame completed artwork entirely visible for remaining5seconds. No logo endcard or fade toblack generated in clip.",
+    "text": "Only original KOREA within artwork."
+  }
+]

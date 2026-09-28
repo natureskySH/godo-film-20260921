@@ -1,0 +1,53 @@
+{
+  "shots": [
+    {
+      "file": "F01-1080p.mp4",
+      "start": 0,
+      "end": 1.75,
+      "duration": 2,
+      "reason": "Smile growth and later head motion excluded."
+    },
+    {
+      "file": "F02-1080p.mp4",
+      "start": 1.25,
+      "end": 3.25,
+      "duration": 2,
+      "reason": "One purposeful movement taking waist ties behind body."
+    },
+    {
+      "file": "F03-retry-1080p.mp4",
+      "start": 0,
+      "end": 2,
+      "duration": 2,
+      "reason": "Repaired graphite contour, pending final source range confirmation."
+    },
+    {
+      "file": "F04-1080p.mp4",
+      "start": 0,
+      "end": 1.75,
+      "duration": 2,
+      "reason": "Tip stays inside blue wave patch; later contact outside patch excluded."
+    },
+    {
+      "file": "F05-1080p.mp4",
+      "start": 0,
+      "end": 2,
+      "duration": 2,
+      "reason": "Shading only; pencil relocation excluded."
+    },
+    {
+      "file": "F06-1080p.mp4",
+      "start": 0.25,
+      "end": 3.5,
+      "duration": 3.25,
+      "reason": "Continuous over-shoulder to overhead move; no final drawing touch."
+    }
+  ],
+  "fps": 24,
+  "transition": "4 frame cross dissolve",
+  "transition_seconds": 0.16666666666666666,
+  "end_hold_seconds": 0.5,
+  "model": "Veo 3.1 Quality",
+  "resolution": "1920x1080; Flow upscale from 720p",
+  "audio": "silent"
+}
