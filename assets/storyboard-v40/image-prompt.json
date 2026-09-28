@@ -1,0 +1,23 @@
+{
+  "task": "precise composition edit",
+  "input_role": "The supplied image is the edit target and exact hand, artwork and texture reference.",
+  "description": "Reframe this exact scene by aiming the camera farther LEFT, so the MAIN DRAWING ITSELF (crane plus blue water plus mountain plus sun) is centered in the landscape frame rather than stranded left. This is a camera-framing adjustment, not moving pencil contact to center. Shift the visual center of the main artwork from about 38 percent to 50 percent of frame width. Leave more blank paper to the left, crop more of the large hand/blue sleeve on the right. Keep the entire main crane body, wings, blue water, mountain and orange sun comfortably readable.",
+  "invariants": [
+    "Same right hand, same thumb and index bend, same small natural nails and grip, same pencil on same blue region",
+    "Same artwork precisely including contours and existing partial coloring, no invented feathers, lettering or color changes",
+    "Same flat paper orientation on smooth ivory desk",
+    "No change to drawing stage"
+  ],
+  "camera": {
+    "shot": "oblique macro close-up shifted left toward artwork",
+    "lens": "85mm equivalent",
+    "focus": "pencil contact and central artwork",
+    "depth": "natural shallow depth, wrist edge soft but drawing legible"
+  },
+  "lighting": "Preserve soft daylight, smooth gradients, neutral natural color and exact source exposure",
+  "palette": "Ivory paper, blue pencil/water, small yellow orange sun and green mountain, natural skin, pale blue shirt",
+  "texture": "Photographic fine skin detail without repetitive scratches or embossed noise. Clean matte paper with fine subtle grain. Dry colored-pencil marks, no liquid paint, no smeared overlay or blotches.",
+  "composition": "Single continuous photograph, 16:9. Main artwork centered even at 360 pixel wide thumbnail. Hand secondary on upper right, sleeve only small lower right corner. Preserve perspective and paper support.",
+  "text": "Preserve any visible existing artwork lettering only, no captions, no added logos or watermark.",
+  "output": "High-quality photoreal 16:9 1672x941 or larger"
+}
