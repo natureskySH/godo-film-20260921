@@ -44,9 +44,16 @@
 .header-clear.full-dim .hero .hero-accent{color:#fff1bd!important}
 .header-clear.full-dim .hero .hero-result{color:#ff8d83!important}
 
-/* Strong glyph-local contrast on phones in both portrait and landscape. */
-@media (max-width:768px), (hover:none) and (pointer:coarse), (orientation:landscape) and (max-height:600px) and (max-width:1200px){
+/* Identical contrast at every viewport width, including unfolded phones.
+   The alpha-shaped filter backs up text-shadow without adding a panel. */
  .hero .hero-copy h1,.hero .hero-copy h1 span,.hero .hero-copy h1 em{
   text-shadow:-1px 0 1px #000,1px 0 1px #000,0 -1px 1px #000,0 1px 1px #000,0 2px 4px #000,0 0 8px #000e,0 3px 14px #000c!important;
  }
-}
+ body:not(.clean) .hero .hero-copy h1{
+  -webkit-filter:drop-shadow(0 1px 2px rgba(0,0,0,.95)) drop-shadow(0 0 4px rgba(0,0,0,.7))!important;
+  filter:drop-shadow(0 1px 2px rgba(0,0,0,.95)) drop-shadow(0 0 4px rgba(0,0,0,.7))!important;
+ }
+ /* Respect an explicitly requested accessibility color palette. */
+ @media(forced-colors:active){
+  body:not(.clean) .hero .hero-copy h1{-webkit-filter:none!important;filter:none!important}
+ }
