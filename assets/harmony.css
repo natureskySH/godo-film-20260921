@@ -43,3 +43,10 @@
 .header-clear.full-dim .hero h1{color:#fff!important;text-shadow:0 1px 2px #000,0 2px 5px #000e,0 0 9px #000b}
 .header-clear.full-dim .hero .hero-accent{color:#fff1bd!important}
 .header-clear.full-dim .hero .hero-result{color:#ff8d83!important}
+
+/* Strong glyph-local contrast on phones in both portrait and landscape. */
+@media (max-width:768px), (hover:none) and (pointer:coarse), (orientation:landscape) and (max-height:600px) and (max-width:1200px){
+ .hero .hero-copy h1,.hero .hero-copy h1 span,.hero .hero-copy h1 em{
+  text-shadow:-1px 0 1px #000,1px 0 1px #000,0 -1px 1px #000,0 1px 1px #000,0 2px 4px #000,0 0 8px #000e,0 3px 14px #000c!important;
+ }
+}
