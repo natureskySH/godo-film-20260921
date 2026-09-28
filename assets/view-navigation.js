@@ -4,18 +4,18 @@
     'hero-white-local.html', 'hero-white-dim.html', 'hero-white-clean.html',
     'hero-local.html', 'hero-dim.html', 'hero-clean.html'
   ];
-  const pairs = [['video-v1.html', 'video-v2.html', 'video-v3.html', 'video-v4.html', 'video.html', 'video-v5.html', 'video-v6.html', 'video-v7.html', 'video-v8.html', 'video-v9.html'], ...variants.map(name => [`v1-${name}`, `v2-${name}`, `v3-${name}`, `v4-${name}`, `v5-${name}`, `v6-${name}`, `v7-${name}`, `v8-${name}`, name])];
+  const pairs = [['video-v1.html', 'video-v2.html', 'video-v3.html', 'video-v4.html', 'video.html', 'video-v5.html', 'video-v6.html', 'video-v7.html', 'video-v8.html', 'video-v9.html', 'video-v10.html'], ...variants.map(name => [`v1-${name}`, `v2-${name}`, `v3-${name}`, `v4-${name}`, `v5-${name}`, `v6-${name}`, `v7-${name}`, `v8-${name}`, `v9-${name}`, name])];
   const current = location.pathname.split('/').pop();
   const pair = pairs.find(pages => pages.includes(current));
   if (!pair) return;
   const video = document.querySelector('video');
   if (!video) return;
-  const sources = ['video-v1.mp4?v=original-v1', 'video.mp4?v=floral-v5-20260922', 'video-v3.mp4?v=v3-20260923', 'video-v4.mp4?v=v4-quality-20260923', 'video-v5-slow.mp4?v=v5-slow60-soft-20260928', 'video-v6-normal.mp4?v=v6-normal-speed-20260928', 'video-v7.mp4?v=v7-native720-20260928', 'video-v8.mp4?v=v8-calm-ending-20260928', 'video-v9.mp4?v=v9-flow-native-20260928'];
-  const posters = ['assets/v1-preview.png', 'assets/preview.png', 'assets/v3-preview.jpg', 'assets/v4-preview.jpg', 'assets/v5-preview.jpg', 'assets/v6-preview.jpg', 'assets/v7-preview.jpg', 'assets/v8-preview.jpg', 'assets/v9-preview.jpg'];
+  const sources = ['video-v1.mp4?v=original-v1', 'video.mp4?v=floral-v5-20260922', 'video-v3.mp4?v=v3-20260923', 'video-v4.mp4?v=v4-quality-20260923', 'video-v5-slow.mp4?v=v5-slow60-soft-20260928', 'video-v6-normal.mp4?v=v6-normal-speed-20260928', 'video-v7.mp4?v=v7-native720-20260928', 'video-v8.mp4?v=v8-calm-ending-20260928', 'video-v9.mp4?v=v9-flow-native-20260928', 'video-v10.mp4?v=v10-runway-20260928'];
+  const posters = ['assets/v1-preview.png', 'assets/preview.png', 'assets/v3-preview.jpg', 'assets/v4-preview.jpg', 'assets/v5-preview.jpg', 'assets/v6-preview.jpg', 'assets/v7-preview.jpg', 'assets/v8-preview.jpg', 'assets/v9-preview.jpg', 'assets/v10-preview.jpg'];
   const initialSource = video.getAttribute('src').split('?')[0];
   let active = sources.findIndex(source => source.split('?')[0] === initialSource);
-  if (active < 0) active = 8;
-  const baseTitle = document.title.replace(/ · V[123456789]$/, '');
+  if (active < 0) active = 9;
+  const baseTitle = document.title.replace(/ · V\d+$/, '');
   document.title = `${baseTitle} · V${active + 1}`;
   video.dataset.version = `V${active + 1}`;
   const move = direction => {
