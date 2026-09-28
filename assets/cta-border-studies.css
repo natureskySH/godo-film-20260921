@@ -1,0 +1,31 @@
+.cta-border-study .site-header .header-contact{position:relative;overflow:visible;isolation:isolate}
+.border-light{position:absolute;inset:-2px;width:calc(100% + 4px);height:calc(100% + 4px);overflow:visible;pointer-events:none;opacity:0}
+.border-light path,.border-light rect{fill:none;stroke:#fff1ae;stroke-width:1.6;stroke-linecap:round;vector-effect:non-scaling-stroke}
+.cta-active .border-light{animation:border-light-visible 1.45s ease both}
+/* 01: a bright tip followed by two progressively softer tails. */
+.border-comet .trail{stroke:#ffdf80;stroke-width:2.6;opacity:.28;stroke-dasharray:24 76;filter:blur(1px)}
+.border-comet .body{stroke-dasharray:12 88;opacity:.7}
+.border-comet .tip{stroke:#fffde8;stroke-width:2.3;stroke-dasharray:2 98;filter:drop-shadow(0 0 3px #ffe8a0)}
+.cta-active .border-comet rect{animation:border-comet-lap 1.45s cubic-bezier(.25,.1,.35,1) both}
+/* 02: two routes start at the lower left and meet at the upper right. */
+.border-split path{stroke-dasharray:22 78;stroke-dashoffset:22;filter:drop-shadow(0 0 2px #ffe49b)}
+.border-split .cool{stroke:#d0d7ff}
+.cta-active .border-split path{animation:border-split-route 1.35s cubic-bezier(.25,.1,.25,1) both}
+/* 03: an outline is drawn once, briefly held, then fades. */
+.border-draw rect{stroke-dasharray:100;stroke-dashoffset:100;stroke-width:1.3}
+.cta-active .border-draw rect{animation:border-draw-outline 1.45s ease both}
+/* 04: four corner accents light in sequence; no orbiting line. */
+.border-corners path{opacity:0;stroke-width:2;filter:drop-shadow(0 0 2px #ffe9a9)}
+.cta-active .border-corners path{animation:border-corner-on .65s ease both}
+.cta-active .border-corners .c2{animation-delay:.18s}.cta-active .border-corners .c3{animation-delay:.36s}.cta-active .border-corners .c4{animation-delay:.54s}
+/* 05: a fine border blooms softly outwards without moving the button. */
+.border-halo .halo{stroke-width:3;filter:blur(3px);opacity:.5}
+.border-halo .edge{stroke-width:1;stroke:#fff7cc}
+.cta-active .border-halo{animation:border-halo-bloom 1.45s ease both;transform-origin:center}
+@keyframes border-light-visible{0%,100%{opacity:0}12%,78%{opacity:1}}
+@keyframes border-comet-lap{from{stroke-dashoffset:50}to{stroke-dashoffset:-50}}
+@keyframes border-split-route{0%{stroke-dashoffset:22}85%,100%{stroke-dashoffset:-100}}
+@keyframes border-draw-outline{0%{stroke-dashoffset:100}65%,100%{stroke-dashoffset:0}}
+@keyframes border-corner-on{0%,100%{opacity:0}35%,65%{opacity:1}}
+@keyframes border-halo-bloom{0%{opacity:0;transform:scale(1)}35%{opacity:1;transform:scale(1.01)}65%{opacity:.65}100%{opacity:0;transform:scale(1.07,1.15)}}
+@media(prefers-reduced-motion:reduce){.cta-border-study .border-light,.cta-border-study .border-light *{animation:none!important}.cta-border-study .header-contact{outline:1px solid #fff1ae;outline-offset:2px}}
