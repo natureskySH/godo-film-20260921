@@ -1,6 +1,6 @@
 {
   "status": "storyboard_only_not_video_generated",
-  "revision": "v25-user-approved-apron",
+  "revision": "v26-apron-straps-fixed",
   "duration_target_seconds": 12,
   "selected_apron_idea": 3,
   "selection_reason": "사용자가 첨부 이미지로 직접 확정한 허리끈 손 클로즈업.",
@@ -43,8 +43,8 @@
     {
       "order": 2,
       "title": "앞치마를 입으며 준비",
-      "image": "02-apron-approved.png",
-      "description": "사용자가 확정한 손 클로즈업. 양옆 허리끈을 잡고 천천히 뒤로 가져가며 앞치마를 입습니다. 손과 끈에 초점을 두고 로고와 GODO를 함께 보여줍니다.",
+      "image": "02-apron-straps-fixed.png",
+      "description": "사용자가 선택한 손 클로즈업에서 끈 구조를 수정했습니다. 양옆 허리에서 한 줄씩 이어진 끈을 잡고 천천히 뒤로 가져가며 앞치마를 입습니다. 로고와 GODO는 그대로 유지합니다.",
       "camera": "허리 높이의 사선 클로즈업 · 가까운 손과 허리끈에 초점",
       "motion": "양옆 허리끈을 잡은 손이 뒤로 천천히 이동하는 짧은 동작. 다시 잡기·끈 튕김·급격한 당김 없이 손 모양 유지.",
       "ending": "손동작이 마무리되는 지점에서 연필 매크로로 전환",
@@ -68,7 +68,8 @@
         "natural movement",
         "continuity",
         "GODO"
-      ]
+      ],
+      "strap_constraint": "허리 양옆에 끈 하나씩, 총 두 개. 각 손은 끈 한 줄만 잡고, 손 아래에는 짧은 끝 하나만 보임. 양갈래·중복 끈 금지."
     },
     {
       "order": 3,
