@@ -1,0 +1,38 @@
+{
+  "use_case": "precise-object-edit",
+  "asset_type": "GODO film S05 image-to-video starting frame",
+  "description": "Refine only photographic materials and lighting of image 1 (S04), preserve composition, exact right hand anatomy and grip, pencil-tip contact and early-color artwork. Image 2 is S01 photographic skin realism standard, image 3 is finalized S05 rendering/color continuity target. Match S05 hand skin, delicate nail edges and fine creases and soft upper-right daylight. Replace overly etched crosshatch hand texture with natural skin microtexture and soft continuous photographic gradation, retaining pores and actual joint wrinkles. S04 remains ONLY the small blue patch within a monochrome graphite composition; do not import the colored artwork stage from S05.",
+  "reference_roles": {
+    "image_1": "S04 precise edit target, preserve early blue stage and artwork geometry",
+    "image_2": "S01 photographic texture standard",
+    "image_3": "S05 matching hand skin/rendering/light ONLY, do not copy advanced artwork colors"
+  },
+  "style": "Photorealistic editorial art-school commercial, restrained, natural, realistic fine texture.",
+  "camera": {
+    "aspect_ratio": "16:9",
+    "resolution": "high resolution, landscape",
+    "lens": "65mm macro equivalent",
+    "angle": "high oblique view from the same side of the artist; drawing upright to the artist; paper remains lying flat",
+    "framing": "Pencil contact at image exact center. Blue wave centered; hand right of center, avoid too large foreground hand. Keep central blue patch and pencil tip inside middle 20% horizontally. Slightly wider than S04 so more crane and KOREA appear. All surfaces remain planar and drawing upright.",
+    "focus": "critical crisp focus on graphite-blue pigment contact, pencil core and nearby skin; gentle optical falloff at far paper edges, no fake blur mask",
+    "perspective": "consistent planar paper perspective"
+  },
+  "lighting": {
+    "direction": "soft upper-right daylight",
+    "quality": "same natural photographic quality as reference2",
+    "exposure": "smooth highlight rolloff, no overflattened or exaggerated contrast"
+  },
+  "color_palette": "ivory smooth desk, white paper, natural warm skin, light-blue cotton sleeve, blue pencil and blue wave; existing yellow-orange sunset, black/gray crane and restrained red accents",
+  "textures_materials": "Photographic microtexture, no illustration filter. Fine skin pores and few thin natural joint creases; soft subsurface warm light, clean realistic highlights, natural nail translucency. Sharpened colored pencil wooden fibers. Small paper fibers with blue dry pencil pigment. No all-over crosshatching, repeating wrinkle patterns, stains, mottled blotches or airbrush.",
+  "subject": "same woman's anatomically correct right hand in relaxed tripod pencil grip, supported wrist, short natural nails, unchanged left hand when in frame, unchanged light blue short sleeve; no new face",
+  "elements": "one blue colored pencil touching blue wave; fixed original crane artwork; black/red spare pencils may naturally leave frame through tighter framing",
+  "layers": "foreground wrist lower right, sharp pencil tip at exact image center, drawing plane middle, soft neutral peripheral desk",
+  "text": {
+    "overlay": "none",
+    "artwork": "preserve any visible existing text, no new lettering"
+  },
+  "physical_accuracy": "blue pigment only under blue pencil tip within existing blue wave boundary; blue core contacts paper; five fingers, plausible joints, wrist and pencil occlusion; paper flat, no easel, no paint/brush/palette",
+  "continuity": "Same hand proportions, pale neutral warm skin, natural nails, tripod grip and upper-right pencil axis as S03/S05. S04 graphite outline and small blue patch only.",
+  "ending": "Still frame ready for one restrained 3-5 mm pencil stroke; no motion blur.",
+  "avoid": "wide portrait framing, contact point outside central 5%, stained surfaces, extra pencil tips, duplicate fingers, speckled table, holes in chair, watermark, borders, captions"
+}

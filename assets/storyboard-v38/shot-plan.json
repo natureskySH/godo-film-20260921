@@ -1,0 +1,154 @@
+[
+  {
+    "id": "S01",
+    "title": "인물 · 차분한 자신감",
+    "src": "assets/storyboard-v30/01-opening.png?v=motion-v34",
+    "seconds": 2.4,
+    "framing": "얼굴 클로즈업 · 현재 구도 유지",
+    "action": "우측 상단의 같은 지점을 응시. 현재 입 모양을 유지한 작은 미소. 과장된 숨 내쉬기 없이 미세한 생체 움직임만.",
+    "camera": "고정 카메라 · 눈에 초점 유지 · 초점 이동 없음",
+    "beats": [
+      "0.0–0.5초: 시선과 입 모양 유지",
+      "0.5–1.8초: 미세한 표정과 자연스러운 호흡",
+      "1.8–2.4초: 같은 시선으로 마무리"
+    ],
+    "transition": "6프레임(0.25초) 부드러운 디졸브로 준비 동작에 연결",
+    "quality": [
+      "시선 방향 유지",
+      "얼굴 비율·헤어라인 유지",
+      "한숨·입 비틀기·고개 꺾기 없음"
+    ],
+    "motion_prompt": "Locked-off close-up portrait. The woman maintains her gaze at the same point in the upper right. A tiny warm closed-mouth smile develops gently, then holds. Her head and shoulders remain almost still. Constant soft light from the upper right. Natural facial micro-movement, consistent facial identity and fine realistic skin texture.",
+    "generation_seconds": 5,
+    "model": "Gen-4 Turbo",
+    "resolution": "1280x720",
+    "credits": 25
+  },
+  {
+    "id": "S02",
+    "title": "앞치마 · 힘 있게 한 번",
+    "src": "assets/storyboard-v30/02-apron-back.png?v=motion-v34",
+    "seconds": 2.2,
+    "framing": "등 뒤 허리와 두 손 · 중앙 매듭이 중심",
+    "action": "양손이 이미 잡은 허리끈을 양옆으로 짧고 힘 있게 한 번 당긴다. 매듭이 조여지고 천의 장력이 잡힌 뒤 자연스럽게 정지.",
+    "camera": "카메라는 고정 · 힘은 팔과 원단의 움직임으로 표현",
+    "beats": [
+      "0.0–0.4초: 끈을 잡고 준비",
+      "0.4–1.0초: 양옆으로 약 3–4cm씩 단호하게 당김",
+      "1.0–1.4초: 반동이 작게 가라앉음",
+      "1.4–2.2초: 단단히 매듭진 상태 유지"
+    ],
+    "transition": "당기는 동작이 끝난 뒤 연필 컷으로 전환 · 손이 정지하는 리듬 연결",
+    "quality": [
+      "매듭이 풀리지 않음",
+      "끈의 개수·연결점 유지",
+      "양손·팔꿈치의 해부학적 형태 유지"
+    ],
+    "motion_prompt": "Locked-off close-up of the back of the apron. Both hands already hold the two loops of the tied bow. One short, firm, confident outward tug tightens the knot, then the hands settle and hold. Controlled realistic fingers and fabric tension. The knot remains tied and the apron remains stable.",
+    "generation_seconds": 5,
+    "model": "Gen-4 Turbo",
+    "resolution": "1280x720",
+    "credits": 25
+  },
+  {
+    "id": "S03",
+    "title": "연필 · 짧은 첫 선",
+    "src": "assets/storyboard-v30/03-pencil.png?v=motion-v34",
+    "seconds": 0.9,
+    "framing": "연필 끝과 종이 접촉점 매크로",
+    "action": "짧은 윤곽선 하나를 정확하게 긋는 구간만 사용한다. 빠른 편집으로 지나가되 손 자체를 배속하지 않는다.",
+    "camera": "접촉점에 초점 고정 · 종이와 손의 구도 고정",
+    "beats": [
+      "0.0–0.15초: 이미 종이에 닿은 연필",
+      "0.15–0.70초: 수 mm 구간의 선 하나",
+      "0.70–0.90초: 작은 정지"
+    ],
+    "transition": "4프레임(0.17초) 이하의 짧은 시간 경과 전환 · 다음 접촉점을 비슷한 화면 위치에 배치",
+    "quality": [
+      "선은 연필 끝 아래에서만 진해짐",
+      "연필 관통·공중 필기 없음",
+      "백지가 아닌 초기 윤곽 단계임을 유지"
+    ],
+    "motion_prompt": "Locked macro camera. The hand holds the pencil with the same relaxed tripod grip throughout. The graphite tip stays on the existing outline and traces one short 4 mm segment deliberately, then rests. Only the fine graphite line immediately beneath the tip darkens. Wrist, paper and background remain steady. Real-time motion, precise restrained finger movement.",
+    "generation_seconds": 5,
+    "model": "Gen-4 Turbo",
+    "resolution": "1280x720",
+    "credits": 25
+  },
+  {
+    "id": "S04",
+    "title": "첫 파란색 · 짧고 경쾌하게",
+    "src": "assets/storyboard-v38/04-first-blue.png",
+    "seconds": 1.2,
+    "framing": "파란색 영역과 연필 끝의 익스트림 클로즈업",
+    "action": "한 영역에서 짧고 일정한 채색 1–2회. 파란색 심이 닿는 곳에만 같은 색이 쌓인다.",
+    "camera": "초점·노출 고정 · 카메라 흔들림 없음",
+    "beats": [
+      "0.0–0.15초: 파란 심의 접촉 확인",
+      "0.15–0.95초: 작고 신중한 채색",
+      "0.95–1.20초: S05와 이어질 손 방향 확보"
+    ],
+    "transition": "S05와 같은 방향의 짧은 색연필 채색으로 매치 온 액션. 맞지 않으면 겹침 없이 동작 끝에서 컷.",
+    "quality": [
+      "붓·물감 없음",
+      "파란색과 심 색상 일치",
+      "S05와 손의 진입 방향·주요 초점 위치 일치",
+      "S03 기준 손 형태와 상향 대각선 그립을 유지"
+    ],
+    "motion_prompt": "Locked macro camera. The right hand maintains the same tripod grip and diagonal blue-pencil angle. Within the small blue patch, the tip makes one deliberate 3 mm shading stroke, then pauses. The blue pigment follows directly beneath the tip within the existing contour. The paper and all other pencil outlines remain unchanged. Natural real-time hand movement and photographic skin texture.",
+    "generation_seconds": 5,
+    "model": "Gen-4 Turbo",
+    "resolution": "1280x720",
+    "credits": 25
+  },
+  {
+    "id": "S05",
+    "title": "부분 채색 · 가까이 이어가기",
+    "src": "assets/storyboard-v38/05-partial-centered.png",
+    "seconds": 3.0,
+    "framing": "실제 재생성 이미지 · 연필 접촉점 화면 중앙 · S03와 같은 손과 그립",
+    "action": "S04의 파란색 영역에서 같은 방향으로 계속 채색하는 느낌. 한 구역에서 짧은 동작 후 손을 멈춰 다음 장면으로 연결.",
+    "camera": "첫 구간은 고정. 안정적인 결과일 때만 편집에서 약 3%의 미세한 확대.",
+    "beats": [
+      "0.0–0.4초: S04와 같은 접촉점·움직임 방향으로 시작",
+      "0.4–2.2초: 좁은 영역에서 신중하게 채색",
+      "2.2–3.0초: 손을 정지하고 다음 시간 경과 전환 준비"
+    ],
+    "transition": "완성작의 물결 위치를 맞춘 그래픽 매치 + 약 0.45초 디졸브. 손의 잔상이 보이면 전환 길이를 줄인다.",
+    "quality": [
+      "접촉점 중앙 유지 · 손톱/엄지/검지 비율과 피부색을 S03 기준으로 비교",
+      "S04보다 진행된 채색은 시간 경과로 해석",
+      "손이 보이는 동안 다른 영역이 자동 완성되지 않음"
+    ],
+    "motion_prompt": "Locked close-up, the blue pencil contact point remains at the exact center of the frame. The hand maintains its tripod grip and wrist support. The tip stays on the same blue water shape, makes a single careful 3 mm shading stroke and rests. Only blue pigment immediately under the tip subtly deepens. Fixed camera, paper and drawing. Constant daylight, realistic skin and paper texture. One calm precise action.",
+    "generation_seconds": 5,
+    "model": "Gen-4 Turbo",
+    "resolution": "1280x720",
+    "credits": 25
+  },
+  {
+    "id": "S06",
+    "title": "완성작 · 확대하며 암전",
+    "src": "assets/video-v32/images/07-artwork-only.png?v=motion-v34",
+    "seconds": 4.2,
+    "framing": "작품 한 장이 정중앙 · 도구와 사람 없음",
+    "action": "작품을 충분히 감상한 뒤 천천히 가까워지고 마지막에 어두워지며 끝난다.",
+    "camera": "편집 키프레임: 100% → 108% 중심 확대 · 마지막 1.1초 점진적 암전",
+    "beats": [
+      "0.0–0.6초: 작품 전체를 읽을 시간",
+      "0.6–3.1초: 같은 중심을 향해 부드럽게 확대",
+      "3.1–4.2초: 확대를 완만하게 마무리하면서 검정으로 암전"
+    ],
+    "transition": "끝에 짧은 검정 유지. 홈페이지 반복 재생 시 검정→첫 장면을 짧게 페이드 인.",
+    "quality": [
+      "학·KOREA 글자·종이 비율 보존",
+      "머리 위 이동·회전·원근 뒤틀림 없음",
+      "종이와 작품이 화면 밖으로 잘리지 않음"
+    ],
+    "motion_prompt": "Centered overhead view of the completed artwork alone. The entire artwork, KOREA lettering and page remain perfectly stable and geometrically unchanged. Locked camera and constant light. Hold the completed work calmly. A precise gentle digital push-in and ending fade will be applied in post-production.",
+    "generation_seconds": 5,
+    "model": "Gen-4 Turbo",
+    "resolution": "1280x720",
+    "credits": 25
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "use_case": "precise-object-edit",
+  "asset_type": "GODO film S05 image-to-video starting frame",
+  "description": "Refine only photographic rendering of image 1, preserve its exact composition, centered pencil-tip contact, hand pose, artwork geometry and partially colored stage. Match image 2's exceptionally natural real-camera skin rendering: fine natural pores, translucent skin at lit edges, gentle continuous shading, subtle irregularity; no etched crackle/crosshatch or wax texture over skin. Hand identity and grip from image 3 remain unchanged. Keep real crease patterns confined to actual finger joints, with smooth natural gradation between them. Clean dimensional knuckles, natural pale nail edges. Crisp paper tooth and dry blue pigment under pencil tip. This is a photograph of drawing, not a drawing of a hand.",
+  "reference_roles": {
+    "image_1": "S05 composition and content LOCK; change photographic material rendering only",
+    "image_2": "S01 photo-quality skin and lighting realism standard, not subject face",
+    "image_3": "S03 same hand anatomy/skin tone/nails"
+  },
+  "style": "Photorealistic editorial art-school commercial, restrained, natural, realistic fine texture.",
+  "camera": {
+    "aspect_ratio": "16:9",
+    "resolution": "high resolution, landscape",
+    "lens": "65mm macro equivalent",
+    "angle": "high oblique view from the same side of the artist; drawing upright to the artist; paper remains lying flat",
+    "framing": "Pencil contact at image exact center. Blue wave centered; hand right of center, avoid too large foreground hand. Keep central blue patch and pencil tip inside middle 20% horizontally. Slightly wider than S04 so more crane and KOREA appear. All surfaces remain planar and drawing upright.",
+    "focus": "critical crisp focus on graphite-blue pigment contact, pencil core and nearby skin; gentle optical falloff at far paper edges, no fake blur mask",
+    "perspective": "consistent planar paper perspective"
+  },
+  "lighting": {
+    "direction": "soft upper-right daylight",
+    "quality": "same natural photographic quality as reference2",
+    "exposure": "smooth highlight rolloff, no overflattened or exaggerated contrast"
+  },
+  "color_palette": "ivory smooth desk, white paper, natural warm skin, light-blue cotton sleeve, blue pencil and blue wave; existing yellow-orange sunset, black/gray crane and restrained red accents",
+  "textures_materials": "Photographic microtexture, no illustration filter. Fine skin pores and few thin natural joint creases; soft subsurface warm light, clean realistic highlights, natural nail translucency. Sharpened colored pencil wooden fibers. Small paper fibers with blue dry pencil pigment. No all-over crosshatching, repeating wrinkle patterns, stains, mottled blotches or airbrush.",
+  "subject": "same woman's anatomically correct right hand in relaxed tripod pencil grip, supported wrist, short natural nails, unchanged left hand when in frame, unchanged light blue short sleeve; no new face",
+  "elements": "one blue colored pencil touching blue wave; fixed original crane artwork; black/red spare pencils may naturally leave frame through tighter framing",
+  "layers": "foreground wrist lower right, sharp pencil tip at exact image center, drawing plane middle, soft neutral peripheral desk",
+  "text": {
+    "overlay": "none",
+    "artwork": "preserve any visible existing text, no new lettering"
+  },
+  "physical_accuracy": "blue pigment only under blue pencil tip within existing blue wave boundary; blue core contacts paper; five fingers, plausible joints, wrist and pencil occlusion; paper flat, no easel, no paint/brush/palette",
+  "continuity": "Same exact hand as S03 and new S04. Same motion-axis and pencil slope as S04. Partial colored stage from image 1, visible orange/blue/green/red pigments with uncolored white details. Artwork stays flat on smooth ivory table.",
+  "ending": "Still frame ready for one restrained 3-5 mm pencil stroke; no motion blur.",
+  "avoid": "wide portrait framing, contact point outside central 5%, stained surfaces, extra pencil tips, duplicate fingers, speckled table, holes in chair, watermark, borders, captions"
+}
