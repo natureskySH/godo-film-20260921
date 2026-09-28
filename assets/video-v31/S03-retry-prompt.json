@@ -1,0 +1,18 @@
+{
+  "description": "Macro live-action view of a graphite pencil gently beginning a line at its existing contact point.",
+  "style": "Photorealistic. Normal real-time speed.",
+  "camera": "Completely locked camera. Preserve input framing. No zoom or drift.",
+  "lighting": "Unchanging natural soft light.",
+  "environment": "Flat paper on plain ivory desk.",
+  "elements": "Preserve all existing faint feather outlines exactly. Keep paper, hand anatomy and grip unchanged.",
+  "motion": "One very small natural finger movement: the graphite point slides only 1 millimetre along the existing faint line immediately under its tip, and then rests. The paper design remains visually unchanged. There are no new feathers, no new shapes, no lines away from the tip. The pencil stays in contact with paper throughout.",
+  "ending": "Hold point resting on the same line.",
+  "text": "None",
+  "duration_seconds": 4,
+  "keywords": [
+    "stable paper",
+    "tiny movement",
+    "no spontaneous drawing",
+    "unchanged composition"
+  ]
+}

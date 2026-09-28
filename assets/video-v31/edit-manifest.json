@@ -1,0 +1,64 @@
+{
+  "version": "V7",
+  "resolution": "1280x720",
+  "fps": 24,
+  "duration_seconds": 15.5,
+  "movement_speed": 1.0,
+  "transition_seconds": 0.5,
+  "model": "Omni 1.1 Flash",
+  "generations": 6,
+  "cost_per_generation": 7,
+  "credits_used": 42,
+  "credits_before": 319,
+  "credits_after": 277,
+  "shots": [
+    {
+      "id": "S01",
+      "source": "images/01-opening.png",
+      "duration": 2.5,
+      "speed": 1.0
+    },
+    {
+      "id": "S02",
+      "source": "videos/S02.mp4",
+      "duration": 2.5,
+      "speed": 1.0
+    },
+    {
+      "id": "S03",
+      "source": "videos/S03-retry.mp4",
+      "duration": 2.5,
+      "speed": 1.0
+    },
+    {
+      "id": "S04",
+      "source": "videos/S04.mp4",
+      "duration": 2.5,
+      "speed": 1.0
+    },
+    {
+      "id": "S05",
+      "source": "videos/S05.mp4",
+      "duration": 2.5,
+      "speed": 1.0
+    },
+    {
+      "id": "S06",
+      "source": "videos/S06.mp4",
+      "duration": 2.5,
+      "speed": 1.0
+    },
+    {
+      "id": "S07",
+      "source": "images/06-artwork-closeup.png",
+      "duration": 3.5,
+      "speed": 1.0
+    }
+  ],
+  "notes": [
+    "S01 and S07 use stationary approved images to preserve gaze and artwork.",
+    "Generated footage is native 720p; no 360p upscale.",
+    "First S03 generation rejected because lines appeared away from pencil tip.",
+    "No audio or dialogue."
+  ]
+}

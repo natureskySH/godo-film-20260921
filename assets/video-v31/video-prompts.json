@@ -1,0 +1,140 @@
+[
+  {
+    "style": "Photorealistic restrained art academy live action, preserve exact supplied frame. Normal real-time human motion, no slow motion.",
+    "camera": "Locked tripod; same framing, lens perspective and focus as input; no zoom, pan, orbit or rise.",
+    "lighting": "Constant soft natural light from upper-right, no exposure changes, same clean realistic textures.",
+    "environment": "Approved plain ivory desk or neutral wall; same short-sleeve blue shirt and black apron; no plants, no paint, brushes or easel.",
+    "text": "No new captions, text, or logos. Preserve existing drawing exactly.",
+    "duration_seconds": 4,
+    "format": "16:9, native 720p, one continuous take",
+    "ending": "Stop quietly and hold; no extra action.",
+    "keywords": [
+      "anatomical hands",
+      "minimal gesture",
+      "real-time speed",
+      "stable paper",
+      "stable drawing",
+      "same texture"
+    ],
+    "id": "S02",
+    "image": "02-apron-back.png",
+    "description": "Rear waist close-up of woman finishing her existing black apron bow.",
+    "elements": [
+      "one knot",
+      "exactly two loops and two short tails",
+      "one loop lightly held by each hand"
+    ],
+    "motion": "Make one small ordinary final tightening: each hand pulls its EXISTING loop only 1 centimetre outward during the first second. Fingers retain their current simple hold. Then hands and knot remain still. Do not untie, retie, weave fingers, release straps or raise elbows. Preserve exact bow and strap structure; no strap doubling. Natural real-time speed."
+  },
+  {
+    "style": "Photorealistic restrained art academy live action, preserve exact supplied frame. Normal real-time human motion, no slow motion.",
+    "camera": "Locked tripod; same framing, lens perspective and focus as input; no zoom, pan, orbit or rise.",
+    "lighting": "Constant soft natural light from upper-right, no exposure changes, same clean realistic textures.",
+    "environment": "Approved plain ivory desk or neutral wall; same short-sleeve blue shirt and black apron; no plants, no paint, brushes or easel.",
+    "text": "No new captions, text, or logos. Preserve existing drawing exactly.",
+    "duration_seconds": 4,
+    "format": "16:9, native 720p, one continuous take",
+    "ending": "Stop quietly and hold; no extra action.",
+    "keywords": [
+      "anatomical hands",
+      "minimal gesture",
+      "real-time speed",
+      "stable paper",
+      "stable drawing",
+      "same texture"
+    ],
+    "id": "S03",
+    "image": "03-pencil.png",
+    "description": "Graphite pencil tip contacting an existing faint feather outline on flat paper.",
+    "elements": [
+      "right hand",
+      "graphite pencil",
+      "fixed paper",
+      "existing feather guide"
+    ],
+    "motion": "One controlled short tracing stroke: within the first second, slide the pencil point about 3 millimetres to screen-left along the EXISTING faint contour. A thin graphite trace appears ONLY directly behind the point where it touches. Preserve all surrounding lines. Stop with tip still on paper, hold for remainder. No loops, circular scribble, jumping, new shape, lifted lead, changed grip, moving paper or large wrist travel. Normal human drawing speed."
+  },
+  {
+    "style": "Photorealistic restrained art academy live action, preserve exact supplied frame. Normal real-time human motion, no slow motion.",
+    "camera": "Locked tripod; same framing, lens perspective and focus as input; no zoom, pan, orbit or rise.",
+    "lighting": "Constant soft natural light from upper-right, no exposure changes, same clean realistic textures.",
+    "environment": "Approved plain ivory desk or neutral wall; same short-sleeve blue shirt and black apron; no plants, no paint, brushes or easel.",
+    "text": "No new captions, text, or logos. Preserve existing drawing exactly.",
+    "duration_seconds": 4,
+    "format": "16:9, native 720p, one continuous take",
+    "ending": "Stop quietly and hold; no extra action.",
+    "keywords": [
+      "anatomical hands",
+      "minimal gesture",
+      "real-time speed",
+      "stable paper",
+      "stable drawing",
+      "same texture"
+    ],
+    "id": "S04",
+    "image": "04-first-blue.png",
+    "description": "The blue pencil touches the CENTER of the existing small blue wave patch.",
+    "elements": [
+      "blue pencil with blue lead",
+      "same white wave curls",
+      "same outlines"
+    ],
+    "motion": "Within the first second make two tiny back-and-forth strokes each about 1 millimetre, exclusively inside the existing BLUE interior at the current point. Subtle finger flex, steady wrist. Slight blue pigment deposit only at actual contact, never on white curls. Then stop and hold the exact position. No travelling to another region, magic filling or changed artwork. Natural real-time speed."
+  },
+  {
+    "style": "Photorealistic restrained art academy live action, preserve exact supplied frame. Normal real-time human motion, no slow motion.",
+    "camera": "Locked tripod; same framing, lens perspective and focus as input; no zoom, pan, orbit or rise.",
+    "lighting": "Constant soft natural light from upper-right, no exposure changes, same clean realistic textures.",
+    "environment": "Approved plain ivory desk or neutral wall; same short-sleeve blue shirt and black apron; no plants, no paint, brushes or easel.",
+    "text": "No new captions, text, or logos. Preserve existing drawing exactly.",
+    "duration_seconds": 4,
+    "format": "16:9, native 720p, one continuous take",
+    "ending": "Stop quietly and hold; no extra action.",
+    "keywords": [
+      "anatomical hands",
+      "minimal gesture",
+      "real-time speed",
+      "stable paper",
+      "stable drawing",
+      "same texture"
+    ],
+    "id": "S05",
+    "image": "05-partial.png",
+    "description": "High oblique close view of partially coloured crane drawing on plain ivory table.",
+    "elements": [
+      "same right hand and blue pencil",
+      "stationary left hand",
+      "black and red pencil right",
+      "eraser above"
+    ],
+    "motion": "Make ONE tiny 2-millimetre blue shading stroke at the current contact point during first second, then rest with point on paper. Blue colour only where blue point touches, no travel outside that small blue patch. Keep all props and paper completely fixed; do not finish other parts of artwork. No pencil lift, head movement, large wrist sweep or gesture."
+  },
+  {
+    "style": "Photorealistic restrained art academy live action, preserve exact supplied frame. Normal real-time human motion, no slow motion.",
+    "camera": "Locked tripod; same framing, lens perspective and focus as input; no zoom, pan, orbit or rise.",
+    "lighting": "Constant soft natural light from upper-right, no exposure changes, same clean realistic textures.",
+    "environment": "Approved plain ivory desk or neutral wall; same short-sleeve blue shirt and black apron; no plants, no paint, brushes or easel.",
+    "text": "No new captions, text, or logos. Preserve existing drawing exactly.",
+    "duration_seconds": 4,
+    "format": "16:9, native 720p, one continuous take",
+    "ending": "Stop quietly and hold; no extra action.",
+    "keywords": [
+      "anatomical hands",
+      "minimal gesture",
+      "real-time speed",
+      "stable paper",
+      "stable drawing",
+      "same texture"
+    ],
+    "id": "S06",
+    "image": "06-pencil-down.png",
+    "description": "Blue coloured pencil has just been placed flat between black pencil left and red pencil right.",
+    "elements": [
+      "right thumb and index lightly touching blue barrel",
+      "three pencils already lying flat",
+      "white eraser",
+      "cropped paper edge left"
+    ],
+    "motion": "The blue pencil starts fully resting on table and MUST NEVER MOVE. During first 1.5 seconds release the thumb and index from the blue barrel by a few millimetres, then withdraw the empty hand gently to screen-right. Other fingers relax together naturally. Do not pick up, drag, roll or bounce any pencil. Hold the fixed three-pencil arrangement for remaining time. Normal real-time movement, no slow motion."
+  }
+]
