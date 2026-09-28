@@ -1,0 +1,23 @@
+.cta-concept .site-header .header-contact{position:relative;overflow:visible;isolation:isolate}
+.cta-effect{pointer-events:none;position:absolute;display:block}
+.cta-orbit{inset:-2px;width:calc(100% + 4px);height:calc(100% + 4px);overflow:visible;opacity:0}
+.cta-orbit rect{fill:none;stroke:#fff1a6;stroke-width:2;vector-effect:non-scaling-stroke;stroke-dasharray:20 80;stroke-dashoffset:50;filter:drop-shadow(0 0 3px #ffdf72)}
+.cta-active .cta-orbit{animation:cta-appear 1.25s ease both}
+.cta-active .cta-orbit rect{animation:cta-orbit 1.25s cubic-bezier(.25,.1,.3,1) both}
+.cta-trail{width:66px;height:2px;right:calc(100% - 7px);top:calc(100% + 22px);background:linear-gradient(90deg,transparent,#fff1a6);transform:rotate(-35deg);transform-origin:right center;opacity:0;filter:drop-shadow(0 0 3px #ffe59a)}
+.cta-active .cta-trail{animation:cta-trail 1.15s cubic-bezier(.2,.6,.3,1) both}
+.cta-note{top:calc(100% + 10px);right:0;white-space:nowrap;padding:7px 10px;border-radius:7px;color:#fff7d5;background:#181925d9;font-size:12px;font-weight:500;line-height:1.4;letter-spacing:-.02em;opacity:0}
+.cta-note::before{content:"";position:absolute;right:20px;bottom:100%;border:4px solid transparent;border-bottom-color:#181925d9}
+.cta-note-mobile{display:none}
+.cta-active .cta-note{animation:cta-note 1.5s ease both}
+.cta-active.cta-concept-4 .header-contact{animation:cta-breathe 1.35s cubic-bezier(.25,.1,.25,1) both}
+.cta-arrow{display:inline-block;margin-left:5px;font-size:1em;color:#fff1a6}
+.cta-active .cta-arrow{animation:cta-arrow 1.15s ease-in-out both}
+@keyframes cta-appear{0%,100%{opacity:0}18%,75%{opacity:1}}
+@keyframes cta-orbit{from{stroke-dashoffset:50}to{stroke-dashoffset:-50}}
+@keyframes cta-trail{0%{opacity:0;transform:translate(-21px,15px) rotate(-35deg) scaleX(.25)}25%{opacity:1}80%{opacity:1;transform:translate(8px,-6px) rotate(-35deg) scaleX(.6)}100%{opacity:0;transform:translate(16px,-11px) rotate(-35deg) scaleX(.1)}}
+@keyframes cta-note{0%,100%{opacity:0;transform:translateY(3px)}18%,82%{opacity:1;transform:translateY(0)}}
+@keyframes cta-breathe{0%,100%{transform:scale(1)}45%{transform:scale(1.04)}}
+@keyframes cta-arrow{0%,100%{transform:translate(0,0)}50%{transform:translate(3px,-3px)}}
+@media(max-width:768px){.cta-note-desktop{display:none}.cta-note-mobile{display:inline}.cta-note{font-size:11px;padding:6px 8px}.cta-trail{width:48px;top:calc(100% + 20px)}}
+@media(prefers-reduced-motion:reduce){.cta-concept *{animation:none!important}.cta-concept-1 .header-contact{outline:1px solid #fff1a6;outline-offset:2px}}

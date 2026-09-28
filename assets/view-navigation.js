@@ -1,5 +1,6 @@
 (() => {
   const variants = [
+    'hero-cta-1.html', 'hero-cta-2.html', 'hero-cta-3.html', 'hero-cta-4.html', 'hero-cta-5.html',
     'hero-centered-local.html', 'hero-centered-dim.html', 'hero-centered-clean.html',
     'hero-clear-local.html', 'hero-clear-dim.html', 'hero-clear-clean.html',
     'hero-white-local.html', 'hero-white-dim.html', 'hero-white-clean.html',
