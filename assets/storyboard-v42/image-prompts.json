@@ -1,0 +1,123 @@
+{
+  "firstAttempt": {
+    "S03": {
+      "id": "V42_S03",
+      "use_case": "precise-object-edit",
+      "edit_target": "The ONE attached image is the exact photographic edit target. Perform a very small localized paper-boundary edit; do not redraw or reframe the photograph.",
+      "request": "Correct ONLY the physical drawing-sheet shape to a PORTRAIT rectangular sheet (short width and longer top-to-bottom length, approximately3:4 proportion) in the EXISTING oblique perspective. Keep the paper flat on the same table. Change only the blank outer paper perimeter and adjacent exposed tabletop to extend its long dimension toward the artist/bottom of the shot. The longer sheet may extend beyond the image crop. Do NOT turn the sheet upright on screen, do NOT rotate the artwork, do NOT rotate the camera, and do NOT show the whole page by zooming out.",
+      "locked_elements": [
+        "Exact original camera angle, framing, magnification, vanishing directions and focal perspective",
+        "Exact hand at same pixel position and scale, nail shape, fingers, grip, skin texture, lighting and shadows",
+        "Exact pencil at same pixel position, angle, color and contact point",
+        "Exact artwork linework, colors and progress, at exactly the same position/size/orientation; NEVER rotate, scale, move, simplify or redraw artwork",
+        "Exact sleeve folds, blurred lower-right foreground, tabletop and lighting",
+        "Original image dimensions and 16:9 crop"
+      ],
+      "paper_edit_details": "Treat the drawn interior and all people/tools as a protected region. Edit only blank paper boundaries and the few outer pixels of tabletop needed to make the underlying sheet longer in its existing perspective. Retain the existing paper edge directions; increase the long-axis extension. Preserve every drawn mark. No added letters, no added artwork, no KOREA inserted if outside source crop. The close-up is intentionally retained, so parts of the longer page naturally remain outside the frame.",
+      "camera": {
+        "status": "LOCKED to reference, oblique close-up, never overhead",
+        "focus": "same reference depth of field, same contact point",
+        "resolution": "1672x941"
+      },
+      "lighting": "LOCKED to reference, same natural soft daylight and exact color balance",
+      "materials": "Preserve original fine-grained matte white paper, natural skin and existing dry graphite/colored pencil marks. No new stains or mottling. No global repainting.",
+      "negative_constraints": [
+        "overhead shot",
+        "front-on paper",
+        "new composition",
+        "more distant camera",
+        "different hand",
+        "new pencil angle",
+        "artwork shifted to center",
+        "global redraw",
+        "new illustration",
+        "artwork rotated upright",
+        "watermark",
+        "graphics or labels"
+      ],
+      "output": "One edited photograph, indistinguishable from original except blank paper shape/perimeter."
+    },
+    "S04": {
+      "id": "V42_S04",
+      "use_case": "precise-object-edit",
+      "edit_target": "The ONE attached image is the exact photographic edit target. Perform a very small localized paper-boundary edit; do not redraw or reframe the photograph.",
+      "request": "Correct ONLY the physical drawing-sheet shape to a PORTRAIT rectangular sheet (short width and longer top-to-bottom length, approximately3:4 proportion) in the EXISTING oblique perspective. Keep the paper flat on the same table. Change only the blank outer paper perimeter and adjacent exposed tabletop to extend its long dimension toward the artist/bottom of the shot. The longer sheet may extend beyond the image crop. Do NOT turn the sheet upright on screen, do NOT rotate the artwork, do NOT rotate the camera, and do NOT show the whole page by zooming out.",
+      "locked_elements": [
+        "Exact original camera angle, framing, magnification, vanishing directions and focal perspective",
+        "Exact hand at same pixel position and scale, nail shape, fingers, grip, skin texture, lighting and shadows",
+        "Exact pencil at same pixel position, angle, color and contact point",
+        "Exact artwork linework, colors and progress, at exactly the same position/size/orientation; NEVER rotate, scale, move, simplify or redraw artwork",
+        "Exact sleeve folds, blurred lower-right foreground, tabletop and lighting",
+        "Original image dimensions and 16:9 crop"
+      ],
+      "paper_edit_details": "Treat the drawn interior and all people/tools as a protected region. Edit only blank paper boundaries and the few outer pixels of tabletop needed to make the underlying sheet longer in its existing perspective. Retain the existing paper edge directions; increase the long-axis extension. Preserve every drawn mark. No added letters, no added artwork, no KOREA inserted if outside source crop. The close-up is intentionally retained, so parts of the longer page naturally remain outside the frame.",
+      "camera": {
+        "status": "LOCKED to reference, oblique close-up, never overhead",
+        "focus": "same reference depth of field, same contact point",
+        "resolution": "1672x941"
+      },
+      "lighting": "LOCKED to reference, same natural soft daylight and exact color balance",
+      "materials": "Preserve original fine-grained matte white paper, natural skin and existing dry graphite/colored pencil marks. No new stains or mottling. No global repainting.",
+      "negative_constraints": [
+        "overhead shot",
+        "front-on paper",
+        "new composition",
+        "more distant camera",
+        "different hand",
+        "new pencil angle",
+        "artwork shifted to center",
+        "global redraw",
+        "new illustration",
+        "artwork rotated upright",
+        "watermark",
+        "graphics or labels"
+      ],
+      "output": "One edited photograph, indistinguishable from original except blank paper shape/perimeter."
+    },
+    "S05": {
+      "id": "V42_S05",
+      "use_case": "precise-object-edit",
+      "edit_target": "The ONE attached image is the exact photographic edit target. Perform a very small localized paper-boundary edit; do not redraw or reframe the photograph.",
+      "request": "Correct ONLY the physical drawing-sheet shape to a PORTRAIT rectangular sheet (short width and longer top-to-bottom length, approximately3:4 proportion) in the EXISTING oblique perspective. Keep the paper flat on the same table. Change only the blank outer paper perimeter and adjacent exposed tabletop to extend its long dimension toward the artist/bottom of the shot. The longer sheet may extend beyond the image crop. Do NOT turn the sheet upright on screen, do NOT rotate the artwork, do NOT rotate the camera, and do NOT show the whole page by zooming out.",
+      "locked_elements": [
+        "Exact original camera angle, framing, magnification, vanishing directions and focal perspective",
+        "Exact hand at same pixel position and scale, nail shape, fingers, grip, skin texture, lighting and shadows",
+        "Exact pencil at same pixel position, angle, color and contact point",
+        "Exact artwork linework, colors and progress, at exactly the same position/size/orientation; NEVER rotate, scale, move, simplify or redraw artwork",
+        "Exact sleeve folds, blurred lower-right foreground, tabletop and lighting",
+        "Original image dimensions and 16:9 crop"
+      ],
+      "paper_edit_details": "Treat the drawn interior and all people/tools as a protected region. Edit only blank paper boundaries and the few outer pixels of tabletop needed to make the underlying sheet longer in its existing perspective. Retain the existing paper edge directions; increase the long-axis extension. Preserve every drawn mark. No added letters, no added artwork, no KOREA inserted if outside source crop. The close-up is intentionally retained, so parts of the longer page naturally remain outside the frame.",
+      "camera": {
+        "status": "LOCKED to reference, oblique close-up, never overhead",
+        "focus": "same reference depth of field, same contact point",
+        "resolution": "1672x941"
+      },
+      "lighting": "LOCKED to reference, same natural soft daylight and exact color balance",
+      "materials": "Preserve original fine-grained matte white paper, natural skin and existing dry graphite/colored pencil marks. No new stains or mottling. No global repainting.",
+      "negative_constraints": [
+        "overhead shot",
+        "front-on paper",
+        "new composition",
+        "more distant camera",
+        "different hand",
+        "new pencil angle",
+        "artwork shifted to center",
+        "global redraw",
+        "new illustration",
+        "artwork rotated upright",
+        "watermark",
+        "graphics or labels"
+      ],
+      "output": "One edited photograph, indistinguishable from original except blank paper shape/perimeter."
+    }
+  },
+  "selectedRetry": {
+    "task": "LOCAL EDIT ONLY. Use the attached photo as an immutable base photograph.",
+    "edit": "Extend the white drawing paper's length outside the bottom of the frame. The near/bottom edge currently visible must disappear beyond the frame, so the sheet is a longer portrait-format sheet in the same oblique camera view. DO NOT narrow the paper. DO NOT change the left or top boundary. No new edge may run through any drawing. The photograph is a close-up; the sheet is allowed to extend out of frame. Edit ONLY the small blank bottom/left paper edge area and ivory tabletop outside it. Continue blank white paper into the small visible tabletop wedge at lower-left/bottom. All paper area with drawing is protected.",
+    "protected": "COPY EVERY PIXEL OF THE HAND, PENCIL, DRAWING, CLOTHING, LIGHTING AND REST OF PHOTOGRAPH UNCHANGED. The crane wing shape, cloud lines, feather tips, pigment and pencil tip must remain precisely identical to original. Do not regenerate the hand or drawing. Do not rotate, resize, move or redraw ANY illustrated line. Same original camera angle, original oblique perspective, original 1672x941 frame, same image crop.",
+    "negative": "no overhead angle, no new paper left vertical edge, no drawing clipped, no compressed wings, no repositioning, no added text, no artwork redraw, no global texture repaint",
+    "reason": "Previous attempt narrowed page and damaged illustration. Correct by extending only outside original paper, never shrinking its protected interior.",
+    "quality": "Match existing pristine paper texture and natural light where extending blank paper only."
+  }
+}
