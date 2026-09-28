@@ -1,0 +1,76 @@
+{
+  "version": "V9 original storyboard restored",
+  "video_generation": "on_hold",
+  "new_credits": 0,
+  "provenance": "flow-full-v37/plan.json + flow-motion-test-v36/preflight.json; all input image bytes match V9 release commit a7bff1a",
+  "shots": [
+    {
+      "id": "S01",
+      "image": "assets/storyboard-v30/01-opening.png",
+      "prompt": "Locked-off intimate portrait. Preserve this exact face, head angle and expression. Her eyes stay on the same point high to the right throughout. Her lips retain the same quiet, subtle smile and her head remains still. Only almost imperceptible natural breathing and tiny eyelid movement. Constant soft daylight from the upper right, stable skin texture and eye focus, unchanged background. A calm confident moment. No dialogue."
+    },
+    {
+      "id": "S02",
+      "image": "assets/storyboard-v30/02-apron-back.png",
+      "prompt": "Continuous locked-off close-up from behind. The woman already holds the two loops of her tied apron bow. After a brief still moment, both hands make one short, firm outward tug of only a few centimetres. The central knot tightens securely and the fabric tension increases naturally. The bow remains tied with the same two loops and two short hanging tails. Her hands settle and hold. Her torso remains steady. One confident controlled movement at natural speed. Constant soft daylight, stable focus, realistic fingers and fabric. No dialogue."
+    },
+    {
+      "id": "S03",
+      "image": "assets/storyboard-v30/03-pencil.png",
+      "prompt": "Static macro camera on the graphite pencil tip already touching the feather outline. The supported hand slowly traces a single very short section of the existing curved contour, moving only a few millimetres, then holds still. A thin graphite line darkens directly under the tip only. Paper and all other outlines remain perfectly stationary and unchanged. Natural real-time movement, realistic hand anatomy, constant light and locked focus on the contact point. No dialogue."
+    },
+    {
+      "id": "S04",
+      "image": "assets/storyboard-v30/04-first-blue.png",
+      "prompt": "Locked macro shot. The blue colored pencil is already contacting the small blue water patch. With a supported wrist the hand makes two tiny deliberate shading strokes inside that same blue patch, then rests. The blue pigment becomes slightly denser only immediately underneath the blue tip. The surrounding graphite drawing stays uncolored and unchanged. Paper remains flat and still. Fixed camera, focus and light, realistic natural speed. No dialogue."
+    },
+    {
+      "id": "S05",
+      "image": "assets/video-v32/images/05-partial-casual.png",
+      "prompt": "Locked-off shot preserving the input composition. The blue colored pencil tip is already touching the existing blue water area. The right hand makes two small, deliberate shading strokes within the same tiny blue region, then pauses. The wrist remains supported and nearly still. Blue pigment deepens only directly beneath the contacting blue tip. The left hand, paper, artwork geometry and KOREA lettering stay unchanged. Constant soft daylight, fixed focus on the pencil contact point, realistic natural real-time motion. No dialogue."
+    },
+    {
+      "id": "S06",
+      "image": "assets/video-v32/images/07-artwork-only.png",
+      "prompt": "A quiet overhead artwork presentation. The single completed sheet remains centered and perfectly flat on the smooth ivory surface. Camera is locked directly above, parallel to the paper. Preserve every crane feather, the KOREA lettering, all colors and the exact sheet proportions. Maintain constant soft daylight and precise paper texture throughout the shot. The entire artwork remains still and visible with generous empty space around it. No people, hands or tools enter. No dialogue."
+    }
+  ],
+  "audit": [
+    {
+      "id": "S01",
+      "source": "assets/storyboard-v30/01-opening.png",
+      "sha256": "1071d6dee76ef50e865d2d52ab4bade0bc4e3229fd8d754dfa140650c4d42c72",
+      "same_as_v9_release_a7bff1a": true
+    },
+    {
+      "id": "S02",
+      "source": "assets/storyboard-v30/02-apron-back.png",
+      "sha256": "76cf7624e16d5197e82b8e6732c4866efc7f7e279f9ff2e6a92ee37646eeeea2",
+      "same_as_v9_release_a7bff1a": true
+    },
+    {
+      "id": "S03",
+      "source": "assets/storyboard-v30/03-pencil.png",
+      "sha256": "4a7a9eb37112d91d520504d5729d2c752a3174e78c9a3742987d555ee8f8806e",
+      "same_as_v9_release_a7bff1a": true
+    },
+    {
+      "id": "S04",
+      "source": "assets/storyboard-v30/04-first-blue.png",
+      "sha256": "95ba78c6ce1b028bc11e6fa1888e7dc65135ce67bc640781ba42b353bef6313b",
+      "same_as_v9_release_a7bff1a": true
+    },
+    {
+      "id": "S05",
+      "source": "assets/video-v32/images/05-partial-casual.png",
+      "sha256": "713ad76de7ef61da598339bd5ef0fa4412a05e1ddd761ef79353d4a0091b3222",
+      "same_as_v9_release_a7bff1a": true
+    },
+    {
+      "id": "S06",
+      "source": "assets/video-v32/images/07-artwork-only.png",
+      "sha256": "e0aa38276298755dc0fea03802f5ac7ee5d7a5652fdc6367e4b4fc58a11ddee5",
+      "same_as_v9_release_a7bff1a": true
+    }
+  ]
+}
