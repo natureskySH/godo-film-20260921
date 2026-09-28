@@ -1,0 +1,24 @@
+{
+  "method": "Built-in imagegen only. No compositing.",
+  "S04_selected": {
+    "task": "Recreate the exact photographic shot of reference1, with the same person's drawing hand as reference2. This time the hand must be SHARP, physically focused, not a blurred foreground subject.",
+    "camera": "Same exact camera POSITION, focal length, composition and crop as reference1, but use focus stacking / increased depth of field at f/11 so BOTH the thumb skin and the blue pencil contact point are in critically sharp optical focus. Do not carry over the source's thumb blur. Real lens detail, not digital sharpening.",
+    "hand": "S03 reference2 is exact hand identity: same delicate slender fingers, same small naturally oval nails, same fine skin detail and warm natural tone. Match its clear unretouched photographic skin, adapting to reference1 low pencil grip. Resolve natural skin detail softly yet clearly without heavy crease bands or uniform crosshatching.",
+    "artwork": "Keep ALL original reference1 artwork composition unchanged. Same graphite crane, tiny blue water patch at the tip, unchanged uncolored outlines. Blue pigment should be a realistic very fine granular colored-pencil rub: densely scattered tiny blue specks with tiny paper flecks, no loops or worm/maze texture. White matte paper has subtle irregular fine grain, no embossed lines.",
+    "unchanged": "Exact paper position, contact point, pencil angle, camera framing, lighting direction, surrounding picture. No text addition, no objects, no zoom, no rotating artwork. Other than hand and necessary optical focus correction, preserve reference1.",
+    "output": "A single 16:9 high-resolution real photographic image. Not a retouched waxy or AI-stylized painting."
+  },
+  "S05_selected": {
+    "task": "Edit the first photograph using the second photograph as hand identity reference. Produce an ordinary high-quality unretouched real photograph, not an illustration or a digitally textured rendering.",
+    "references": {
+      "image1": "Exact scene to preserve.",
+      "image2": "S03 reference: the person whose hand must appear in image1. Reference only for the hand's proportions, natural nail shapes and natural photographic skin."
+    },
+    "change": "Replace only the visible drawing hand in image1 with the same person's hand as image2, in image1's original grip and location. Natural slender fingers, short natural nails. Skin should have gentle real tonal variation like image2, without any applied texture effect. Keep its photographic softness. The pencil must remain blue and in its existing exact position with its tip contacting the same blue patch.",
+    "preserve": "Keep image1's camera angle, framing, depth of field, perspective, drawing and exact colored-pencil shading, paper and borders, background, light direction, objects and clothing. The drawing must be identical in composition and detail. Its blue pigment remains fine dry colored-pencil grain, never loops or maze-like strokes. The blank paper is matte and clean. Do not increase sharpness or manufacture detail. No changes to lettering or feathers.",
+    "technical": "1672x941 landscape photograph. Same focal length and camera pose as image1. Existing soft natural light. No extra contrast, clarity, sharpening, film grain or beauty filter.",
+    "reject_if": "Do not output mottled skin, dirty patches, embossed creases, regular crosshatching, wax skin, repeated texture stamps, painterly hands, warped fingers, different drawing or reframed photograph.",
+    "shot": "S05",
+    "extra": "Remove the supporting left hand at lower-left completely, replacing it with the exact same ivory tabletop and straight white page edge. Keep drawing right hand at current position. Original completed portions and incomplete portions remain unchanged. No left hand."
+  }
+}
