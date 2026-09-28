@@ -1,0 +1,76 @@
+{
+  "revision": "V29 storyboard only",
+  "video_status": "Existing published V6 remains unchanged; this is the revised plan for next render.",
+  "image_tool": "Built-in image_gen, apron edited twice; ending reused without regeneration.",
+  "additional_flow_credits": 0,
+  "movement_speed": 1.0,
+  "story_order": "portrait, apron adjustment, graphite, first blue, partial colour, completed artwork closeup",
+  "transition": "Keep soft dissolves; do not use a travelling shot into the ending.",
+  "shots": [
+    {
+      "id": "01",
+      "image": "01-opening.png",
+      "title": "인물 클로즈업",
+      "description": "승인된 인물 원본의 우측 상단 시선과 표정을 유지합니다.",
+      "camera": "측면 클로즈업 · 고정에 가까운 구도",
+      "motion": "표정·시선 변화 없음. 기존 인물 이미지 유지.",
+      "duration_target": 2,
+      "changed": false
+    },
+    {
+      "id": "02",
+      "image": "02-apron-adjust.png",
+      "title": "앞치마 윗단을 가볍게 정리",
+      "description": "양손으로 허리끈을 당기던 장면을 교체했습니다. 한 손으로 목끈이 연결된 윗단을 살짝 정리하고 손을 놓는, 착용 마무리 동작입니다.",
+      "camera": "가슴 높이 사선 클로즈업 · 손과 로고에 초점",
+      "motion": "손가락이 윗단에 닿은 상태에서 약 1cm 정리한 뒤 놓음. 큰 당김·매듭 묶기·끈 흔들림 없음. 동작 속도는 원본 1배속.",
+      "duration_target": 2,
+      "changed": true
+    },
+    {
+      "id": "03",
+      "image": "03-pencil.png",
+      "title": "연필로 첫 선",
+      "description": "종이에 닿은 흑연 연필로 깃털 윤곽의 짧은 선을 그립니다.",
+      "camera": "연필 끝과 종이 접점 매크로",
+      "motion": "짧은 선 한 번. 연필 끝 이동과 흑연 선이 생기는 위치를 일치시킬 것. 감속 없음.",
+      "duration_target": 2,
+      "changed": false
+    },
+    {
+      "id": "04",
+      "image": "04-first-blue.png",
+      "title": "첫 파란색",
+      "description": "무채색 밑그림의 파도 안쪽에 파란 색연필로 첫 색을 넣습니다.",
+      "camera": "파란 심과 채색 영역 초근접",
+      "motion": "파란 영역 안에서 짧은 채색. 흰색 소용돌이 선을 침범하지 않음. 감속 없음.",
+      "duration_target": 2,
+      "changed": false
+    },
+    {
+      "id": "05",
+      "image": "05-partial.png",
+      "title": "부분 채색",
+      "description": "부분 채색된 작품을 보여주며 첫 색과 완성작 사이의 과정을 연결합니다.",
+      "camera": "높은 사선 구도 · 손과 작품에 초점",
+      "motion": "파란 부분에 작은 채색 동작. 종이·그림·주변 소품 위치 고정. 감속 없음.",
+      "duration_target": 2,
+      "changed": false
+    },
+    {
+      "id": "06",
+      "image": "06-artwork-closeup.png",
+      "title": "완성작 클로즈업으로 마무리",
+      "description": "인물 뒤에서 작품을 보던 첫 프레임을 삭제했습니다. 완성작을 수직으로 내려다보는 이 한 장면에서 바로 끝냅니다.",
+      "camera": "수직 탑뷰 · 작품 전체와 KOREA·하단 학이 보이는 고정 구도",
+      "motion": "카메라 고정. 전진·상승·회전·줌 없음. 손·머리·어깨 등장 없음. 추가 채색이나 마지막 터치 없이 완성작 유지.",
+      "duration_target": 3,
+      "changed": true
+    }
+  ],
+  "checks": {
+    "apron": "Single hand at bib corner, no dangling or branching waist straps; logo/GODO unobstructed; fabric mottling reduced on second edit.",
+    "ending": "Only the existing overhead finished artwork image is used. The OTS start frame is omitted.",
+    "unchanged_assets": "Other scene images retained, not newly approved for final drawing-contact accuracy."
+  }
+}

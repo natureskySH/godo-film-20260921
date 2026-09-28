@@ -1,0 +1,63 @@
+{
+  "task": "precise-object-edit",
+  "deliverable": "One photorealistic 16:9 storyboard frame, not collage.",
+  "input_roles": {
+    "image_1": "Edit target: approved GODO apron, shirt and torso proportions. Replace awkward two-handed waist strap pulling.",
+    "image_2": "Reference only for clean photographic realism, warm upper-right natural light and neutral grey-white wall. Do not include this face or compose a portrait."
+  },
+  "description": "Candid final adjustment while putting on the apron before drawing. Crop from below the chin to upper hips. The woman stands in a relaxed slight three-quarter position. Her nearer right hand is raised naturally and lightly pinches the reinforced top corner of the apron bib beside the neck strap attachment, using thumb and index finger only. The contact must be clearly visible: thumb behind cloth, index finger on front, three remaining fingers softly curled with anatomical joints and short natural nails. Bib is barely lifted, not stretched. Other arm rests naturally downward, hand out of frame. Waist ties already lie flat around the waist, tied behind her, entirely out of view. No pulling straps, no loose tails, no invented cords. Logo and GODO fully visible below the hand. This depicts a small everyday adjustment, not a posed display.",
+  "camera": {
+    "shot": "Tight torso detail at slightly oblique chest height; neckline below chin at upper edge, logo at visual center, raised hand at upper-left side of apron",
+    "lens": "70mm full-frame",
+    "aperture": "f/4.5",
+    "focus": "Fingers touching upper bib seam, logo and cotton weave sufficiently sharp; soft continuous optical falloff behind",
+    "perspective": "Natural human proportions, no wide-angle distortion, no Dutch tilt",
+    "aspect_ratio": "16:9",
+    "resolution": "High detail output, ideally 1920x1080 or higher"
+  },
+  "lighting": {
+    "key": "Large soft daylight from upper-right of frame matching portrait reference",
+    "shadow": "Soft neutral shadows to left, subtle warm skin highlights, no overexposure",
+    "background": "Same plain cool off-white/light grey wall hue as portrait, subtle natural light gradient"
+  },
+  "palette": [
+    "pale powder-blue shirt",
+    "deep matte black apron",
+    "warm natural skin",
+    "cool off-white grey wall",
+    "original geometric logo red yellow green blue"
+  ],
+  "materials": {
+    "apron": "Uniform clean black cotton twill, fine directional physical weave and plausible large folds; no marbled or worm-like grain, no grey blotches, no speckles or dirty patches",
+    "shirt": "Clean fine pale-blue cotton, physically plausible seam and folds; no noisy stippled overlays",
+    "skin": "Fine natural pores and subtle normal skin tone variations, realistic hands, no waxy smoothing or artificial mottling",
+    "reflection": "Low-sheen diffuse fabric, restrained natural skin highlights"
+  },
+  "text": {
+    "exact": "GODO",
+    "placement": "Centered under existing geometric logo exactly as target",
+    "style": "White clean uppercase sans serif with unchanged size and spacing; preserve geometric logo shapes and color arrangement"
+  },
+  "environment": {
+    "density": "Minimal, no furniture or plants or tools visible",
+    "layers": "Near hand, apron front and shirt, softly blurred grey-white wall"
+  },
+  "motion_planning": "In later video only a 1cm adjustment and release, no tying or large hand travel. This image captures the contact at the beginning of that tiny adjustment.",
+  "negative_constraints": [
+    "extra fingers",
+    "fused fingers",
+    "hands passing through fabric",
+    "two branching straps",
+    "dangling waist ties",
+    "new logo",
+    "Korean apron text",
+    "stains",
+    "AI surface mottling",
+    "brushes",
+    "palette",
+    "easel",
+    "plants",
+    "artificial plastic skin"
+  ],
+  "invariants": "Preserve apron design and original logo+GODO, shirt colour, torso proportions, and overall natural photographic appearance; change only hand action/composition needed for clear believable preparation."
+}

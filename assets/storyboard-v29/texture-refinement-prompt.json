@@ -1,0 +1,22 @@
+{
+  "task": "precise-object-edit",
+  "edit_target": "Image 1",
+  "description": "Change ONLY textile surface rendering on this otherwise approved storyboard image. Keep hand, pose, framing, shirt colour, logo geometry and exact white GODO text, and background fixed. The black apron must be clean, uniform, tightly woven matte black poly-cotton like a real new professional apron. Remove the irregular curly grain, mottling, cloudy dirty grey blotches and mottled sandpaper-like texture currently present. Render a visually smooth black surface at this distance, with only broad physically plausible shadow gradients from existing folds and very subtle straight weave barely visible. The light-blue shirt must also have a clean fine cotton surface, no cracked/crazed or embossed texture. Don't add more detail, grain, noise, stains or heavy sharpening.",
+  "camera": {
+    "framing": "Preserve exact 16:9 crop",
+    "lens": "70mm",
+    "focus": "Existing natural hand and logo focus, no excessive microcontrast"
+  },
+  "lighting": "Preserve upper-right soft natural light and existing shadows; do not darken logo or skin",
+  "materials": "Uniform smooth fine black woven cloth, matte diffuse reflection. No faux leather, no velvet, no noise texture. Preserve hand's subtle skin detail.",
+  "text": "Preserve GODO and geometric logo exactly, fully unobstructed.",
+  "negative_constraints": [
+    "curly microtexture",
+    "grey dirty patches",
+    "mottled surface",
+    "plastic shine",
+    "extra fingers",
+    "changed logo",
+    "changed pose"
+  ]
+}
