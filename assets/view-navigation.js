@@ -7,24 +7,42 @@
     'hero-white-local.html', 'hero-white-dim.html', 'hero-white-clean.html',
     'hero-local.html', 'hero-dim.html', 'hero-clean.html'
   ];
-  const pairs = [['video-v1.html', 'video-v2.html', 'video-v3.html', 'video-v4.html', 'video.html', 'video-v5.html', 'video-v6.html', 'video-v7.html', 'video-v8.html', 'video-v9.html', 'video-v10.html', 'video-v11.html', 'video-v12.html', 'video-v13.html', 'video-v14.html', 'video-v15.html'], ...variants.map(name => [`v1-${name}`, `v2-${name}`, `v3-${name}`, `v4-${name}`, `v5-${name}`, `v6-${name}`, `v7-${name}`, `v8-${name}`, `v9-${name}`, `v10-${name}`, name])];
+  const pairs = [['video-v1.html', 'video-v2.html', 'video-v3.html', 'video-v4.html', 'video.html', 'video-v5.html', 'video-v6.html', 'video-v7.html', 'video-v8.html', 'video-v9.html', 'video-v10.html', 'video-v11.html', 'video-v12.html', 'video-v13.html', 'video-v14.html', 'video-v15.html', 'video-v16.html'], ...variants.map(name => [`v1-${name}`, `v2-${name}`, `v3-${name}`, `v4-${name}`, `v5-${name}`, `v6-${name}`, `v7-${name}`, `v8-${name}`, `v9-${name}`, `v10-${name}`, name])];
   const current = location.pathname.split('/').pop();
   const pair = pairs.find(pages => pages.includes(current));
   if (!pair) return;
   const video = document.querySelector('video');
   if (!video) return;
-  const sources = ['video-v1.mp4?v=original-v1', 'video.mp4?v=floral-v5-20260922', 'video-v3.mp4?v=v3-20260923', 'video-v4.mp4?v=v4-quality-20260923', 'video-v5-slow.mp4?v=v5-slow60-soft-20260928', 'video-v6-normal.mp4?v=v6-normal-speed-20260928', 'video-v7.mp4?v=v7-native720-20260928', 'video-v8.mp4?v=v8-calm-ending-20260928', 'video-v9.mp4?v=v9-flow-native-20260928', 'video-v10.mp4?v=v10-runway-20260928', 'video-v11.mp4?v=v11-raw-v39-20260929', 'video-v12.mp4?v=v12-full-15s-20260929', 'video-v13.mp4?v=v13-stable-ending-20260929', 'video-v14.mp4?v=v14-4k-s05-20260929', 'video-v15.mp4?v=v15-hands-4k-20260929'];
-  const posters = ['assets/v1-preview.png', 'assets/preview.png', 'assets/v3-preview.jpg', 'assets/v4-preview.jpg', 'assets/v5-preview.jpg', 'assets/v6-preview.jpg', 'assets/v7-preview.jpg', 'assets/v8-preview.jpg', 'assets/v9-preview.jpg', 'assets/v10-preview.jpg', 'assets/v11-preview.jpg', 'assets/v12-preview.jpg', 'assets/v13-preview.jpg', 'assets/v14-preview.jpg', 'assets/v15-preview.jpg'];
+  const sources = ['video-v1.mp4?v=original-v1', 'video.mp4?v=floral-v5-20260922', 'video-v3.mp4?v=v3-20260923', 'video-v4.mp4?v=v4-quality-20260923', 'video-v5-slow.mp4?v=v5-slow60-soft-20260928', 'video-v6-normal.mp4?v=v6-normal-speed-20260928', 'video-v7.mp4?v=v7-native720-20260928', 'video-v8.mp4?v=v8-calm-ending-20260928', 'video-v9.mp4?v=v9-flow-native-20260928', 'video-v10.mp4?v=v10-runway-20260928', 'video-v11.mp4?v=v11-raw-v39-20260929', 'video-v12.mp4?v=v12-full-15s-20260929', 'video-v13.mp4?v=v13-stable-ending-20260929', 'video-v14.mp4?v=v14-4k-s05-20260929', 'video-v15.mp4?v=v15-hands-4k-20260929', 'video-v16.mp4?v=v16-fade-mobile-fill-20260930'];
+  const posters = ['assets/v1-preview.png', 'assets/preview.png', 'assets/v3-preview.jpg', 'assets/v4-preview.jpg', 'assets/v5-preview.jpg', 'assets/v6-preview.jpg', 'assets/v7-preview.jpg', 'assets/v8-preview.jpg', 'assets/v9-preview.jpg', 'assets/v10-preview.jpg', 'assets/v11-preview.jpg', 'assets/v12-preview.jpg', 'assets/v13-preview.jpg', 'assets/v14-preview.jpg', 'assets/v15-preview.jpg', 'assets/v16-black.jpg'];
   const initialSource = video.getAttribute('src').split('?')[0];
   let active = sources.findIndex(source => source.split('?')[0] === initialSource);
   if (active < 0) active = sources.length - 1;
   const baseTitle = document.title.replace(/ · V\d+$/, '');
   document.title = `${baseTitle} · V${active + 1}`;
   video.dataset.version = `V${active + 1}`;
+  const portrait = window.matchMedia('(orientation: portrait)');
+  const resolvedSource = index => index === 15 && video.classList.contains('hero-video') && portrait.matches
+    ? 'video-v16-portrait.mp4?v=v16-fade-mobile-fill-20260930' : sources[index];
+  const adaptV16 = () => {
+    if (active !== 15 || !video.classList.contains('hero-video')) return;
+    const source = resolvedSource(active);
+    if (video.getAttribute('src') === source) return;
+    const time = video.currentTime || 0;
+    const playing = !video.paused || video.autoplay;
+    video.src = source;
+    video.addEventListener('loadedmetadata', () => {
+      video.currentTime = Math.min(time, Math.max(0, video.duration - .05));
+      if (playing) video.play().catch(() => {});
+    }, { once: true });
+    video.load();
+  };
+  portrait.addEventListener('change', adaptV16);
+  adaptV16();
   const move = direction => {
     const wasPlaying = !video.paused;
     active = (active + direction + sources.length) % sources.length;
-    video.src = sources[active];
+    video.src = resolvedSource(active);
     video.poster = posters[active];
     video.dataset.version = `V${active + 1}`;
     video.load();
