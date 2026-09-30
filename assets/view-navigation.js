@@ -23,7 +23,47 @@
   video.dataset.version = `V${active + 1}`;
   const portrait = window.matchMedia('(orientation: portrait)');
   const resolvedSource = index => index === 15 && video.classList.contains('hero-video') && portrait.matches
-    ? 'video-v16-portrait.mp4?v=v16-fade-mobile-fill-20260930' : sources[index];
+    ? 'video-v16-mobile-artwork.mp4?v=mobile-full-art-20260930' : sources[index];
+  // Fit the complete portrait artwork during the ending on tall phones and unfolded devices.
+  const artworkSurface = video.closest('.hero-art');
+  const originalBackground = artworkSurface?.style.background || '';
+  let fitFrame = 0;
+  const fitArtwork = () => {
+    const enabled = active === 15 && portrait.matches && artworkSurface;
+    const amount = enabled ? Math.min(1, Math.max(0, (video.currentTime - 215 / 24) / (10 / 24))) : 0;
+    if (!amount) {
+      ['transform','width','height','position','left','top'].forEach(name => video.style[name] = '');
+      video.style.objectPosition = '';
+      if (artworkSurface) artworkSurface.style.background = originalBackground;
+      return;
+    }
+    const width = artworkSurface.clientWidth, height = artworkSurface.clientHeight;
+    const cover = Math.max(width / 1080, height / 1920);
+    const fit = Math.min(width / 1080, height / 1920);
+    const eased = amount * amount * (3 - 2 * amount);
+    const scale = cover + (fit - cover) * eased;
+    video.style.width = `${1080 * scale}px`;
+    video.style.height = `${1920 * scale}px`;
+    video.style.position = 'absolute';
+    video.style.left = '50%';
+    video.style.top = '50%';
+    video.style.transform = 'translate(-50%, -50%)';
+    video.style.objectPosition = 'center';
+    const fade = Math.min(1, Math.max(0, (298 - video.currentTime * 24) / 22));
+    const brightness = document.body.classList.contains('full-dim') ? .58 : 1;
+    const color = rgb => `rgb(${rgb.map(n => Math.round(n * fade * brightness)).join(',')})`;
+    artworkSurface.style.background = `linear-gradient(${color([241,240,245])},${color([235,236,241])})`;
+  };
+  const animateFit = () => {
+    fitFrame = 0;
+    fitArtwork();
+    if (!video.paused && !document.hidden) fitFrame = requestAnimationFrame(animateFit);
+  };
+  const startFit = () => { if (!fitFrame) animateFit(); };
+  ['play','loadedmetadata','seeked'].forEach(name => video.addEventListener(name, startFit));
+  ['timeupdate','pause','emptied'].forEach(name => video.addEventListener(name, fitArtwork));
+  window.addEventListener('resize', fitArtwork);
+  document.addEventListener('visibilitychange', startFit);
   const adaptV16 = () => {
     if (active !== 15 || !video.classList.contains('hero-video')) return;
     const source = resolvedSource(active);
